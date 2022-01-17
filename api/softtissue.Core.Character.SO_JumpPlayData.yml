@@ -1,0 +1,126 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Character.SO_JumpPlayData
+  commentId: T:softtissue.Core.Character.SO_JumpPlayData
+  id: SO_JumpPlayData
+  parent: softtissue.Core.Character
+  children:
+  - softtissue.Core.Character.SO_JumpPlayData.isBoost
+  - softtissue.Core.Character.SO_JumpPlayData.JumpBoost
+  langs:
+  - csharp
+  - vb
+  name: SO_JumpPlayData
+  nameWithType: SO_JumpPlayData
+  fullName: softtissue.Core.Character.SO_JumpPlayData
+  type: Class
+  source:
+    id: SO_JumpPlayData
+    path: ''
+    startLine: 4071
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Character
+  syntax:
+    content: public static class SO_JumpPlayData
+    content.vb: Public Module SO_JumpPlayData
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: softtissue.Core.Character.SO_JumpPlayData.isBoost
+  commentId: F:softtissue.Core.Character.SO_JumpPlayData.isBoost
+  id: isBoost
+  parent: softtissue.Core.Character.SO_JumpPlayData
+  langs:
+  - csharp
+  - vb
+  name: isBoost
+  nameWithType: SO_JumpPlayData.isBoost
+  fullName: softtissue.Core.Character.SO_JumpPlayData.isBoost
+  type: Field
+  source:
+    id: isBoost
+    path: ''
+    startLine: 4073
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Character
+  syntax:
+    content: public static bool isBoost
+    return:
+      type: System.Boolean
+    content.vb: Public Shared isBoost As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: softtissue.Core.Character.SO_JumpPlayData.JumpBoost
+  commentId: F:softtissue.Core.Character.SO_JumpPlayData.JumpBoost
+  id: JumpBoost
+  parent: softtissue.Core.Character.SO_JumpPlayData
+  langs:
+  - csharp
+  - vb
+  name: JumpBoost
+  nameWithType: SO_JumpPlayData.JumpBoost
+  fullName: softtissue.Core.Character.SO_JumpPlayData.JumpBoost
+  type: Field
+  source:
+    id: JumpBoost
+    path: ''
+    startLine: 4074
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Character
+  syntax:
+    content: public static float JumpBoost
+    return:
+      type: System.Single
+    content.vb: Public Shared JumpBoost As Single
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: softtissue.Core.Character
+  commentId: N:softtissue.Core.Character
+  name: softtissue.Core.Character
+  nameWithType: softtissue.Core.Character
+  fullName: softtissue.Core.Character
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

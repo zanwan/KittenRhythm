@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Deprecated.UnitPanel
+  commentId: T:softtissue.Core.Deprecated.UnitPanel
+  id: UnitPanel
+  parent: softtissue.Core.Deprecated
+  children:
+  - softtissue.Core.Deprecated.UnitPanel.slot0
+  langs:
+  - csharp
+  - vb
+  name: UnitPanel
+  nameWithType: UnitPanel
+  fullName: softtissue.Core.Deprecated.UnitPanel
+  type: Class
+  source:
+    id: UnitPanel
+    path: ''
+    startLine: 2901
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Deprecated
+  syntax:
+    content: >-
+      [Obsolete("此腳本未使用")]
+
+      public class UnitPanel : MonoBehaviour
+    content.vb: >-
+      <Obsolete("此腳本未使用")>
+
+      Public Class UnitPanel
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 此腳本未使用
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Core.Deprecated.UnitPanel.slot0
+  commentId: F:softtissue.Core.Deprecated.UnitPanel.slot0
+  id: slot0
+  parent: softtissue.Core.Deprecated.UnitPanel
+  langs:
+  - csharp
+  - vb
+  name: slot0
+  nameWithType: UnitPanel.slot0
+  fullName: softtissue.Core.Deprecated.UnitPanel.slot0
+  type: Field
+  source:
+    id: slot0
+    path: ''
+    startLine: 2906
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Deprecated
+  syntax:
+    content: public GameObject slot0
+    return:
+      type: Global.GameObject
+    content.vb: Public slot0 As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Core.Deprecated
+  commentId: N:softtissue.Core.Deprecated
+  name: softtissue.Core.Deprecated
+  nameWithType: softtissue.Core.Deprecated
+  fullName: softtissue.Core.Deprecated
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

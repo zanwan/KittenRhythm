@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.FormationStateMachine.AbstractState
+  commentId: T:softtissue.Core.FormationStateMachine.AbstractState
+  id: AbstractState
+  parent: softtissue.Core.FormationStateMachine
+  children:
+  - softtissue.Core.FormationStateMachine.AbstractState.EnterState(GameObject[],softtissue.Core.FormationStateMachine.StateManager,Vector3Event)
+  - softtissue.Core.FormationStateMachine.AbstractState.ExitState(GameObject[],softtissue.Core.FormationStateMachine.StateManager)
+  langs:
+  - csharp
+  - vb
+  name: AbstractState
+  nameWithType: AbstractState
+  fullName: softtissue.Core.FormationStateMachine.AbstractState
+  type: Class
+  source:
+    id: AbstractState
+    path: ''
+    startLine: 2516
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.FormationStateMachine
+  summary: "\n<p>State 的抽象</p>\n<a href=\"https://youtu.be/Vt8aZDPzRjI?t=622\">教學</a>\n"
+  example: []
+  syntax:
+    content: public abstract class AbstractState
+    content.vb: Public MustInherit Class AbstractState
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - softtissue.Core.FormationStateMachine.State0
+  - softtissue.Core.FormationStateMachine.State1
+  - softtissue.Core.FormationStateMachine.State2
+  - softtissue.Core.FormationStateMachine.State3
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: softtissue.Core.FormationStateMachine.AbstractState.EnterState(GameObject[],softtissue.Core.FormationStateMachine.StateManager,Vector3Event)
+  commentId: M:softtissue.Core.FormationStateMachine.AbstractState.EnterState(GameObject[],softtissue.Core.FormationStateMachine.StateManager,Vector3Event)
+  id: EnterState(GameObject[],softtissue.Core.FormationStateMachine.StateManager,Vector3Event)
+  parent: softtissue.Core.FormationStateMachine.AbstractState
+  langs:
+  - csharp
+  - vb
+  name: EnterState(GameObject[], StateManager, Vector3Event)
+  nameWithType: AbstractState.EnterState(GameObject[], StateManager, Vector3Event)
+  fullName: softtissue.Core.FormationStateMachine.AbstractState.EnterState(GameObject[], softtissue.Core.FormationStateMachine.StateManager, Vector3Event)
+  type: Method
+  source:
+    id: EnterState
+    path: ''
+    startLine: 2518
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.FormationStateMachine
+  syntax:
+    content: public abstract void EnterState(GameObject[] gameObjects, StateManager stateControl, Vector3Event spawnCharacter)
+    parameters:
+    - id: gameObjects
+      type: Global.GameObject[]
+    - id: stateControl
+      type: softtissue.Core.FormationStateMachine.StateManager
+    - id: spawnCharacter
+      type: Global.Vector3Event
+    content.vb: Public MustOverride Sub EnterState(gameObjects As GameObject(), stateControl As StateManager, spawnCharacter As Vector3Event)
+  overload: softtissue.Core.FormationStateMachine.AbstractState.EnterState*
+  nameWithType.vb: AbstractState.EnterState(GameObject(), StateManager, Vector3Event)
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+  fullName.vb: softtissue.Core.FormationStateMachine.AbstractState.EnterState(GameObject(), softtissue.Core.FormationStateMachine.StateManager, Vector3Event)
+  name.vb: EnterState(GameObject(), StateManager, Vector3Event)
+- uid: softtissue.Core.FormationStateMachine.AbstractState.ExitState(GameObject[],softtissue.Core.FormationStateMachine.StateManager)
+  commentId: M:softtissue.Core.FormationStateMachine.AbstractState.ExitState(GameObject[],softtissue.Core.FormationStateMachine.StateManager)
+  id: ExitState(GameObject[],softtissue.Core.FormationStateMachine.StateManager)
+  parent: softtissue.Core.FormationStateMachine.AbstractState
+  langs:
+  - csharp
+  - vb
+  name: ExitState(GameObject[], StateManager)
+  nameWithType: AbstractState.ExitState(GameObject[], StateManager)
+  fullName: softtissue.Core.FormationStateMachine.AbstractState.ExitState(GameObject[], softtissue.Core.FormationStateMachine.StateManager)
+  type: Method
+  source:
+    id: ExitState
+    path: ''
+    startLine: 2519
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.FormationStateMachine
+  syntax:
+    content: public abstract void ExitState(GameObject[] gameObjects, StateManager stateControl)
+    parameters:
+    - id: gameObjects
+      type: Global.GameObject[]
+    - id: stateControl
+      type: softtissue.Core.FormationStateMachine.StateManager
+    content.vb: Public MustOverride Sub ExitState(gameObjects As GameObject(), stateControl As StateManager)
+  overload: softtissue.Core.FormationStateMachine.AbstractState.ExitState*
+  nameWithType.vb: AbstractState.ExitState(GameObject(), StateManager)
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+  fullName.vb: softtissue.Core.FormationStateMachine.AbstractState.ExitState(GameObject(), softtissue.Core.FormationStateMachine.StateManager)
+  name.vb: ExitState(GameObject(), StateManager)
+references:
+- uid: softtissue.Core.FormationStateMachine
+  commentId: N:softtissue.Core.FormationStateMachine
+  name: softtissue.Core.FormationStateMachine
+  nameWithType: softtissue.Core.FormationStateMachine
+  fullName: softtissue.Core.FormationStateMachine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: softtissue.Core.FormationStateMachine.AbstractState.EnterState*
+  commentId: Overload:softtissue.Core.FormationStateMachine.AbstractState.EnterState
+  name: EnterState
+  nameWithType: AbstractState.EnterState
+  fullName: softtissue.Core.FormationStateMachine.AbstractState.EnterState
+- uid: Global.GameObject[]
+  isExternal: true
+  name: GameObject[]
+  nameWithType: GameObject[]
+  fullName: GameObject[]
+  nameWithType.vb: GameObject()
+  fullName.vb: GameObject()
+  name.vb: GameObject()
+  spec.csharp:
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: softtissue.Core.FormationStateMachine.StateManager
+  commentId: T:softtissue.Core.FormationStateMachine.StateManager
+  parent: softtissue.Core.FormationStateMachine
+  name: StateManager
+  nameWithType: StateManager
+  fullName: softtissue.Core.FormationStateMachine.StateManager
+- uid: Global.Vector3Event
+  commentId: T:Global.Vector3Event
+  name: Vector3Event
+  nameWithType: Vector3Event
+  fullName: Vector3Event
+- uid: softtissue.Core.FormationStateMachine.AbstractState.ExitState*
+  commentId: Overload:softtissue.Core.FormationStateMachine.AbstractState.ExitState
+  name: ExitState
+  nameWithType: AbstractState.ExitState
+  fullName: softtissue.Core.FormationStateMachine.AbstractState.ExitState

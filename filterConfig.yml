@@ -1,0 +1,10 @@
+apiRules:
+- include:
+    uidRegex: ^softtissue\.Core
+    type: Namespace
+- exclude:
+    uidRegex: ^softtissue\._KittenRhythm
+    type: Namespace
+- exclude:
+    uidRegex: .*
+    type: Namespace

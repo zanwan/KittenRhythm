@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Managers.TouchManager
+  commentId: T:softtissue.Core.Managers.TouchManager
+  id: TouchManager
+  parent: softtissue.Core.Managers
+  children:
+  - softtissue.Core.Managers.TouchManager.ToggleEnableInputProcess(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: TouchManager
+  nameWithType: TouchManager
+  fullName: softtissue.Core.Managers.TouchManager
+  type: Class
+  source:
+    id: TouchManager
+    path: ''
+    startLine: 3309
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Managers
+  summary: "\n偵測使用者滑動的八個方位\n"
+  example: []
+  syntax:
+    content: 'public class TouchManager : MonoBehaviour'
+    content.vb: >-
+      Public Class TouchManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Core.Managers.TouchManager.ToggleEnableInputProcess(System.Boolean)
+  commentId: M:softtissue.Core.Managers.TouchManager.ToggleEnableInputProcess(System.Boolean)
+  id: ToggleEnableInputProcess(System.Boolean)
+  parent: softtissue.Core.Managers.TouchManager
+  langs:
+  - csharp
+  - vb
+  name: ToggleEnableInputProcess(Boolean)
+  nameWithType: TouchManager.ToggleEnableInputProcess(Boolean)
+  fullName: softtissue.Core.Managers.TouchManager.ToggleEnableInputProcess(System.Boolean)
+  type: Method
+  source:
+    id: ToggleEnableInputProcess
+    path: ''
+    startLine: 3475
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Managers
+  syntax:
+    content: public void ToggleEnableInputProcess(bool isEnable)
+    parameters:
+    - id: isEnable
+      type: System.Boolean
+    content.vb: Public Sub ToggleEnableInputProcess(isEnable As Boolean)
+  overload: softtissue.Core.Managers.TouchManager.ToggleEnableInputProcess*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Core.Managers
+  commentId: N:softtissue.Core.Managers
+  name: softtissue.Core.Managers
+  nameWithType: softtissue.Core.Managers
+  fullName: softtissue.Core.Managers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: softtissue.Core.Managers.TouchManager.ToggleEnableInputProcess*
+  commentId: Overload:softtissue.Core.Managers.TouchManager.ToggleEnableInputProcess
+  name: ToggleEnableInputProcess
+  nameWithType: TouchManager.ToggleEnableInputProcess
+  fullName: softtissue.Core.Managers.TouchManager.ToggleEnableInputProcess
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

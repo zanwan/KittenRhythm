@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Level.GroundDetector
+  commentId: T:softtissue.Core.Level.GroundDetector
+  id: GroundDetector
+  parent: softtissue.Core.Level
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: GroundDetector
+  nameWithType: GroundDetector
+  fullName: softtissue.Core.Level.GroundDetector
+  type: Class
+  source:
+    id: GroundDetector
+    path: ''
+    startLine: 4403
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Level
+  syntax:
+    content: 'public class GroundDetector : MonoBehaviour'
+    content.vb: >-
+      Public Class GroundDetector
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: softtissue.Core.Level
+  commentId: N:softtissue.Core.Level
+  name: softtissue.Core.Level
+  nameWithType: softtissue.Core.Level
+  fullName: softtissue.Core.Level
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

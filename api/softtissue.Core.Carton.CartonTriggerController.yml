@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Carton.CartonTriggerController
+  commentId: T:softtissue.Core.Carton.CartonTriggerController
+  id: CartonTriggerController
+  parent: softtissue.Core.Carton
+  children:
+  - softtissue.Core.Carton.CartonTriggerController.cartonFlatMesh
+  - softtissue.Core.Carton.CartonTriggerController.cartonMesh
+  - softtissue.Core.Carton.CartonTriggerController.smokeParticle
+  langs:
+  - csharp
+  - vb
+  name: CartonTriggerController
+  nameWithType: CartonTriggerController
+  fullName: softtissue.Core.Carton.CartonTriggerController
+  type: Class
+  source:
+    id: CartonTriggerController
+    path: ''
+    startLine: 4554
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton
+  summary: "\n紙箱觸發狀態偵測\n"
+  example: []
+  syntax:
+    content: 'public class CartonTriggerController : MonoBehaviour'
+    content.vb: >-
+      Public Class CartonTriggerController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Core.Carton.CartonTriggerController.smokeParticle
+  commentId: F:softtissue.Core.Carton.CartonTriggerController.smokeParticle
+  id: smokeParticle
+  parent: softtissue.Core.Carton.CartonTriggerController
+  langs:
+  - csharp
+  - vb
+  name: smokeParticle
+  nameWithType: CartonTriggerController.smokeParticle
+  fullName: softtissue.Core.Carton.CartonTriggerController.smokeParticle
+  type: Field
+  source:
+    id: smokeParticle
+    path: ''
+    startLine: 4557
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton
+  syntax:
+    content: public GameObject smokeParticle
+    return:
+      type: Global.GameObject
+    content.vb: Public smokeParticle As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Core.Carton.CartonTriggerController.cartonMesh
+  commentId: F:softtissue.Core.Carton.CartonTriggerController.cartonMesh
+  id: cartonMesh
+  parent: softtissue.Core.Carton.CartonTriggerController
+  langs:
+  - csharp
+  - vb
+  name: cartonMesh
+  nameWithType: CartonTriggerController.cartonMesh
+  fullName: softtissue.Core.Carton.CartonTriggerController.cartonMesh
+  type: Field
+  source:
+    id: cartonMesh
+    path: ''
+    startLine: 4558
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton
+  syntax:
+    content: public GameObject cartonMesh
+    return:
+      type: Global.GameObject
+    content.vb: Public cartonMesh As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Core.Carton.CartonTriggerController.cartonFlatMesh
+  commentId: F:softtissue.Core.Carton.CartonTriggerController.cartonFlatMesh
+  id: cartonFlatMesh
+  parent: softtissue.Core.Carton.CartonTriggerController
+  langs:
+  - csharp
+  - vb
+  name: cartonFlatMesh
+  nameWithType: CartonTriggerController.cartonFlatMesh
+  fullName: softtissue.Core.Carton.CartonTriggerController.cartonFlatMesh
+  type: Field
+  source:
+    id: cartonFlatMesh
+    path: ''
+    startLine: 4559
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton
+  syntax:
+    content: public GameObject cartonFlatMesh
+    return:
+      type: Global.GameObject
+    content.vb: Public cartonFlatMesh As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Core.Carton
+  commentId: N:softtissue.Core.Carton
+  name: softtissue.Core.Carton
+  nameWithType: softtissue.Core.Carton
+  fullName: softtissue.Core.Carton
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

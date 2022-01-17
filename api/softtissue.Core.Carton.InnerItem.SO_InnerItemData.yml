@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Carton.InnerItem.SO_InnerItemData
+  commentId: T:softtissue.Core.Carton.InnerItem.SO_InnerItemData
+  id: SO_InnerItemData
+  parent: softtissue.Core.Carton.InnerItem
+  children:
+  - softtissue.Core.Carton.InnerItem.SO_InnerItemData.lightingCollectionEvent
+  langs:
+  - csharp
+  - vb
+  name: SO_InnerItemData
+  nameWithType: SO_InnerItemData
+  fullName: softtissue.Core.Carton.InnerItem.SO_InnerItemData
+  type: Class
+  source:
+    id: SO_InnerItemData
+    path: ''
+    startLine: 5110
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton.InnerItem
+  syntax:
+    content: 'public class SO_InnerItemData : ScriptableObject'
+    content.vb: >-
+      Public Class SO_InnerItemData
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Core.Carton.InnerItem.SO_InnerItemData.lightingCollectionEvent
+  commentId: F:softtissue.Core.Carton.InnerItem.SO_InnerItemData.lightingCollectionEvent
+  id: lightingCollectionEvent
+  parent: softtissue.Core.Carton.InnerItem.SO_InnerItemData
+  langs:
+  - csharp
+  - vb
+  name: lightingCollectionEvent
+  nameWithType: SO_InnerItemData.lightingCollectionEvent
+  fullName: softtissue.Core.Carton.InnerItem.SO_InnerItemData.lightingCollectionEvent
+  type: Field
+  source:
+    id: lightingCollectionEvent
+    path: ''
+    startLine: 5121
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton.InnerItem
+  syntax:
+    content: public ItemCollectEvent lightingCollectionEvent
+    return:
+      type: Global.ItemCollectEvent
+    content.vb: Public lightingCollectionEvent As ItemCollectEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Core.Carton.InnerItem
+  commentId: N:softtissue.Core.Carton.InnerItem
+  name: softtissue.Core.Carton.InnerItem
+  nameWithType: softtissue.Core.Carton.InnerItem
+  fullName: softtissue.Core.Carton.InnerItem
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ItemCollectEvent
+  commentId: '!:Global.ItemCollectEvent'
+  isExternal: true
+  name: ItemCollectEvent
+  nameWithType: ItemCollectEvent
+  fullName: ItemCollectEvent

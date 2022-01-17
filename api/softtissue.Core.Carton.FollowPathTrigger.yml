@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Carton.FollowPathTrigger
+  commentId: T:softtissue.Core.Carton.FollowPathTrigger
+  id: FollowPathTrigger
+  parent: softtissue.Core.Carton
+  children:
+  - softtissue.Core.Carton.FollowPathTrigger.pathWay
+  langs:
+  - csharp
+  - vb
+  name: FollowPathTrigger
+  nameWithType: FollowPathTrigger
+  fullName: softtissue.Core.Carton.FollowPathTrigger
+  type: Class
+  source:
+    id: FollowPathTrigger
+    path: ''
+    startLine: 4598
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton
+  syntax:
+    content: 'public class FollowPathTrigger : MonoBehaviour'
+    content.vb: >-
+      Public Class FollowPathTrigger
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Core.Carton.FollowPathTrigger.pathWay
+  commentId: F:softtissue.Core.Carton.FollowPathTrigger.pathWay
+  id: pathWay
+  parent: softtissue.Core.Carton.FollowPathTrigger
+  langs:
+  - csharp
+  - vb
+  name: pathWay
+  nameWithType: FollowPathTrigger.pathWay
+  fullName: softtissue.Core.Carton.FollowPathTrigger.pathWay
+  type: Field
+  source:
+    id: pathWay
+    path: ''
+    startLine: 4601
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton
+  syntax:
+    content: public DOTweenPath pathWay
+    return:
+      type: Global.DOTweenPath
+    content.vb: Public pathWay As DOTweenPath
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Core.Carton
+  commentId: N:softtissue.Core.Carton
+  name: softtissue.Core.Carton
+  nameWithType: softtissue.Core.Carton
+  fullName: softtissue.Core.Carton
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.DOTweenPath
+  commentId: '!:Global.DOTweenPath'
+  isExternal: true
+  name: DOTweenPath
+  nameWithType: DOTweenPath
+  fullName: DOTweenPath

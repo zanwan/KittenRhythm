@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Props.LightingCollect
+  commentId: T:softtissue.Core.Props.LightingCollect
+  id: LightingCollect
+  parent: softtissue.Core.Props
+  children:
+  - softtissue.Core.Props.LightingCollect.LightingCollectEvent
+  langs:
+  - csharp
+  - vb
+  name: LightingCollect
+  nameWithType: LightingCollect
+  fullName: softtissue.Core.Props.LightingCollect
+  type: Class
+  source:
+    id: LightingCollect
+    path: ''
+    startLine: 5335
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Props
+  summary: "\n安裝在 InnerItem 中的\n"
+  example: []
+  syntax:
+    content: 'public class LightingCollect : MonoBehaviour'
+    content.vb: >-
+      Public Class LightingCollect
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Core.Props.LightingCollect.LightingCollectEvent
+  commentId: M:softtissue.Core.Props.LightingCollect.LightingCollectEvent
+  id: LightingCollectEvent
+  parent: softtissue.Core.Props.LightingCollect
+  langs:
+  - csharp
+  - vb
+  name: LightingCollectEvent()
+  nameWithType: LightingCollect.LightingCollectEvent()
+  fullName: softtissue.Core.Props.LightingCollect.LightingCollectEvent()
+  type: Method
+  source:
+    id: LightingCollectEvent
+    path: ''
+    startLine: 5347
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Props
+  syntax:
+    content: public void LightingCollectEvent()
+    content.vb: Public Sub LightingCollectEvent
+  overload: softtissue.Core.Props.LightingCollect.LightingCollectEvent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Core.Props
+  commentId: N:softtissue.Core.Props
+  name: softtissue.Core.Props
+  nameWithType: softtissue.Core.Props
+  fullName: softtissue.Core.Props
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: softtissue.Core.Props.LightingCollect.LightingCollectEvent*
+  commentId: Overload:softtissue.Core.Props.LightingCollect.LightingCollectEvent
+  name: LightingCollectEvent
+  nameWithType: LightingCollect.LightingCollectEvent
+  fullName: softtissue.Core.Props.LightingCollect.LightingCollectEvent

@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Interfaces.INonJumpable
+  commentId: T:softtissue.Core.Interfaces.INonJumpable
+  id: INonJumpable
+  parent: softtissue.Core.Interfaces
+  children:
+  - softtissue.Core.Interfaces.INonJumpable.BackToPrevLocation
+  langs:
+  - csharp
+  - vb
+  name: INonJumpable
+  nameWithType: INonJumpable
+  fullName: softtissue.Core.Interfaces.INonJumpable
+  type: Interface
+  source:
+    id: INonJumpable
+    path: ''
+    startLine: 4349
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Interfaces
+  summary: "\n不可跳躍區域\n"
+  example: []
+  syntax:
+    content: public interface INonJumpable
+    content.vb: Public Interface INonJumpable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: softtissue.Core.Interfaces.INonJumpable.BackToPrevLocation
+  commentId: M:softtissue.Core.Interfaces.INonJumpable.BackToPrevLocation
+  id: BackToPrevLocation
+  parent: softtissue.Core.Interfaces.INonJumpable
+  langs:
+  - csharp
+  - vb
+  name: BackToPrevLocation()
+  nameWithType: INonJumpable.BackToPrevLocation()
+  fullName: softtissue.Core.Interfaces.INonJumpable.BackToPrevLocation()
+  type: Method
+  source:
+    id: BackToPrevLocation
+    path: ''
+    startLine: 4351
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Interfaces
+  syntax:
+    content: void BackToPrevLocation()
+    content.vb: Sub BackToPrevLocation
+  overload: softtissue.Core.Interfaces.INonJumpable.BackToPrevLocation*
+references:
+- uid: softtissue.Core.Interfaces
+  commentId: N:softtissue.Core.Interfaces
+  name: softtissue.Core.Interfaces
+  nameWithType: softtissue.Core.Interfaces
+  fullName: softtissue.Core.Interfaces
+- uid: softtissue.Core.Interfaces.INonJumpable.BackToPrevLocation*
+  commentId: Overload:softtissue.Core.Interfaces.INonJumpable.BackToPrevLocation
+  name: BackToPrevLocation
+  nameWithType: INonJumpable.BackToPrevLocation
+  fullName: softtissue.Core.Interfaces.INonJumpable.BackToPrevLocation

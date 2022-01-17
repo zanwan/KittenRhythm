@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum
+  commentId: T:softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum
+  id: SO_InnerItemData.ItemEnum
+  parent: softtissue.Core.Carton.InnerItem
+  children:
+  - softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum.Empty
+  - softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum.Lighting
+  - softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum.Vinyl
+  langs:
+  - csharp
+  - vb
+  name: SO_InnerItemData.ItemEnum
+  nameWithType: SO_InnerItemData.ItemEnum
+  fullName: softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum
+  type: Enum
+  source:
+    id: ItemEnum
+    path: ''
+    startLine: 5114
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton.InnerItem
+  syntax:
+    content: public enum ItemEnum
+    content.vb: Public Enum ItemEnum
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum.Empty
+  commentId: F:softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum.Empty
+  id: Empty
+  parent: softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum
+  langs:
+  - csharp
+  - vb
+  name: Empty
+  nameWithType: SO_InnerItemData.ItemEnum.Empty
+  fullName: softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum.Empty
+  type: Field
+  source:
+    id: Empty
+    path: ''
+    startLine: 5116
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton.InnerItem
+  syntax:
+    content: Empty = 0
+    return:
+      type: softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum.Vinyl
+  commentId: F:softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum.Vinyl
+  id: Vinyl
+  parent: softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum
+  langs:
+  - csharp
+  - vb
+  name: Vinyl
+  nameWithType: SO_InnerItemData.ItemEnum.Vinyl
+  fullName: softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum.Vinyl
+  type: Field
+  source:
+    id: Vinyl
+    path: ''
+    startLine: 5117
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton.InnerItem
+  syntax:
+    content: Vinyl = 1
+    return:
+      type: softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum.Lighting
+  commentId: F:softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum.Lighting
+  id: Lighting
+  parent: softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum
+  langs:
+  - csharp
+  - vb
+  name: Lighting
+  nameWithType: SO_InnerItemData.ItemEnum.Lighting
+  fullName: softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum.Lighting
+  type: Field
+  source:
+    id: Lighting
+    path: ''
+    startLine: 5118
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton.InnerItem
+  syntax:
+    content: Lighting = 2
+    return:
+      type: softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: softtissue.Core.Carton.InnerItem
+  commentId: N:softtissue.Core.Carton.InnerItem
+  name: softtissue.Core.Carton.InnerItem
+  nameWithType: softtissue.Core.Carton.InnerItem
+  fullName: softtissue.Core.Carton.InnerItem
+- uid: softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum
+  commentId: T:softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum
+  parent: softtissue.Core.Carton.InnerItem
+  name: SO_InnerItemData.ItemEnum
+  nameWithType: SO_InnerItemData.ItemEnum
+  fullName: softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum

@@ -1,0 +1,95 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Validators.NeedsComponentValidator
+  commentId: T:softtissue.Core.Validators.NeedsComponentValidator
+  id: NeedsComponentValidator
+  parent: softtissue.Core.Validators
+  children:
+  - softtissue.Core.Validators.NeedsComponentValidator.Validate(ValidationResult)
+  langs:
+  - csharp
+  - vb
+  name: NeedsComponentValidator
+  nameWithType: NeedsComponentValidator
+  fullName: softtissue.Core.Validators.NeedsComponentValidator
+  type: Class
+  source:
+    id: NeedsComponentValidator
+    path: ''
+    startLine: 4257
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Validators
+  syntax:
+    content: 'public class NeedsComponentValidator : AttributeValidator<NeedsComponentAttribute, GameObject>'
+    content.vb: >-
+      Public Class NeedsComponentValidator
+          Inherits AttributeValidator(Of NeedsComponentAttribute, GameObject)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Core.Validators.NeedsComponentValidator.Validate(ValidationResult)
+  commentId: M:softtissue.Core.Validators.NeedsComponentValidator.Validate(ValidationResult)
+  id: Validate(ValidationResult)
+  parent: softtissue.Core.Validators.NeedsComponentValidator
+  langs:
+  - csharp
+  - vb
+  name: Validate(ValidationResult)
+  nameWithType: NeedsComponentValidator.Validate(ValidationResult)
+  fullName: softtissue.Core.Validators.NeedsComponentValidator.Validate(ValidationResult)
+  type: Method
+  source:
+    id: Validate
+    path: ''
+    startLine: 4259
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Validators
+  syntax:
+    content: protected override void Validate(ValidationResult result)
+    parameters:
+    - id: result
+      type: Global.ValidationResult
+    content.vb: Protected Overrides Sub Validate(result As ValidationResult)
+  overload: softtissue.Core.Validators.NeedsComponentValidator.Validate*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: softtissue.Core.Validators
+  commentId: N:softtissue.Core.Validators
+  name: softtissue.Core.Validators
+  nameWithType: softtissue.Core.Validators
+  fullName: softtissue.Core.Validators
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: softtissue.Core.Validators.NeedsComponentValidator.Validate*
+  commentId: Overload:softtissue.Core.Validators.NeedsComponentValidator.Validate
+  name: Validate
+  nameWithType: NeedsComponentValidator.Validate
+  fullName: softtissue.Core.Validators.NeedsComponentValidator.Validate
+- uid: Global.ValidationResult
+  isExternal: true
+  name: ValidationResult
+  nameWithType: ValidationResult
+  fullName: ValidationResult

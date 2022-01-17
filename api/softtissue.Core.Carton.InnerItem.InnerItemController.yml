@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Carton.InnerItem.InnerItemController
+  commentId: T:softtissue.Core.Carton.InnerItem.InnerItemController
+  id: InnerItemController
+  parent: softtissue.Core.Carton.InnerItem
+  children:
+  - softtissue.Core.Carton.InnerItem.InnerItemController.animator
+  - softtissue.Core.Carton.InnerItem.InnerItemController.InnerItemCollectEventHandler
+  - softtissue.Core.Carton.InnerItem.InnerItemController.itemCounts
+  - softtissue.Core.Carton.InnerItem.InnerItemController.itemEnum
+  langs:
+  - csharp
+  - vb
+  name: InnerItemController
+  nameWithType: InnerItemController
+  fullName: softtissue.Core.Carton.InnerItem.InnerItemController
+  type: Class
+  source:
+    id: InnerItemController
+    path: ''
+    startLine: 5063
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton.InnerItem
+  syntax:
+    content: 'public class InnerItemController : MonoBehaviour'
+    content.vb: >-
+      Public Class InnerItemController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Core.Carton.InnerItem.InnerItemController.itemEnum
+  commentId: F:softtissue.Core.Carton.InnerItem.InnerItemController.itemEnum
+  id: itemEnum
+  parent: softtissue.Core.Carton.InnerItem.InnerItemController
+  langs:
+  - csharp
+  - vb
+  name: itemEnum
+  nameWithType: InnerItemController.itemEnum
+  fullName: softtissue.Core.Carton.InnerItem.InnerItemController.itemEnum
+  type: Field
+  source:
+    id: itemEnum
+    path: ''
+    startLine: 5067
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton.InnerItem
+  syntax:
+    content: public SO_InnerItemData.ItemEnum itemEnum
+    return:
+      type: softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum
+    content.vb: Public itemEnum As SO_InnerItemData.ItemEnum
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Core.Carton.InnerItem.InnerItemController.itemCounts
+  commentId: F:softtissue.Core.Carton.InnerItem.InnerItemController.itemCounts
+  id: itemCounts
+  parent: softtissue.Core.Carton.InnerItem.InnerItemController
+  langs:
+  - csharp
+  - vb
+  name: itemCounts
+  nameWithType: InnerItemController.itemCounts
+  fullName: softtissue.Core.Carton.InnerItem.InnerItemController.itemCounts
+  type: Field
+  source:
+    id: itemCounts
+    path: ''
+    startLine: 5068
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton.InnerItem
+  syntax:
+    content: public int itemCounts
+    return:
+      type: System.Int32
+    content.vb: Public itemCounts As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Core.Carton.InnerItem.InnerItemController.animator
+  commentId: F:softtissue.Core.Carton.InnerItem.InnerItemController.animator
+  id: animator
+  parent: softtissue.Core.Carton.InnerItem.InnerItemController
+  langs:
+  - csharp
+  - vb
+  name: animator
+  nameWithType: InnerItemController.animator
+  fullName: softtissue.Core.Carton.InnerItem.InnerItemController.animator
+  type: Field
+  source:
+    id: animator
+    path: ''
+    startLine: 5069
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton.InnerItem
+  syntax:
+    content: public Animator animator
+    return:
+      type: Global.Animator
+    content.vb: Public animator As Animator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Core.Carton.InnerItem.InnerItemController.InnerItemCollectEventHandler
+  commentId: M:softtissue.Core.Carton.InnerItem.InnerItemController.InnerItemCollectEventHandler
+  id: InnerItemCollectEventHandler
+  parent: softtissue.Core.Carton.InnerItem.InnerItemController
+  langs:
+  - csharp
+  - vb
+  name: InnerItemCollectEventHandler()
+  nameWithType: InnerItemController.InnerItemCollectEventHandler()
+  fullName: softtissue.Core.Carton.InnerItem.InnerItemController.InnerItemCollectEventHandler()
+  type: Method
+  source:
+    id: InnerItemCollectEventHandler
+    path: ''
+    startLine: 5083
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton.InnerItem
+  summary: "\n接收 CartonTriggerStateManager 觸發蒐集物件\n"
+  example: []
+  syntax:
+    content: public void InnerItemCollectEventHandler()
+    content.vb: Public Sub InnerItemCollectEventHandler
+  overload: softtissue.Core.Carton.InnerItem.InnerItemController.InnerItemCollectEventHandler*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Core.Carton.InnerItem
+  commentId: N:softtissue.Core.Carton.InnerItem
+  name: softtissue.Core.Carton.InnerItem
+  nameWithType: softtissue.Core.Carton.InnerItem
+  fullName: softtissue.Core.Carton.InnerItem
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum
+  commentId: T:softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum
+  parent: softtissue.Core.Carton.InnerItem
+  name: SO_InnerItemData.ItemEnum
+  nameWithType: SO_InnerItemData.ItemEnum
+  fullName: softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Animator
+  isExternal: true
+  name: Animator
+  nameWithType: Animator
+  fullName: Animator
+- uid: softtissue.Core.Carton.InnerItem.InnerItemController.InnerItemCollectEventHandler*
+  commentId: Overload:softtissue.Core.Carton.InnerItem.InnerItemController.InnerItemCollectEventHandler
+  name: InnerItemCollectEventHandler
+  nameWithType: InnerItemController.InnerItemCollectEventHandler
+  fullName: softtissue.Core.Carton.InnerItem.InnerItemController.InnerItemCollectEventHandler

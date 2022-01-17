@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.FormationStateMachine
+  commentId: N:softtissue.Core.FormationStateMachine
+  id: softtissue.Core.FormationStateMachine
+  children:
+  - softtissue.Core.FormationStateMachine.AbstractState
+  - softtissue.Core.FormationStateMachine.DebugStateController
+  - softtissue.Core.FormationStateMachine.State0
+  - softtissue.Core.FormationStateMachine.State1
+  - softtissue.Core.FormationStateMachine.State2
+  - softtissue.Core.FormationStateMachine.State3
+  - softtissue.Core.FormationStateMachine.StateManager
+  langs:
+  - csharp
+  - vb
+  name: softtissue.Core.FormationStateMachine
+  nameWithType: softtissue.Core.FormationStateMachine
+  fullName: softtissue.Core.FormationStateMachine
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: softtissue.Core.FormationStateMachine.AbstractState
+  commentId: T:softtissue.Core.FormationStateMachine.AbstractState
+  parent: softtissue.Core.FormationStateMachine
+  name: AbstractState
+  nameWithType: AbstractState
+  fullName: softtissue.Core.FormationStateMachine.AbstractState
+- uid: softtissue.Core.FormationStateMachine.State0
+  commentId: T:softtissue.Core.FormationStateMachine.State0
+  name: State0
+  nameWithType: State0
+  fullName: softtissue.Core.FormationStateMachine.State0
+- uid: softtissue.Core.FormationStateMachine.State1
+  commentId: T:softtissue.Core.FormationStateMachine.State1
+  name: State1
+  nameWithType: State1
+  fullName: softtissue.Core.FormationStateMachine.State1
+- uid: softtissue.Core.FormationStateMachine.State2
+  commentId: T:softtissue.Core.FormationStateMachine.State2
+  name: State2
+  nameWithType: State2
+  fullName: softtissue.Core.FormationStateMachine.State2
+- uid: softtissue.Core.FormationStateMachine.State3
+  commentId: T:softtissue.Core.FormationStateMachine.State3
+  name: State3
+  nameWithType: State3
+  fullName: softtissue.Core.FormationStateMachine.State3
+- uid: softtissue.Core.FormationStateMachine.StateManager
+  commentId: T:softtissue.Core.FormationStateMachine.StateManager
+  parent: softtissue.Core.FormationStateMachine
+  name: StateManager
+  nameWithType: StateManager
+  fullName: softtissue.Core.FormationStateMachine.StateManager
+- uid: softtissue.Core.FormationStateMachine.DebugStateController
+  commentId: T:softtissue.Core.FormationStateMachine.DebugStateController
+  name: DebugStateController
+  nameWithType: DebugStateController
+  fullName: softtissue.Core.FormationStateMachine.DebugStateController
+- uid: softtissue.Core.FormationStateMachine
+  commentId: N:softtissue.Core.FormationStateMachine
+  name: softtissue.Core.FormationStateMachine
+  nameWithType: softtissue.Core.FormationStateMachine
+  fullName: softtissue.Core.FormationStateMachine

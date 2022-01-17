@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Interfaces
+  commentId: N:softtissue.Core.Interfaces
+  id: softtissue.Core.Interfaces
+  children:
+  - softtissue.Core.Interfaces.IMovable`1
+  - softtissue.Core.Interfaces.INonJumpable
+  - softtissue.Core.Interfaces.IRotatable`1
+  - softtissue.Core.Interfaces.IStandable
+  langs:
+  - csharp
+  - vb
+  name: softtissue.Core.Interfaces
+  nameWithType: softtissue.Core.Interfaces
+  fullName: softtissue.Core.Interfaces
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: softtissue.Core.Interfaces.IMovable`1
+  commentId: T:softtissue.Core.Interfaces.IMovable`1
+  name: IMovable<T>
+  nameWithType: IMovable<T>
+  fullName: softtissue.Core.Interfaces.IMovable<T>
+  nameWithType.vb: IMovable(Of T)
+  fullName.vb: softtissue.Core.Interfaces.IMovable(Of T)
+  name.vb: IMovable(Of T)
+  spec.csharp:
+  - uid: softtissue.Core.Interfaces.IMovable`1
+    name: IMovable
+    nameWithType: IMovable
+    fullName: softtissue.Core.Interfaces.IMovable
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: softtissue.Core.Interfaces.IMovable`1
+    name: IMovable
+    nameWithType: IMovable
+    fullName: softtissue.Core.Interfaces.IMovable
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: softtissue.Core.Interfaces.IRotatable`1
+  commentId: T:softtissue.Core.Interfaces.IRotatable`1
+  name: IRotatable<T>
+  nameWithType: IRotatable<T>
+  fullName: softtissue.Core.Interfaces.IRotatable<T>
+  nameWithType.vb: IRotatable(Of T)
+  fullName.vb: softtissue.Core.Interfaces.IRotatable(Of T)
+  name.vb: IRotatable(Of T)
+  spec.csharp:
+  - uid: softtissue.Core.Interfaces.IRotatable`1
+    name: IRotatable
+    nameWithType: IRotatable
+    fullName: softtissue.Core.Interfaces.IRotatable
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: softtissue.Core.Interfaces.IRotatable`1
+    name: IRotatable
+    nameWithType: IRotatable
+    fullName: softtissue.Core.Interfaces.IRotatable
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: softtissue.Core.Interfaces.INonJumpable
+  commentId: T:softtissue.Core.Interfaces.INonJumpable
+  name: INonJumpable
+  nameWithType: INonJumpable
+  fullName: softtissue.Core.Interfaces.INonJumpable
+- uid: softtissue.Core.Interfaces.IStandable
+  commentId: T:softtissue.Core.Interfaces.IStandable
+  name: IStandable
+  nameWithType: IStandable
+  fullName: softtissue.Core.Interfaces.IStandable

@@ -1,0 +1,107 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Items.PathItem
+  commentId: T:softtissue.Core.Items.PathItem
+  id: PathItem
+  parent: softtissue.Core.Items
+  children:
+  - softtissue.Core.Items.PathItem.wayPoints
+  langs:
+  - csharp
+  - vb
+  name: PathItem
+  nameWithType: PathItem
+  fullName: softtissue.Core.Items.PathItem
+  type: Class
+  source:
+    id: PathItem
+    path: ''
+    startLine: 5367
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Items
+  syntax:
+    content: 'public class PathItem : MonoBehaviour'
+    content.vb: >-
+      Public Class PathItem
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Core.Items.PathItem.wayPoints
+  commentId: F:softtissue.Core.Items.PathItem.wayPoints
+  id: wayPoints
+  parent: softtissue.Core.Items.PathItem
+  langs:
+  - csharp
+  - vb
+  name: wayPoints
+  nameWithType: PathItem.wayPoints
+  fullName: softtissue.Core.Items.PathItem.wayPoints
+  type: Field
+  source:
+    id: wayPoints
+    path: ''
+    startLine: 5369
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Items
+  syntax:
+    content: public GameObject[] wayPoints
+    return:
+      type: Global.GameObject[]
+    content.vb: Public wayPoints As GameObject()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Core.Items
+  commentId: N:softtissue.Core.Items
+  name: softtissue.Core.Items
+  nameWithType: softtissue.Core.Items
+  fullName: softtissue.Core.Items
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject[]
+  isExternal: true
+  name: GameObject[]
+  nameWithType: GameObject[]
+  fullName: GameObject[]
+  nameWithType.vb: GameObject()
+  fullName.vb: GameObject()
+  name.vb: GameObject()
+  spec.csharp:
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

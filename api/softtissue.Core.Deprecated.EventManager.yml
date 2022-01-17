@@ -1,0 +1,64 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Deprecated.EventManager
+  commentId: T:softtissue.Core.Deprecated.EventManager
+  id: EventManager
+  parent: softtissue.Core.Deprecated
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: EventManager
+  nameWithType: EventManager
+  fullName: softtissue.Core.Deprecated.EventManager
+  type: Class
+  source:
+    id: EventManager
+    path: ''
+    startLine: 2956
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Deprecated
+  syntax:
+    content: >-
+      [Obsolete("\n已棄用\nFMOD 直接讀取 Beat 資料已不使用\n")]
+
+      public class EventManager : MonoBehaviour
+    content.vb: >-
+      <Obsolete(vbLf & "已棄用" & vbLf & "FMOD 直接讀取 Beat 資料已不使用" & vbLf)>
+
+      Public Class EventManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: "\n已棄用\nFMOD 直接讀取 Beat 資料已不使用\n"
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: softtissue.Core.Deprecated
+  commentId: N:softtissue.Core.Deprecated
+  name: softtissue.Core.Deprecated
+  nameWithType: softtissue.Core.Deprecated
+  fullName: softtissue.Core.Deprecated
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

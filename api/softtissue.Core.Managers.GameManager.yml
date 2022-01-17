@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Managers.GameManager
+  commentId: T:softtissue.Core.Managers.GameManager
+  id: GameManager
+  parent: softtissue.Core.Managers
+  children:
+  - softtissue.Core.Managers.GameManager.UpdateVinylCollection
+  langs:
+  - csharp
+  - vb
+  name: GameManager
+  nameWithType: GameManager
+  fullName: softtissue.Core.Managers.GameManager
+  type: Class
+  source:
+    id: GameManager
+    path: ''
+    startLine: 3278
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Managers
+  summary: "\n遊戲重要事件管理\n"
+  example: []
+  syntax:
+    content: 'public class GameManager : MonoBehaviour'
+    content.vb: >-
+      Public Class GameManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Core.Managers.GameManager.UpdateVinylCollection
+  commentId: M:softtissue.Core.Managers.GameManager.UpdateVinylCollection
+  id: UpdateVinylCollection
+  parent: softtissue.Core.Managers.GameManager
+  langs:
+  - csharp
+  - vb
+  name: UpdateVinylCollection()
+  nameWithType: GameManager.UpdateVinylCollection()
+  fullName: softtissue.Core.Managers.GameManager.UpdateVinylCollection()
+  type: Method
+  source:
+    id: UpdateVinylCollection
+    path: ''
+    startLine: 3291
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Managers
+  syntax:
+    content: public void UpdateVinylCollection()
+    content.vb: Public Sub UpdateVinylCollection
+  overload: softtissue.Core.Managers.GameManager.UpdateVinylCollection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Core.Managers
+  commentId: N:softtissue.Core.Managers
+  name: softtissue.Core.Managers
+  nameWithType: softtissue.Core.Managers
+  fullName: softtissue.Core.Managers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: softtissue.Core.Managers.GameManager.UpdateVinylCollection*
+  commentId: Overload:softtissue.Core.Managers.GameManager.UpdateVinylCollection
+  name: UpdateVinylCollection
+  nameWithType: GameManager.UpdateVinylCollection
+  fullName: softtissue.Core.Managers.GameManager.UpdateVinylCollection

@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Managers
+  commentId: N:softtissue.Core.Managers
+  id: softtissue.Core.Managers
+  children:
+  - softtissue.Core.Managers.FmodKoreoController
+  - softtissue.Core.Managers.GameManager
+  - softtissue.Core.Managers.JumpManager
+  - softtissue.Core.Managers.PlayerManager
+  - softtissue.Core.Managers.TouchManager
+  langs:
+  - csharp
+  - vb
+  name: softtissue.Core.Managers
+  nameWithType: softtissue.Core.Managers
+  fullName: softtissue.Core.Managers
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: softtissue.Core.Managers.GameManager
+  commentId: T:softtissue.Core.Managers.GameManager
+  name: GameManager
+  nameWithType: GameManager
+  fullName: softtissue.Core.Managers.GameManager
+- uid: softtissue.Core.Managers.TouchManager
+  commentId: T:softtissue.Core.Managers.TouchManager
+  name: TouchManager
+  nameWithType: TouchManager
+  fullName: softtissue.Core.Managers.TouchManager
+- uid: softtissue.Core.Managers.JumpManager
+  commentId: T:softtissue.Core.Managers.JumpManager
+  name: JumpManager
+  nameWithType: JumpManager
+  fullName: softtissue.Core.Managers.JumpManager
+- uid: softtissue.Core.Managers.PlayerManager
+  commentId: T:softtissue.Core.Managers.PlayerManager
+  name: PlayerManager
+  nameWithType: PlayerManager
+  fullName: softtissue.Core.Managers.PlayerManager
+- uid: softtissue.Core.Managers.FmodKoreoController
+  commentId: T:softtissue.Core.Managers.FmodKoreoController
+  name: FmodKoreoController
+  nameWithType: FmodKoreoController
+  fullName: softtissue.Core.Managers.FmodKoreoController

@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Carton.CartonStateController.CartonState
+  commentId: T:softtissue.Core.Carton.CartonStateController.CartonState
+  id: CartonStateController.CartonState
+  parent: softtissue.Core.Carton
+  children:
+  - softtissue.Core.Carton.CartonStateController.CartonState.closeAnim
+  - softtissue.Core.Carton.CartonStateController.CartonState.closeStatic
+  - softtissue.Core.Carton.CartonStateController.CartonState.openAnim
+  - softtissue.Core.Carton.CartonStateController.CartonState.openStatic
+  langs:
+  - csharp
+  - vb
+  name: CartonStateController.CartonState
+  nameWithType: CartonStateController.CartonState
+  fullName: softtissue.Core.Carton.CartonStateController.CartonState
+  type: Enum
+  source:
+    id: CartonState
+    path: ''
+    startLine: 4489
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton
+  syntax:
+    content: public enum CartonState
+    content.vb: Public Enum CartonState
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: softtissue.Core.Carton.CartonStateController.CartonState.openStatic
+  commentId: F:softtissue.Core.Carton.CartonStateController.CartonState.openStatic
+  id: openStatic
+  parent: softtissue.Core.Carton.CartonStateController.CartonState
+  langs:
+  - csharp
+  - vb
+  name: openStatic
+  nameWithType: CartonStateController.CartonState.openStatic
+  fullName: softtissue.Core.Carton.CartonStateController.CartonState.openStatic
+  type: Field
+  source:
+    id: openStatic
+    path: ''
+    startLine: 4491
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton
+  syntax:
+    content: openStatic = 0
+    return:
+      type: softtissue.Core.Carton.CartonStateController.CartonState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: softtissue.Core.Carton.CartonStateController.CartonState.closeStatic
+  commentId: F:softtissue.Core.Carton.CartonStateController.CartonState.closeStatic
+  id: closeStatic
+  parent: softtissue.Core.Carton.CartonStateController.CartonState
+  langs:
+  - csharp
+  - vb
+  name: closeStatic
+  nameWithType: CartonStateController.CartonState.closeStatic
+  fullName: softtissue.Core.Carton.CartonStateController.CartonState.closeStatic
+  type: Field
+  source:
+    id: closeStatic
+    path: ''
+    startLine: 4492
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton
+  syntax:
+    content: closeStatic = 1
+    return:
+      type: softtissue.Core.Carton.CartonStateController.CartonState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: softtissue.Core.Carton.CartonStateController.CartonState.openAnim
+  commentId: F:softtissue.Core.Carton.CartonStateController.CartonState.openAnim
+  id: openAnim
+  parent: softtissue.Core.Carton.CartonStateController.CartonState
+  langs:
+  - csharp
+  - vb
+  name: openAnim
+  nameWithType: CartonStateController.CartonState.openAnim
+  fullName: softtissue.Core.Carton.CartonStateController.CartonState.openAnim
+  type: Field
+  source:
+    id: openAnim
+    path: ''
+    startLine: 4493
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton
+  syntax:
+    content: openAnim = 2
+    return:
+      type: softtissue.Core.Carton.CartonStateController.CartonState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: softtissue.Core.Carton.CartonStateController.CartonState.closeAnim
+  commentId: F:softtissue.Core.Carton.CartonStateController.CartonState.closeAnim
+  id: closeAnim
+  parent: softtissue.Core.Carton.CartonStateController.CartonState
+  langs:
+  - csharp
+  - vb
+  name: closeAnim
+  nameWithType: CartonStateController.CartonState.closeAnim
+  fullName: softtissue.Core.Carton.CartonStateController.CartonState.closeAnim
+  type: Field
+  source:
+    id: closeAnim
+    path: ''
+    startLine: 4494
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton
+  syntax:
+    content: closeAnim = 3
+    return:
+      type: softtissue.Core.Carton.CartonStateController.CartonState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: softtissue.Core.Carton
+  commentId: N:softtissue.Core.Carton
+  name: softtissue.Core.Carton
+  nameWithType: softtissue.Core.Carton
+  fullName: softtissue.Core.Carton
+- uid: softtissue.Core.Carton.CartonStateController.CartonState
+  commentId: T:softtissue.Core.Carton.CartonStateController.CartonState
+  parent: softtissue.Core.Carton
+  name: CartonStateController.CartonState
+  nameWithType: CartonStateController.CartonState
+  fullName: softtissue.Core.Carton.CartonStateController.CartonState

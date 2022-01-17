@@ -1,0 +1,171 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Deprecated.FloatingOrigin
+  commentId: T:softtissue.Core.Deprecated.FloatingOrigin
+  id: FloatingOrigin
+  parent: softtissue.Core.Deprecated
+  children:
+  - softtissue.Core.Deprecated.FloatingOrigin.cm1
+  - softtissue.Core.Deprecated.FloatingOrigin.mainCamera
+  - softtissue.Core.Deprecated.FloatingOrigin.thresHold
+  langs:
+  - csharp
+  - vb
+  name: FloatingOrigin
+  nameWithType: FloatingOrigin
+  fullName: softtissue.Core.Deprecated.FloatingOrigin
+  type: Class
+  source:
+    id: FloatingOrigin
+    path: ''
+    startLine: 3247
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Deprecated
+  summary: "\n!! 已棄用 !!\n如果超出指定距離，重設所有物件至原點\n"
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("並未使用", true)]
+
+      public class FloatingOrigin : MonoBehaviour
+    content.vb: >-
+      <Obsolete("並未使用", True)>
+
+      Public Class FloatingOrigin
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: 並未使用
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Core.Deprecated.FloatingOrigin.mainCamera
+  commentId: F:softtissue.Core.Deprecated.FloatingOrigin.mainCamera
+  id: mainCamera
+  parent: softtissue.Core.Deprecated.FloatingOrigin
+  langs:
+  - csharp
+  - vb
+  name: mainCamera
+  nameWithType: FloatingOrigin.mainCamera
+  fullName: softtissue.Core.Deprecated.FloatingOrigin.mainCamera
+  type: Field
+  source:
+    id: mainCamera
+    path: ''
+    startLine: 3251
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Deprecated
+  syntax:
+    content: public UnityEngine.Camera mainCamera
+    return:
+      type: Global.UnityEngine.Camera
+    content.vb: Public mainCamera As UnityEngine.Camera
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Core.Deprecated.FloatingOrigin.cm1
+  commentId: F:softtissue.Core.Deprecated.FloatingOrigin.cm1
+  id: cm1
+  parent: softtissue.Core.Deprecated.FloatingOrigin
+  langs:
+  - csharp
+  - vb
+  name: cm1
+  nameWithType: FloatingOrigin.cm1
+  fullName: softtissue.Core.Deprecated.FloatingOrigin.cm1
+  type: Field
+  source:
+    id: cm1
+    path: ''
+    startLine: 3252
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Deprecated
+  syntax:
+    content: public Cinemachine.CinemachineVirtualCameraBase cm1
+    return:
+      type: Global.Cinemachine.CinemachineVirtualCameraBase
+    content.vb: Public cm1 As Cinemachine.CinemachineVirtualCameraBase
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Core.Deprecated.FloatingOrigin.thresHold
+  commentId: F:softtissue.Core.Deprecated.FloatingOrigin.thresHold
+  id: thresHold
+  parent: softtissue.Core.Deprecated.FloatingOrigin
+  langs:
+  - csharp
+  - vb
+  name: thresHold
+  nameWithType: FloatingOrigin.thresHold
+  fullName: softtissue.Core.Deprecated.FloatingOrigin.thresHold
+  type: Field
+  source:
+    id: thresHold
+    path: ''
+    startLine: 3253
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Deprecated
+  syntax:
+    content: public float thresHold
+    return:
+      type: System.Single
+    content.vb: Public thresHold As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Core.Deprecated
+  commentId: N:softtissue.Core.Deprecated
+  name: softtissue.Core.Deprecated
+  nameWithType: softtissue.Core.Deprecated
+  fullName: softtissue.Core.Deprecated
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.UnityEngine.Camera
+  commentId: '!:Global.UnityEngine.Camera'
+  isExternal: true
+  name: UnityEngine.Camera
+  nameWithType: UnityEngine.Camera
+  fullName: UnityEngine.Camera
+- uid: Global.Cinemachine.CinemachineVirtualCameraBase
+  commentId: '!:Global.Cinemachine.CinemachineVirtualCameraBase'
+  isExternal: true
+  name: Cinemachine.CinemachineVirtualCameraBase
+  nameWithType: Cinemachine.CinemachineVirtualCameraBase
+  fullName: Cinemachine.CinemachineVirtualCameraBase
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Carton.PathRoute
+  commentId: N:softtissue.Core.Carton.PathRoute
+  id: softtissue.Core.Carton.PathRoute
+  children:
+  - softtissue.Core.Carton.PathRoute.PathRouteController
+  langs:
+  - csharp
+  - vb
+  name: softtissue.Core.Carton.PathRoute
+  nameWithType: softtissue.Core.Carton.PathRoute
+  fullName: softtissue.Core.Carton.PathRoute
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: softtissue.Core.Carton.PathRoute.PathRouteController
+  commentId: T:softtissue.Core.Carton.PathRoute.PathRouteController
+  name: PathRouteController
+  nameWithType: PathRouteController
+  fullName: softtissue.Core.Carton.PathRoute.PathRouteController

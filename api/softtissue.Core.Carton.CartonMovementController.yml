@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Carton.CartonMovementController
+  commentId: T:softtissue.Core.Carton.CartonMovementController
+  id: CartonMovementController
+  parent: softtissue.Core.Carton
+  children:
+  - softtissue.Core.Carton.CartonMovementController.BeatResponse
+  - softtissue.Core.Carton.CartonMovementController.isFollowPath
+  - softtissue.Core.Carton.CartonMovementController.pathObject
+  - softtissue.Core.Carton.CartonMovementController.toggleOffFollowPath
+  langs:
+  - csharp
+  - vb
+  name: CartonMovementController
+  nameWithType: CartonMovementController
+  fullName: softtissue.Core.Carton.CartonMovementController
+  type: Class
+  source:
+    id: CartonMovementController
+    path: ''
+    startLine: 4620
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton
+  syntax:
+    content: 'public class CartonMovementController : MonoBehaviour, IBeatable'
+    content.vb: >-
+      Public Class CartonMovementController
+          Inherits MonoBehaviour
+          Implements IBeatable
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Core.Carton.CartonMovementController.isFollowPath
+  commentId: F:softtissue.Core.Carton.CartonMovementController.isFollowPath
+  id: isFollowPath
+  parent: softtissue.Core.Carton.CartonMovementController
+  langs:
+  - csharp
+  - vb
+  name: isFollowPath
+  nameWithType: CartonMovementController.isFollowPath
+  fullName: softtissue.Core.Carton.CartonMovementController.isFollowPath
+  type: Field
+  source:
+    id: isFollowPath
+    path: ''
+    startLine: 4622
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton
+  syntax:
+    content: public bool isFollowPath
+    return:
+      type: System.Boolean
+    content.vb: Public isFollowPath As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Core.Carton.CartonMovementController.pathObject
+  commentId: F:softtissue.Core.Carton.CartonMovementController.pathObject
+  id: pathObject
+  parent: softtissue.Core.Carton.CartonMovementController
+  langs:
+  - csharp
+  - vb
+  name: pathObject
+  nameWithType: CartonMovementController.pathObject
+  fullName: softtissue.Core.Carton.CartonMovementController.pathObject
+  type: Field
+  source:
+    id: pathObject
+    path: ''
+    startLine: 4623
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton
+  syntax:
+    content: public GameObject pathObject
+    return:
+      type: Global.GameObject
+    content.vb: Public pathObject As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Core.Carton.CartonMovementController.toggleOffFollowPath
+  commentId: M:softtissue.Core.Carton.CartonMovementController.toggleOffFollowPath
+  id: toggleOffFollowPath
+  parent: softtissue.Core.Carton.CartonMovementController
+  langs:
+  - csharp
+  - vb
+  name: toggleOffFollowPath()
+  nameWithType: CartonMovementController.toggleOffFollowPath()
+  fullName: softtissue.Core.Carton.CartonMovementController.toggleOffFollowPath()
+  type: Method
+  source:
+    id: toggleOffFollowPath
+    path: ''
+    startLine: 4637
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton
+  syntax:
+    content: public void toggleOffFollowPath()
+    content.vb: Public Sub toggleOffFollowPath
+  overload: softtissue.Core.Carton.CartonMovementController.toggleOffFollowPath*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Core.Carton.CartonMovementController.BeatResponse
+  commentId: M:softtissue.Core.Carton.CartonMovementController.BeatResponse
+  id: BeatResponse
+  parent: softtissue.Core.Carton.CartonMovementController
+  langs:
+  - csharp
+  - vb
+  name: BeatResponse()
+  nameWithType: CartonMovementController.BeatResponse()
+  fullName: softtissue.Core.Carton.CartonMovementController.BeatResponse()
+  type: Method
+  source:
+    id: BeatResponse
+    path: ''
+    startLine: 4642
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton
+  syntax:
+    content: public void BeatResponse()
+    content.vb: Public Sub BeatResponse
+  overload: softtissue.Core.Carton.CartonMovementController.BeatResponse*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Core.Carton
+  commentId: N:softtissue.Core.Carton
+  name: softtissue.Core.Carton
+  nameWithType: softtissue.Core.Carton
+  fullName: softtissue.Core.Carton
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: softtissue.Core.Carton.CartonMovementController.toggleOffFollowPath*
+  commentId: Overload:softtissue.Core.Carton.CartonMovementController.toggleOffFollowPath
+  name: toggleOffFollowPath
+  nameWithType: CartonMovementController.toggleOffFollowPath
+  fullName: softtissue.Core.Carton.CartonMovementController.toggleOffFollowPath
+- uid: softtissue.Core.Carton.CartonMovementController.BeatResponse*
+  commentId: Overload:softtissue.Core.Carton.CartonMovementController.BeatResponse
+  name: BeatResponse
+  nameWithType: CartonMovementController.BeatResponse
+  fullName: softtissue.Core.Carton.CartonMovementController.BeatResponse

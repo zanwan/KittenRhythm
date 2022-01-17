@@ -1,0 +1,355 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Character.AbstractMovement
+  commentId: T:softtissue.Core.Character.AbstractMovement
+  id: AbstractMovement
+  parent: softtissue.Core.Character
+  children:
+  - softtissue.Core.Character.AbstractMovement.backwardTarget
+  - softtissue.Core.Character.AbstractMovement.eastNorthTarget
+  - softtissue.Core.Character.AbstractMovement.eastSouthTarget
+  - softtissue.Core.Character.AbstractMovement.forwardTarget
+  - softtissue.Core.Character.AbstractMovement.InitializeJumpTargetDictionary
+  - softtissue.Core.Character.AbstractMovement.leftTarget
+  - softtissue.Core.Character.AbstractMovement.rightTarget
+  - softtissue.Core.Character.AbstractMovement.soRotation
+  - softtissue.Core.Character.AbstractMovement.westNorthTarget
+  - softtissue.Core.Character.AbstractMovement.westSouthTarget
+  langs:
+  - csharp
+  - vb
+  name: AbstractMovement
+  nameWithType: AbstractMovement
+  fullName: softtissue.Core.Character.AbstractMovement
+  type: Class
+  source:
+    id: AbstractMovement
+    path: ''
+    startLine: 3904
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Character
+  summary: "\n抽象移動類別\n"
+  example: []
+  syntax:
+    content: 'public abstract class AbstractMovement : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class AbstractMovement
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: softtissue.Core.Character.AbstractMovement.soRotation
+  commentId: F:softtissue.Core.Character.AbstractMovement.soRotation
+  id: soRotation
+  parent: softtissue.Core.Character.AbstractMovement
+  langs:
+  - csharp
+  - vb
+  name: soRotation
+  nameWithType: AbstractMovement.soRotation
+  fullName: softtissue.Core.Character.AbstractMovement.soRotation
+  type: Field
+  source:
+    id: soRotation
+    path: ''
+    startLine: 3907
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Character
+  syntax:
+    content: protected SO_Rotation soRotation
+    return:
+      type: Global.SO_Rotation
+    content.vb: Protected soRotation As SO_Rotation
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: softtissue.Core.Character.AbstractMovement.forwardTarget
+  commentId: F:softtissue.Core.Character.AbstractMovement.forwardTarget
+  id: forwardTarget
+  parent: softtissue.Core.Character.AbstractMovement
+  langs:
+  - csharp
+  - vb
+  name: forwardTarget
+  nameWithType: AbstractMovement.forwardTarget
+  fullName: softtissue.Core.Character.AbstractMovement.forwardTarget
+  type: Field
+  source:
+    id: forwardTarget
+    path: ''
+    startLine: 3909
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Character
+  syntax:
+    content: protected Transform forwardTarget
+    return:
+      type: Global.Transform
+    content.vb: Protected forwardTarget As Transform
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: softtissue.Core.Character.AbstractMovement.backwardTarget
+  commentId: F:softtissue.Core.Character.AbstractMovement.backwardTarget
+  id: backwardTarget
+  parent: softtissue.Core.Character.AbstractMovement
+  langs:
+  - csharp
+  - vb
+  name: backwardTarget
+  nameWithType: AbstractMovement.backwardTarget
+  fullName: softtissue.Core.Character.AbstractMovement.backwardTarget
+  type: Field
+  source:
+    id: backwardTarget
+    path: ''
+    startLine: 3910
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Character
+  syntax:
+    content: protected Transform backwardTarget
+    return:
+      type: Global.Transform
+    content.vb: Protected backwardTarget As Transform
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: softtissue.Core.Character.AbstractMovement.leftTarget
+  commentId: F:softtissue.Core.Character.AbstractMovement.leftTarget
+  id: leftTarget
+  parent: softtissue.Core.Character.AbstractMovement
+  langs:
+  - csharp
+  - vb
+  name: leftTarget
+  nameWithType: AbstractMovement.leftTarget
+  fullName: softtissue.Core.Character.AbstractMovement.leftTarget
+  type: Field
+  source:
+    id: leftTarget
+    path: ''
+    startLine: 3911
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Character
+  syntax:
+    content: protected Transform leftTarget
+    return:
+      type: Global.Transform
+    content.vb: Protected leftTarget As Transform
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: softtissue.Core.Character.AbstractMovement.rightTarget
+  commentId: F:softtissue.Core.Character.AbstractMovement.rightTarget
+  id: rightTarget
+  parent: softtissue.Core.Character.AbstractMovement
+  langs:
+  - csharp
+  - vb
+  name: rightTarget
+  nameWithType: AbstractMovement.rightTarget
+  fullName: softtissue.Core.Character.AbstractMovement.rightTarget
+  type: Field
+  source:
+    id: rightTarget
+    path: ''
+    startLine: 3912
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Character
+  syntax:
+    content: protected Transform rightTarget
+    return:
+      type: Global.Transform
+    content.vb: Protected rightTarget As Transform
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: softtissue.Core.Character.AbstractMovement.eastNorthTarget
+  commentId: F:softtissue.Core.Character.AbstractMovement.eastNorthTarget
+  id: eastNorthTarget
+  parent: softtissue.Core.Character.AbstractMovement
+  langs:
+  - csharp
+  - vb
+  name: eastNorthTarget
+  nameWithType: AbstractMovement.eastNorthTarget
+  fullName: softtissue.Core.Character.AbstractMovement.eastNorthTarget
+  type: Field
+  source:
+    id: eastNorthTarget
+    path: ''
+    startLine: 3913
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Character
+  syntax:
+    content: protected Transform eastNorthTarget
+    return:
+      type: Global.Transform
+    content.vb: Protected eastNorthTarget As Transform
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: softtissue.Core.Character.AbstractMovement.eastSouthTarget
+  commentId: F:softtissue.Core.Character.AbstractMovement.eastSouthTarget
+  id: eastSouthTarget
+  parent: softtissue.Core.Character.AbstractMovement
+  langs:
+  - csharp
+  - vb
+  name: eastSouthTarget
+  nameWithType: AbstractMovement.eastSouthTarget
+  fullName: softtissue.Core.Character.AbstractMovement.eastSouthTarget
+  type: Field
+  source:
+    id: eastSouthTarget
+    path: ''
+    startLine: 3914
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Character
+  syntax:
+    content: protected Transform eastSouthTarget
+    return:
+      type: Global.Transform
+    content.vb: Protected eastSouthTarget As Transform
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: softtissue.Core.Character.AbstractMovement.westNorthTarget
+  commentId: F:softtissue.Core.Character.AbstractMovement.westNorthTarget
+  id: westNorthTarget
+  parent: softtissue.Core.Character.AbstractMovement
+  langs:
+  - csharp
+  - vb
+  name: westNorthTarget
+  nameWithType: AbstractMovement.westNorthTarget
+  fullName: softtissue.Core.Character.AbstractMovement.westNorthTarget
+  type: Field
+  source:
+    id: westNorthTarget
+    path: ''
+    startLine: 3915
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Character
+  syntax:
+    content: protected Transform westNorthTarget
+    return:
+      type: Global.Transform
+    content.vb: Protected westNorthTarget As Transform
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: softtissue.Core.Character.AbstractMovement.westSouthTarget
+  commentId: F:softtissue.Core.Character.AbstractMovement.westSouthTarget
+  id: westSouthTarget
+  parent: softtissue.Core.Character.AbstractMovement
+  langs:
+  - csharp
+  - vb
+  name: westSouthTarget
+  nameWithType: AbstractMovement.westSouthTarget
+  fullName: softtissue.Core.Character.AbstractMovement.westSouthTarget
+  type: Field
+  source:
+    id: westSouthTarget
+    path: ''
+    startLine: 3916
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Character
+  syntax:
+    content: protected Transform westSouthTarget
+    return:
+      type: Global.Transform
+    content.vb: Protected westSouthTarget As Transform
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: softtissue.Core.Character.AbstractMovement.InitializeJumpTargetDictionary
+  commentId: M:softtissue.Core.Character.AbstractMovement.InitializeJumpTargetDictionary
+  id: InitializeJumpTargetDictionary
+  parent: softtissue.Core.Character.AbstractMovement
+  langs:
+  - csharp
+  - vb
+  name: InitializeJumpTargetDictionary()
+  nameWithType: AbstractMovement.InitializeJumpTargetDictionary()
+  fullName: softtissue.Core.Character.AbstractMovement.InitializeJumpTargetDictionary()
+  type: Method
+  source:
+    id: InitializeJumpTargetDictionary
+    path: ''
+    startLine: 3926
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Character
+  summary: "\n將座標物件存入字典\n"
+  example: []
+  syntax:
+    content: protected abstract void InitializeJumpTargetDictionary()
+    content.vb: Protected MustOverride Sub InitializeJumpTargetDictionary
+  overload: softtissue.Core.Character.AbstractMovement.InitializeJumpTargetDictionary*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+references:
+- uid: softtissue.Core.Character
+  commentId: N:softtissue.Core.Character
+  name: softtissue.Core.Character
+  nameWithType: softtissue.Core.Character
+  fullName: softtissue.Core.Character
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.SO_Rotation
+  commentId: T:Global.SO_Rotation
+  name: SO_Rotation
+  nameWithType: SO_Rotation
+  fullName: SO_Rotation
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: softtissue.Core.Character.AbstractMovement.InitializeJumpTargetDictionary*
+  commentId: Overload:softtissue.Core.Character.AbstractMovement.InitializeJumpTargetDictionary
+  name: InitializeJumpTargetDictionary
+  nameWithType: AbstractMovement.InitializeJumpTargetDictionary
+  fullName: softtissue.Core.Character.AbstractMovement.InitializeJumpTargetDictionary

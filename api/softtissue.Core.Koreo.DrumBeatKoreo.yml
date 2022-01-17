@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Koreo.DrumBeatKoreo
+  commentId: T:softtissue.Core.Koreo.DrumBeatKoreo
+  id: DrumBeatKoreo
+  parent: softtissue.Core.Koreo
+  children:
+  - softtissue.Core.Koreo.DrumBeatKoreo.eventID
+  langs:
+  - csharp
+  - vb
+  name: DrumBeatKoreo
+  nameWithType: DrumBeatKoreo
+  fullName: softtissue.Core.Koreo.DrumBeatKoreo
+  type: Class
+  source:
+    id: DrumBeatKoreo
+    path: ''
+    startLine: 5378
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Koreo
+  syntax:
+    content: 'public class DrumBeatKoreo : MonoBehaviour'
+    content.vb: >-
+      Public Class DrumBeatKoreo
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Core.Koreo.DrumBeatKoreo.eventID
+  commentId: F:softtissue.Core.Koreo.DrumBeatKoreo.eventID
+  id: eventID
+  parent: softtissue.Core.Koreo.DrumBeatKoreo
+  langs:
+  - csharp
+  - vb
+  name: eventID
+  nameWithType: DrumBeatKoreo.eventID
+  fullName: softtissue.Core.Koreo.DrumBeatKoreo.eventID
+  type: Field
+  source:
+    id: eventID
+    path: ''
+    startLine: 5381
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Koreo
+  syntax:
+    content: public string eventID
+    return:
+      type: System.String
+    content.vb: Public eventID As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Core.Koreo
+  commentId: N:softtissue.Core.Koreo
+  name: softtissue.Core.Koreo
+  nameWithType: softtissue.Core.Koreo
+  fullName: softtissue.Core.Koreo
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

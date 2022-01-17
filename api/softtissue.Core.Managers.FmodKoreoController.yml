@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Managers.FmodKoreoController
+  commentId: T:softtissue.Core.Managers.FmodKoreoController
+  id: FmodKoreoController
+  parent: softtissue.Core.Managers
+  children:
+  - softtissue.Core.Managers.FmodKoreoController.emitter
+  - softtissue.Core.Managers.FmodKoreoController.SwitchMusicSection
+  langs:
+  - csharp
+  - vb
+  name: FmodKoreoController
+  nameWithType: FmodKoreoController
+  fullName: softtissue.Core.Managers.FmodKoreoController
+  type: Class
+  source:
+    id: FmodKoreoController
+    path: ''
+    startLine: 3570
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Managers
+  summary: "\n控制 FMOD Studio Event Emitter 以驅動 Koreographer 事件\n"
+  example: []
+  syntax:
+    content: 'public class FmodKoreoController : MonoBehaviour'
+    content.vb: >-
+      Public Class FmodKoreoController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Core.Managers.FmodKoreoController.emitter
+  commentId: F:softtissue.Core.Managers.FmodKoreoController.emitter
+  id: emitter
+  parent: softtissue.Core.Managers.FmodKoreoController
+  langs:
+  - csharp
+  - vb
+  name: emitter
+  nameWithType: FmodKoreoController.emitter
+  fullName: softtissue.Core.Managers.FmodKoreoController.emitter
+  type: Field
+  source:
+    id: emitter
+    path: ''
+    startLine: 3574
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Managers
+  syntax:
+    content: public StudioEventEmitter emitter
+    return:
+      type: Global.StudioEventEmitter
+    content.vb: Public emitter As StudioEventEmitter
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Core.Managers.FmodKoreoController.SwitchMusicSection
+  commentId: M:softtissue.Core.Managers.FmodKoreoController.SwitchMusicSection
+  id: SwitchMusicSection
+  parent: softtissue.Core.Managers.FmodKoreoController
+  langs:
+  - csharp
+  - vb
+  name: SwitchMusicSection()
+  nameWithType: FmodKoreoController.SwitchMusicSection()
+  fullName: softtissue.Core.Managers.FmodKoreoController.SwitchMusicSection()
+  type: Method
+  source:
+    id: SwitchMusicSection
+    path: ''
+    startLine: 3591
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Managers
+  syntax:
+    content: public void SwitchMusicSection()
+    content.vb: Public Sub SwitchMusicSection
+  overload: softtissue.Core.Managers.FmodKoreoController.SwitchMusicSection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Core.Managers
+  commentId: N:softtissue.Core.Managers
+  name: softtissue.Core.Managers
+  nameWithType: softtissue.Core.Managers
+  fullName: softtissue.Core.Managers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.StudioEventEmitter
+  isExternal: true
+  name: StudioEventEmitter
+  nameWithType: StudioEventEmitter
+  fullName: StudioEventEmitter
+- uid: softtissue.Core.Managers.FmodKoreoController.SwitchMusicSection*
+  commentId: Overload:softtissue.Core.Managers.FmodKoreoController.SwitchMusicSection
+  name: SwitchMusicSection
+  nameWithType: FmodKoreoController.SwitchMusicSection
+  fullName: softtissue.Core.Managers.FmodKoreoController.SwitchMusicSection

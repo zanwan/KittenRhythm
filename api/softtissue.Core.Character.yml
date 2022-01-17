@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Character
+  commentId: N:softtissue.Core.Character
+  id: softtissue.Core.Character
+  children:
+  - softtissue.Core.Character.AbstractMovement
+  - softtissue.Core.Character.CharacterAnimator
+  - softtissue.Core.Character.CharacterAssemble
+  - softtissue.Core.Character.FollowPath
+  - softtissue.Core.Character.JumpSelf
+  - softtissue.Core.Character.JumpTargetData
+  - softtissue.Core.Character.OriginResetTrigger
+  - softtissue.Core.Character.RotateSelf
+  - softtissue.Core.Character.SnapToCartonBase
+  - softtissue.Core.Character.SO_JumpPlayData
+  langs:
+  - csharp
+  - vb
+  name: softtissue.Core.Character
+  nameWithType: softtissue.Core.Character
+  fullName: softtissue.Core.Character
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: softtissue.Core.Character.RotateSelf
+  commentId: T:softtissue.Core.Character.RotateSelf
+  name: RotateSelf
+  nameWithType: RotateSelf
+  fullName: softtissue.Core.Character.RotateSelf
+- uid: softtissue.Core.Character.FollowPath
+  commentId: T:softtissue.Core.Character.FollowPath
+  name: FollowPath
+  nameWithType: FollowPath
+  fullName: softtissue.Core.Character.FollowPath
+- uid: softtissue.Core.Character.JumpSelf
+  commentId: T:softtissue.Core.Character.JumpSelf
+  name: JumpSelf
+  nameWithType: JumpSelf
+  fullName: softtissue.Core.Character.JumpSelf
+- uid: softtissue.Core.Character.CharacterAssemble
+  commentId: T:softtissue.Core.Character.CharacterAssemble
+  name: CharacterAssemble
+  nameWithType: CharacterAssemble
+  fullName: softtissue.Core.Character.CharacterAssemble
+- uid: softtissue.Core.Character.CharacterAnimator
+  commentId: T:softtissue.Core.Character.CharacterAnimator
+  name: CharacterAnimator
+  nameWithType: CharacterAnimator
+  fullName: softtissue.Core.Character.CharacterAnimator
+- uid: softtissue.Core.Character.AbstractMovement
+  commentId: T:softtissue.Core.Character.AbstractMovement
+  name: AbstractMovement
+  nameWithType: AbstractMovement
+  fullName: softtissue.Core.Character.AbstractMovement
+- uid: softtissue.Core.Character.JumpTargetData
+  commentId: T:softtissue.Core.Character.JumpTargetData
+  name: JumpTargetData
+  nameWithType: JumpTargetData
+  fullName: softtissue.Core.Character.JumpTargetData
+- uid: softtissue.Core.Character.OriginResetTrigger
+  commentId: T:softtissue.Core.Character.OriginResetTrigger
+  name: OriginResetTrigger
+  nameWithType: OriginResetTrigger
+  fullName: softtissue.Core.Character.OriginResetTrigger
+- uid: softtissue.Core.Character.SO_JumpPlayData
+  commentId: T:softtissue.Core.Character.SO_JumpPlayData
+  name: SO_JumpPlayData
+  nameWithType: SO_JumpPlayData
+  fullName: softtissue.Core.Character.SO_JumpPlayData
+- uid: softtissue.Core.Character.SnapToCartonBase
+  commentId: T:softtissue.Core.Character.SnapToCartonBase
+  name: SnapToCartonBase
+  nameWithType: SnapToCartonBase
+  fullName: softtissue.Core.Character.SnapToCartonBase

@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Items.AbstractItem
+  commentId: T:softtissue.Core.Items.AbstractItem
+  id: AbstractItem
+  parent: softtissue.Core.Items
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: AbstractItem
+  nameWithType: AbstractItem
+  fullName: softtissue.Core.Items.AbstractItem
+  type: Class
+  source:
+    id: AbstractItem
+    path: ''
+    startLine: 5358
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Items
+  syntax:
+    content: 'public abstract class AbstractItem : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class AbstractItem
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+references:
+- uid: softtissue.Core.Items
+  commentId: N:softtissue.Core.Items
+  name: softtissue.Core.Items
+  nameWithType: softtissue.Core.Items
+  fullName: softtissue.Core.Items
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

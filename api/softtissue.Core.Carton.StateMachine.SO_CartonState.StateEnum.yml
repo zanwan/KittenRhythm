@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum
+  commentId: T:softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum
+  id: SO_CartonState.StateEnum
+  parent: softtissue.Core.Carton.StateMachine
+  children:
+  - softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.StateCloseDynamic
+  - softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.StateCloseStatic
+  - softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.StateFlat
+  - softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.StateOpenDynamic
+  - softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.StateOpenStatic
+  langs:
+  - csharp
+  - vb
+  name: SO_CartonState.StateEnum
+  nameWithType: SO_CartonState.StateEnum
+  fullName: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum
+  type: Enum
+  source:
+    id: StateEnum
+    path: ''
+    startLine: 5047
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton.StateMachine
+  syntax:
+    content: public enum StateEnum
+    content.vb: Public Enum StateEnum
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.StateCloseStatic
+  commentId: F:softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.StateCloseStatic
+  id: StateCloseStatic
+  parent: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum
+  langs:
+  - csharp
+  - vb
+  name: StateCloseStatic
+  nameWithType: SO_CartonState.StateEnum.StateCloseStatic
+  fullName: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.StateCloseStatic
+  type: Field
+  source:
+    id: StateCloseStatic
+    path: ''
+    startLine: 5049
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton.StateMachine
+  syntax:
+    content: StateCloseStatic = 0
+    return:
+      type: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.StateOpenStatic
+  commentId: F:softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.StateOpenStatic
+  id: StateOpenStatic
+  parent: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum
+  langs:
+  - csharp
+  - vb
+  name: StateOpenStatic
+  nameWithType: SO_CartonState.StateEnum.StateOpenStatic
+  fullName: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.StateOpenStatic
+  type: Field
+  source:
+    id: StateOpenStatic
+    path: ''
+    startLine: 5050
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton.StateMachine
+  syntax:
+    content: StateOpenStatic = 1
+    return:
+      type: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.StateFlat
+  commentId: F:softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.StateFlat
+  id: StateFlat
+  parent: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum
+  langs:
+  - csharp
+  - vb
+  name: StateFlat
+  nameWithType: SO_CartonState.StateEnum.StateFlat
+  fullName: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.StateFlat
+  type: Field
+  source:
+    id: StateFlat
+    path: ''
+    startLine: 5051
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton.StateMachine
+  syntax:
+    content: StateFlat = 2
+    return:
+      type: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.StateCloseDynamic
+  commentId: F:softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.StateCloseDynamic
+  id: StateCloseDynamic
+  parent: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum
+  langs:
+  - csharp
+  - vb
+  name: StateCloseDynamic
+  nameWithType: SO_CartonState.StateEnum.StateCloseDynamic
+  fullName: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.StateCloseDynamic
+  type: Field
+  source:
+    id: StateCloseDynamic
+    path: ''
+    startLine: 5052
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton.StateMachine
+  syntax:
+    content: StateCloseDynamic = 3
+    return:
+      type: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.StateOpenDynamic
+  commentId: F:softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.StateOpenDynamic
+  id: StateOpenDynamic
+  parent: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum
+  langs:
+  - csharp
+  - vb
+  name: StateOpenDynamic
+  nameWithType: SO_CartonState.StateEnum.StateOpenDynamic
+  fullName: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.StateOpenDynamic
+  type: Field
+  source:
+    id: StateOpenDynamic
+    path: ''
+    startLine: 5053
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Carton.StateMachine
+  syntax:
+    content: StateOpenDynamic = 4
+    return:
+      type: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: softtissue.Core.Carton.StateMachine
+  commentId: N:softtissue.Core.Carton.StateMachine
+  name: softtissue.Core.Carton.StateMachine
+  nameWithType: softtissue.Core.Carton.StateMachine
+  fullName: softtissue.Core.Carton.StateMachine
+- uid: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum
+  commentId: T:softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum
+  parent: softtissue.Core.Carton.StateMachine
+  name: SO_CartonState.StateEnum
+  nameWithType: SO_CartonState.StateEnum
+  fullName: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum

@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Interfaces.IMovable`1
+  commentId: T:softtissue.Core.Interfaces.IMovable`1
+  id: IMovable`1
+  parent: softtissue.Core.Interfaces
+  children:
+  - softtissue.Core.Interfaces.IMovable`1.Move(`0)
+  langs:
+  - csharp
+  - vb
+  name: IMovable<T>
+  nameWithType: IMovable<T>
+  fullName: softtissue.Core.Interfaces.IMovable<T>
+  type: Interface
+  source:
+    id: IMovable
+    path: ''
+    startLine: 4332
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Interfaces
+  syntax:
+    content: public interface IMovable<T>
+    typeParameters:
+    - id: T
+    content.vb: Public Interface IMovable(Of T)
+  nameWithType.vb: IMovable(Of T)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: softtissue.Core.Interfaces.IMovable(Of T)
+  name.vb: IMovable(Of T)
+- uid: softtissue.Core.Interfaces.IMovable`1.Move(`0)
+  commentId: M:softtissue.Core.Interfaces.IMovable`1.Move(`0)
+  id: Move(`0)
+  parent: softtissue.Core.Interfaces.IMovable`1
+  langs:
+  - csharp
+  - vb
+  name: Move(T)
+  nameWithType: IMovable<T>.Move(T)
+  fullName: softtissue.Core.Interfaces.IMovable<T>.Move(T)
+  type: Method
+  source:
+    id: Move
+    path: ''
+    startLine: 4334
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Interfaces
+  syntax:
+    content: void Move(T isTrigger)
+    parameters:
+    - id: isTrigger
+      type: '{T}'
+    content.vb: Sub Move(isTrigger As T)
+  overload: softtissue.Core.Interfaces.IMovable`1.Move*
+  nameWithType.vb: IMovable(Of T).Move(T)
+  fullName.vb: softtissue.Core.Interfaces.IMovable(Of T).Move(T)
+references:
+- uid: softtissue.Core.Interfaces
+  commentId: N:softtissue.Core.Interfaces
+  name: softtissue.Core.Interfaces
+  nameWithType: softtissue.Core.Interfaces
+  fullName: softtissue.Core.Interfaces
+- uid: softtissue.Core.Interfaces.IMovable`1.Move*
+  commentId: Overload:softtissue.Core.Interfaces.IMovable`1.Move
+  name: Move
+  nameWithType: IMovable<T>.Move
+  fullName: softtissue.Core.Interfaces.IMovable<T>.Move
+  nameWithType.vb: IMovable(Of T).Move
+  fullName.vb: softtissue.Core.Interfaces.IMovable(Of T).Move
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

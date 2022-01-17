@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Rhythm.Disk
+  commentId: T:softtissue.Core.Rhythm.Disk
+  id: Disk
+  parent: softtissue.Core.Rhythm
+  children:
+  - softtissue.Core.Rhythm.Disk.BeatResponse
+  langs:
+  - csharp
+  - vb
+  name: Disk
+  nameWithType: Disk
+  fullName: softtissue.Core.Rhythm.Disk
+  type: Class
+  source:
+    id: Disk
+    path: ''
+    startLine: 4369
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Rhythm
+  syntax:
+    content: 'public class Disk : MonoBehaviour, IBeatable'
+    content.vb: >-
+      Public Class Disk
+          Inherits MonoBehaviour
+          Implements IBeatable
+  inheritance:
+  - System.Object
+  implements:
+  - softtissue.Core.Rhythm.IBeatable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Core.Rhythm.Disk.BeatResponse
+  commentId: M:softtissue.Core.Rhythm.Disk.BeatResponse
+  id: BeatResponse
+  parent: softtissue.Core.Rhythm.Disk
+  langs:
+  - csharp
+  - vb
+  name: BeatResponse()
+  nameWithType: Disk.BeatResponse()
+  fullName: softtissue.Core.Rhythm.Disk.BeatResponse()
+  type: Method
+  source:
+    id: BeatResponse
+    path: ''
+    startLine: 4378
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Rhythm
+  syntax:
+    content: public void BeatResponse()
+    content.vb: Public Sub BeatResponse
+  overload: softtissue.Core.Rhythm.Disk.BeatResponse*
+  implements:
+  - softtissue.Core.Rhythm.IBeatable.BeatResponse
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Core.Rhythm
+  commentId: N:softtissue.Core.Rhythm
+  name: softtissue.Core.Rhythm
+  nameWithType: softtissue.Core.Rhythm
+  fullName: softtissue.Core.Rhythm
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: softtissue.Core.Rhythm.IBeatable
+  commentId: T:softtissue.Core.Rhythm.IBeatable
+  parent: softtissue.Core.Rhythm
+  name: IBeatable
+  nameWithType: IBeatable
+  fullName: softtissue.Core.Rhythm.IBeatable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: softtissue.Core.Rhythm.Disk.BeatResponse*
+  commentId: Overload:softtissue.Core.Rhythm.Disk.BeatResponse
+  name: BeatResponse
+  nameWithType: Disk.BeatResponse
+  fullName: softtissue.Core.Rhythm.Disk.BeatResponse
+- uid: softtissue.Core.Rhythm.IBeatable.BeatResponse
+  commentId: M:softtissue.Core.Rhythm.IBeatable.BeatResponse
+  parent: softtissue.Core.Rhythm.IBeatable
+  name: BeatResponse()
+  nameWithType: IBeatable.BeatResponse()
+  fullName: softtissue.Core.Rhythm.IBeatable.BeatResponse()
+  spec.csharp:
+  - uid: softtissue.Core.Rhythm.IBeatable.BeatResponse
+    name: BeatResponse
+    nameWithType: IBeatable.BeatResponse
+    fullName: softtissue.Core.Rhythm.IBeatable.BeatResponse
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: softtissue.Core.Rhythm.IBeatable.BeatResponse
+    name: BeatResponse
+    nameWithType: IBeatable.BeatResponse
+    fullName: softtissue.Core.Rhythm.IBeatable.BeatResponse
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,134 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Validators.NeedsComponentAttribute
+  commentId: T:softtissue.Core.Validators.NeedsComponentAttribute
+  id: NeedsComponentAttribute
+  parent: softtissue.Core.Validators
+  children:
+  - softtissue.Core.Validators.NeedsComponentAttribute.#ctor(System.Type)
+  - softtissue.Core.Validators.NeedsComponentAttribute.type
+  langs:
+  - csharp
+  - vb
+  name: NeedsComponentAttribute
+  nameWithType: NeedsComponentAttribute
+  fullName: softtissue.Core.Validators.NeedsComponentAttribute
+  type: Class
+  source:
+    id: NeedsComponentAttribute
+    path: ''
+    startLine: 4247
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Validators
+  summary: "\n檢測屬性型別\n"
+  example: []
+  syntax:
+    content: 'public class NeedsComponentAttribute : Attribute, _Attribute'
+    content.vb: >-
+      Public Class NeedsComponentAttribute
+          Inherits Attribute
+          Implements _Attribute
+  inheritance:
+  - System.Object
+  - System.Attribute
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Core.Validators.NeedsComponentAttribute.type
+  commentId: F:softtissue.Core.Validators.NeedsComponentAttribute.type
+  id: type
+  parent: softtissue.Core.Validators.NeedsComponentAttribute
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: NeedsComponentAttribute.type
+  fullName: softtissue.Core.Validators.NeedsComponentAttribute.type
+  type: Field
+  source:
+    id: type
+    path: ''
+    startLine: 4249
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Validators
+  syntax:
+    content: public Type type
+    return:
+      type: System.Type
+    content.vb: Public type As Type
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Core.Validators.NeedsComponentAttribute.#ctor(System.Type)
+  commentId: M:softtissue.Core.Validators.NeedsComponentAttribute.#ctor(System.Type)
+  id: '#ctor(System.Type)'
+  parent: softtissue.Core.Validators.NeedsComponentAttribute
+  langs:
+  - csharp
+  - vb
+  name: NeedsComponentAttribute(Type)
+  nameWithType: NeedsComponentAttribute.NeedsComponentAttribute(Type)
+  fullName: softtissue.Core.Validators.NeedsComponentAttribute.NeedsComponentAttribute(System.Type)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 4251
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Validators
+  syntax:
+    content: public NeedsComponentAttribute(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    content.vb: Public Sub New(type As Type)
+  overload: softtissue.Core.Validators.NeedsComponentAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Core.Validators
+  commentId: N:softtissue.Core.Validators
+  name: softtissue.Core.Validators
+  nameWithType: softtissue.Core.Validators
+  fullName: softtissue.Core.Validators
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Attribute
+  commentId: T:System.Attribute
+  parent: System
+  isExternal: true
+  name: Attribute
+  nameWithType: Attribute
+  fullName: System.Attribute
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: softtissue.Core.Validators.NeedsComponentAttribute.#ctor*
+  commentId: Overload:softtissue.Core.Validators.NeedsComponentAttribute.#ctor
+  name: NeedsComponentAttribute
+  nameWithType: NeedsComponentAttribute.NeedsComponentAttribute
+  fullName: softtissue.Core.Validators.NeedsComponentAttribute.NeedsComponentAttribute

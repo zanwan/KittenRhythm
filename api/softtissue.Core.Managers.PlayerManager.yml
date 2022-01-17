@@ -1,0 +1,308 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Core.Managers.PlayerManager
+  commentId: T:softtissue.Core.Managers.PlayerManager
+  id: PlayerManager
+  parent: softtissue.Core.Managers
+  children:
+  - softtissue.Core.Managers.PlayerManager.character0
+  - softtissue.Core.Managers.PlayerManager.character1
+  - softtissue.Core.Managers.PlayerManager.character2
+  - softtissue.Core.Managers.PlayerManager.character3
+  - softtissue.Core.Managers.PlayerManager.characters
+  - softtissue.Core.Managers.PlayerManager.GenerateCharacter(Vector3)
+  - softtissue.Core.Managers.PlayerManager.MoveCharacterUnit(ScriptableObject)
+  langs:
+  - csharp
+  - vb
+  name: PlayerManager
+  nameWithType: PlayerManager
+  fullName: softtissue.Core.Managers.PlayerManager
+  type: Class
+  source:
+    id: PlayerManager
+    path: ''
+    startLine: 3535
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Managers
+  summary: "\n遊戲角色生成與位置管理\n"
+  example: []
+  syntax:
+    content: 'public class PlayerManager : MonoBehaviour'
+    content.vb: >-
+      Public Class PlayerManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Core.Managers.PlayerManager.characters
+  commentId: F:softtissue.Core.Managers.PlayerManager.characters
+  id: characters
+  parent: softtissue.Core.Managers.PlayerManager
+  langs:
+  - csharp
+  - vb
+  name: characters
+  nameWithType: PlayerManager.characters
+  fullName: softtissue.Core.Managers.PlayerManager.characters
+  type: Field
+  source:
+    id: characters
+    path: ''
+    startLine: 3538
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Managers
+  syntax:
+    content: public GameObject[] characters
+    return:
+      type: Global.GameObject[]
+    content.vb: Public characters As GameObject()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Core.Managers.PlayerManager.character0
+  commentId: F:softtissue.Core.Managers.PlayerManager.character0
+  id: character0
+  parent: softtissue.Core.Managers.PlayerManager
+  langs:
+  - csharp
+  - vb
+  name: character0
+  nameWithType: PlayerManager.character0
+  fullName: softtissue.Core.Managers.PlayerManager.character0
+  type: Field
+  source:
+    id: character0
+    path: ''
+    startLine: 3539
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Managers
+  syntax:
+    content: public GameObject character0
+    return:
+      type: Global.GameObject
+    content.vb: Public character0 As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Core.Managers.PlayerManager.character1
+  commentId: F:softtissue.Core.Managers.PlayerManager.character1
+  id: character1
+  parent: softtissue.Core.Managers.PlayerManager
+  langs:
+  - csharp
+  - vb
+  name: character1
+  nameWithType: PlayerManager.character1
+  fullName: softtissue.Core.Managers.PlayerManager.character1
+  type: Field
+  source:
+    id: character1
+    path: ''
+    startLine: 3541
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Managers
+  syntax:
+    content: public GameObject character1
+    return:
+      type: Global.GameObject
+    content.vb: Public character1 As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Core.Managers.PlayerManager.character2
+  commentId: F:softtissue.Core.Managers.PlayerManager.character2
+  id: character2
+  parent: softtissue.Core.Managers.PlayerManager
+  langs:
+  - csharp
+  - vb
+  name: character2
+  nameWithType: PlayerManager.character2
+  fullName: softtissue.Core.Managers.PlayerManager.character2
+  type: Field
+  source:
+    id: character2
+    path: ''
+    startLine: 3543
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Managers
+  syntax:
+    content: public GameObject character2
+    return:
+      type: Global.GameObject
+    content.vb: Public character2 As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Core.Managers.PlayerManager.character3
+  commentId: F:softtissue.Core.Managers.PlayerManager.character3
+  id: character3
+  parent: softtissue.Core.Managers.PlayerManager
+  langs:
+  - csharp
+  - vb
+  name: character3
+  nameWithType: PlayerManager.character3
+  fullName: softtissue.Core.Managers.PlayerManager.character3
+  type: Field
+  source:
+    id: character3
+    path: ''
+    startLine: 3545
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Managers
+  syntax:
+    content: public GameObject character3
+    return:
+      type: Global.GameObject
+    content.vb: Public character3 As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Core.Managers.PlayerManager.GenerateCharacter(Vector3)
+  commentId: M:softtissue.Core.Managers.PlayerManager.GenerateCharacter(Vector3)
+  id: GenerateCharacter(Vector3)
+  parent: softtissue.Core.Managers.PlayerManager
+  langs:
+  - csharp
+  - vb
+  name: GenerateCharacter(Vector3)
+  nameWithType: PlayerManager.GenerateCharacter(Vector3)
+  fullName: softtissue.Core.Managers.PlayerManager.GenerateCharacter(Vector3)
+  type: Method
+  source:
+    id: GenerateCharacter
+    path: ''
+    startLine: 3549
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Managers
+  syntax:
+    content: public void GenerateCharacter(Vector3 position)
+    parameters:
+    - id: position
+      type: Global.Vector3
+    content.vb: Public Sub GenerateCharacter(position As Vector3)
+  overload: softtissue.Core.Managers.PlayerManager.GenerateCharacter*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Core.Managers.PlayerManager.MoveCharacterUnit(ScriptableObject)
+  commentId: M:softtissue.Core.Managers.PlayerManager.MoveCharacterUnit(ScriptableObject)
+  id: MoveCharacterUnit(ScriptableObject)
+  parent: softtissue.Core.Managers.PlayerManager
+  langs:
+  - csharp
+  - vb
+  name: MoveCharacterUnit(ScriptableObject)
+  nameWithType: PlayerManager.MoveCharacterUnit(ScriptableObject)
+  fullName: softtissue.Core.Managers.PlayerManager.MoveCharacterUnit(ScriptableObject)
+  type: Method
+  source:
+    id: MoveCharacterUnit
+    path: ''
+    startLine: 3554
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Core.Managers
+  syntax:
+    content: public void MoveCharacterUnit(ScriptableObject so)
+    parameters:
+    - id: so
+      type: Global.ScriptableObject
+    content.vb: Public Sub MoveCharacterUnit(so As ScriptableObject)
+  overload: softtissue.Core.Managers.PlayerManager.MoveCharacterUnit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Core.Managers
+  commentId: N:softtissue.Core.Managers
+  name: softtissue.Core.Managers
+  nameWithType: softtissue.Core.Managers
+  fullName: softtissue.Core.Managers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject[]
+  isExternal: true
+  name: GameObject[]
+  nameWithType: GameObject[]
+  fullName: GameObject[]
+  nameWithType.vb: GameObject()
+  fullName.vb: GameObject()
+  name.vb: GameObject()
+  spec.csharp:
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: softtissue.Core.Managers.PlayerManager.GenerateCharacter*
+  commentId: Overload:softtissue.Core.Managers.PlayerManager.GenerateCharacter
+  name: GenerateCharacter
+  nameWithType: PlayerManager.GenerateCharacter
+  fullName: softtissue.Core.Managers.PlayerManager.GenerateCharacter
+- uid: Global.Vector3
+  commentId: '!:Global.Vector3'
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: softtissue.Core.Managers.PlayerManager.MoveCharacterUnit*
+  commentId: Overload:softtissue.Core.Managers.PlayerManager.MoveCharacterUnit
+  name: MoveCharacterUnit
+  nameWithType: PlayerManager.MoveCharacterUnit
+  fullName: softtissue.Core.Managers.PlayerManager.MoveCharacterUnit
+- uid: Global.ScriptableObject
+  commentId: '!:Global.ScriptableObject'
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: ScriptableObject
