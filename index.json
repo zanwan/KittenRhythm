@@ -1,0 +1,457 @@
+{
+  "api/softtissue.Core.Camera.html": {
+    "href": "api/softtissue.Core.Camera.html",
+    "title": "Namespace softtissue.Core.Camera | Kitten Rhythm Specification",
+    "keywords": "Namespace softtissue.Core.Camera Classes LockCameraZ Cinemachine Extensions 鎖定 X 軸與 Y 軸"
+  },
+  "api/softtissue.Core.Camera.LockCameraZ.html": {
+    "href": "api/softtissue.Core.Camera.LockCameraZ.html",
+    "title": "Class LockCameraZ | Kitten Rhythm Specification",
+    "keywords": "Class LockCameraZ Cinemachine Extensions 鎖定 X 軸與 Y 軸 Inheritance Object LockCameraZ Namespace : softtissue.Core.Camera Assembly : cs.temp.dll.dll Syntax public class LockCameraZ : CinemachineExtension Fields m_XPosition Declaration public float m_XPosition Field Value Type Description Single m_YPosition Declaration public float m_YPosition Field Value Type Description Single Methods PostPipelineStageCallback(CinemachineVirtualCameraBase, CinemachineCore.Stage, ref CameraState, Single) Declaration protected override void PostPipelineStageCallback(CinemachineVirtualCameraBase vcam, CinemachineCore.Stage stage, ref CameraState state, float deltaTime) Parameters Type Name Description CinemachineVirtualCameraBase vcam CinemachineCore.Stage stage CameraState state Single deltaTime"
+  },
+  "api/softtissue.Core.Carton.CartonMovementController.html": {
+    "href": "api/softtissue.Core.Carton.CartonMovementController.html",
+    "title": "Class CartonMovementController | Kitten Rhythm Specification",
+    "keywords": "Class CartonMovementController Inheritance Object CartonMovementController Namespace : softtissue.Core.Carton Assembly : cs.temp.dll.dll Syntax public class CartonMovementController : MonoBehaviour, IBeatable Fields isFollowPath Declaration public bool isFollowPath Field Value Type Description Boolean pathObject Declaration public GameObject pathObject Field Value Type Description GameObject Methods BeatResponse() Declaration public void BeatResponse() toggleOffFollowPath() Declaration public void toggleOffFollowPath()"
+  },
+  "api/softtissue.Core.Carton.CartonStateController.CartonState.html": {
+    "href": "api/softtissue.Core.Carton.CartonStateController.CartonState.html",
+    "title": "Enum CartonStateController.CartonState | Kitten Rhythm Specification",
+    "keywords": "Enum CartonStateController.CartonState Namespace : softtissue.Core.Carton Assembly : cs.temp.dll.dll Syntax public enum CartonState Fields Name Description closeAnim closeStatic openAnim openStatic"
+  },
+  "api/softtissue.Core.Carton.CartonStateController.html": {
+    "href": "api/softtissue.Core.Carton.CartonStateController.html",
+    "title": "Class CartonStateController | Kitten Rhythm Specification",
+    "keywords": "Class CartonStateController 紙箱動畫狀態控制 Inheritance Object CartonStateController Namespace : softtissue.Core.Carton Assembly : cs.temp.dll.dll Syntax public class CartonStateController : MonoBehaviour, IBeatable Fields cartonMesh Declaration public GameObject cartonMesh Field Value Type Description GameObject cartonState Declaration public CartonStateController.CartonState cartonState Field Value Type Description CartonStateController.CartonState Methods BeatResponse() Declaration public void BeatResponse()"
+  },
+  "api/softtissue.Core.Carton.CartonTriggerController.html": {
+    "href": "api/softtissue.Core.Carton.CartonTriggerController.html",
+    "title": "Class CartonTriggerController | Kitten Rhythm Specification",
+    "keywords": "Class CartonTriggerController 紙箱觸發狀態偵測 Inheritance Object CartonTriggerController Namespace : softtissue.Core.Carton Assembly : cs.temp.dll.dll Syntax public class CartonTriggerController : MonoBehaviour Fields cartonFlatMesh Declaration public GameObject cartonFlatMesh Field Value Type Description GameObject cartonMesh Declaration public GameObject cartonMesh Field Value Type Description GameObject smokeParticle Declaration public GameObject smokeParticle Field Value Type Description GameObject"
+  },
+  "api/softtissue.Core.Carton.FollowPathTrigger.html": {
+    "href": "api/softtissue.Core.Carton.FollowPathTrigger.html",
+    "title": "Class FollowPathTrigger | Kitten Rhythm Specification",
+    "keywords": "Class FollowPathTrigger Inheritance Object FollowPathTrigger Namespace : softtissue.Core.Carton Assembly : cs.temp.dll.dll Syntax public class FollowPathTrigger : MonoBehaviour Fields pathWay Declaration public DOTweenPath pathWay Field Value Type Description DOTweenPath"
+  },
+  "api/softtissue.Core.Carton.html": {
+    "href": "api/softtissue.Core.Carton.html",
+    "title": "Namespace softtissue.Core.Carton | Kitten Rhythm Specification",
+    "keywords": "Namespace softtissue.Core.Carton Classes CartonMovementController CartonStateController 紙箱動畫狀態控制 CartonTriggerController 紙箱觸發狀態偵測 FollowPathTrigger Enums CartonStateController.CartonState"
+  },
+  "api/softtissue.Core.Carton.InnerItem.html": {
+    "href": "api/softtissue.Core.Carton.InnerItem.html",
+    "title": "Namespace softtissue.Core.Carton.InnerItem | Kitten Rhythm Specification",
+    "keywords": "Namespace softtissue.Core.Carton.InnerItem Classes InnerItemController SO_InnerItemData Enums SO_InnerItemData.ItemEnum"
+  },
+  "api/softtissue.Core.Carton.InnerItem.InnerItemController.html": {
+    "href": "api/softtissue.Core.Carton.InnerItem.InnerItemController.html",
+    "title": "Class InnerItemController | Kitten Rhythm Specification",
+    "keywords": "Class InnerItemController Inheritance Object InnerItemController Namespace : softtissue.Core.Carton.InnerItem Assembly : cs.temp.dll.dll Syntax public class InnerItemController : MonoBehaviour Fields animator Declaration public Animator animator Field Value Type Description Animator itemCounts Declaration public int itemCounts Field Value Type Description Int32 itemEnum Declaration public SO_InnerItemData.ItemEnum itemEnum Field Value Type Description SO_InnerItemData.ItemEnum Methods InnerItemCollectEventHandler() 接收 CartonTriggerStateManager 觸發蒐集物件 Declaration public void InnerItemCollectEventHandler()"
+  },
+  "api/softtissue.Core.Carton.InnerItem.SO_InnerItemData.html": {
+    "href": "api/softtissue.Core.Carton.InnerItem.SO_InnerItemData.html",
+    "title": "Class SO_InnerItemData | Kitten Rhythm Specification",
+    "keywords": "Class SO_InnerItemData Inheritance Object SO_InnerItemData Namespace : softtissue.Core.Carton.InnerItem Assembly : cs.temp.dll.dll Syntax public class SO_InnerItemData : ScriptableObject Fields lightingCollectionEvent Declaration public ItemCollectEvent lightingCollectionEvent Field Value Type Description ItemCollectEvent"
+  },
+  "api/softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum.html": {
+    "href": "api/softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum.html",
+    "title": "Enum SO_InnerItemData.ItemEnum | Kitten Rhythm Specification",
+    "keywords": "Enum SO_InnerItemData.ItemEnum Namespace : softtissue.Core.Carton.InnerItem Assembly : cs.temp.dll.dll Syntax public enum ItemEnum Fields Name Description Empty Lighting Vinyl"
+  },
+  "api/softtissue.Core.Carton.PathRoute.html": {
+    "href": "api/softtissue.Core.Carton.PathRoute.html",
+    "title": "Namespace softtissue.Core.Carton.PathRoute | Kitten Rhythm Specification",
+    "keywords": "Namespace softtissue.Core.Carton.PathRoute Classes PathRouteController"
+  },
+  "api/softtissue.Core.Carton.PathRoute.PathRouteController.html": {
+    "href": "api/softtissue.Core.Carton.PathRoute.PathRouteController.html",
+    "title": "Class PathRouteController | Kitten Rhythm Specification",
+    "keywords": "Class PathRouteController Inheritance Object PathRouteController Namespace : softtissue.Core.Carton.PathRoute Assembly : cs.temp.dll.dll Syntax public class PathRouteController : MonoBehaviour Fields cartonToCloseStatic Declaration public UnityEvent cartonToCloseStatic Field Value Type Description UnityEvent isLinked Declaration public bool isLinked Field Value Type Description Boolean liked Declaration public UnityEvent liked Field Value Type Description UnityEvent unLinked Declaration public UnityEvent unLinked Field Value Type Description UnityEvent Methods ClosePathRoute() Declaration public void ClosePathRoute() OpenPathRoute() Declaration public void OpenPathRoute()"
+  },
+  "api/softtissue.Core.Carton.StateMachine.AbstractCartonState.html": {
+    "href": "api/softtissue.Core.Carton.StateMachine.AbstractCartonState.html",
+    "title": "Class AbstractCartonState | Kitten Rhythm Specification",
+    "keywords": "Class AbstractCartonState 紙箱狀態機 Inheritance Object AbstractCartonState StateCloseDynamic StateCloseStatic StateFlat StateOpenDynamic StateOpenStatic Namespace : softtissue.Core.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public abstract class AbstractCartonState Methods EnterState(CartonStateManager, Animator) Declaration public abstract void EnterState(CartonStateManager stateManager, Animator animatorController) Parameters Type Name Description CartonStateManager stateManager Animator animatorController ExitState(CartonStateManager) Declaration public abstract void ExitState(CartonStateManager stateManager) Parameters Type Name Description CartonStateManager stateManager"
+  },
+  "api/softtissue.Core.Carton.StateMachine.CartonStateManager.html": {
+    "href": "api/softtissue.Core.Carton.StateMachine.CartonStateManager.html",
+    "title": "Class CartonStateManager | Kitten Rhythm Specification",
+    "keywords": "Class CartonStateManager 紙箱狀態機統一介面 Inheritance Object CartonStateManager Namespace : softtissue.Core.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class CartonStateManager : MonoBehaviour, IBeatable Fields animatorController Declaration public Animator animatorController Field Value Type Description Animator carton Declaration public GameObject carton Field Value Type Description GameObject cartonCurrentState Declaration public string cartonCurrentState Field Value Type Description String closePathRouteLogic Declaration public UnityEvent closePathRouteLogic Field Value Type Description UnityEvent flat Declaration public GameObject flat Field Value Type Description GameObject flatDust Declaration public GameObject flatDust Field Value Type Description GameObject innerItemContainer Declaration public GameObject innerItemContainer Field Value Type Description GameObject isDynamic Declaration public bool isDynamic Field Value Type Description Boolean isLinked Declaration public bool isLinked Field Value Type Description Boolean isReverse Declaration public bool isReverse Field Value Type Description Boolean mmCameraShakeEvent Declaration public MM_CameraShakeEvent mmCameraShakeEvent Field Value Type Description MM_CameraShakeEvent openPathRouteLogic Declaration public UnityEvent openPathRouteLogic Field Value Type Description UnityEvent stateEnum Declaration public SO_CartonState.StateEnum stateEnum Field Value Type Description SO_CartonState.StateEnum updateCartonCurrentState Declaration public UnityEvent updateCartonCurrentState Field Value Type Description UnityEvent Methods BeatResponse() Declaration public void BeatResponse() CartonLikedHandler() Declaration public void CartonLikedHandler() CartonUnLinkedHandler() Declaration public void CartonUnLinkedHandler() CloseToFlatHandler() Declaration public void CloseToFlatHandler() DynamicCloseToStaticClose() Declaration public void DynamicCloseToStaticClose() OpenToStaticOpenHandler() Declaration public void OpenToStaticOpenHandler()"
+  },
+  "api/softtissue.Core.Carton.StateMachine.CartonTriggerStateManager.html": {
+    "href": "api/softtissue.Core.Carton.StateMachine.CartonTriggerStateManager.html",
+    "title": "Class CartonTriggerStateManager | Kitten Rhythm Specification",
+    "keywords": "Class CartonTriggerStateManager Inheritance Object CartonTriggerStateManager Namespace : softtissue.Core.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class CartonTriggerStateManager : MonoBehaviour Fields triggerCollect Declaration public UnityEvent triggerCollect Field Value Type Description UnityEvent triggerFlatten Declaration public UnityEvent triggerFlatten Field Value Type Description UnityEvent Methods GetCartonCurrentState() Declaration public void GetCartonCurrentState()"
+  },
+  "api/softtissue.Core.Carton.StateMachine.html": {
+    "href": "api/softtissue.Core.Carton.StateMachine.html",
+    "title": "Namespace softtissue.Core.Carton.StateMachine | Kitten Rhythm Specification",
+    "keywords": "Namespace softtissue.Core.Carton.StateMachine Classes AbstractCartonState 紙箱狀態機 CartonStateManager 紙箱狀態機統一介面 CartonTriggerStateManager SO_CartonState StateCloseDynamic StateCloseStatic StateFlat 紙箱壓扁狀態 StateOpenDynamic StateOpenStatic Enums SO_CartonState.StateEnum"
+  },
+  "api/softtissue.Core.Carton.StateMachine.SO_CartonState.html": {
+    "href": "api/softtissue.Core.Carton.StateMachine.SO_CartonState.html",
+    "title": "Class SO_CartonState | Kitten Rhythm Specification",
+    "keywords": "Class SO_CartonState Inheritance Object SO_CartonState Namespace : softtissue.Core.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class SO_CartonState : ScriptableObject"
+  },
+  "api/softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.html": {
+    "href": "api/softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.html",
+    "title": "Enum SO_CartonState.StateEnum | Kitten Rhythm Specification",
+    "keywords": "Enum SO_CartonState.StateEnum Namespace : softtissue.Core.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public enum StateEnum Fields Name Description StateCloseDynamic StateCloseStatic StateFlat StateOpenDynamic StateOpenStatic"
+  },
+  "api/softtissue.Core.Carton.StateMachine.StateCloseDynamic.html": {
+    "href": "api/softtissue.Core.Carton.StateMachine.StateCloseDynamic.html",
+    "title": "Class StateCloseDynamic | Kitten Rhythm Specification",
+    "keywords": "Class StateCloseDynamic Inheritance Object AbstractCartonState StateCloseDynamic Namespace : softtissue.Core.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class StateCloseDynamic : AbstractCartonState Methods EnterState(CartonStateManager, Animator) Declaration public override void EnterState(CartonStateManager stateManager, Animator animatorController) Parameters Type Name Description CartonStateManager stateManager Animator animatorController Overrides AbstractCartonState.EnterState(CartonStateManager, Animator) ExitState(CartonStateManager) Declaration public override void ExitState(CartonStateManager stateManager) Parameters Type Name Description CartonStateManager stateManager Overrides AbstractCartonState.ExitState(CartonStateManager)"
+  },
+  "api/softtissue.Core.Carton.StateMachine.StateCloseStatic.html": {
+    "href": "api/softtissue.Core.Carton.StateMachine.StateCloseStatic.html",
+    "title": "Class StateCloseStatic | Kitten Rhythm Specification",
+    "keywords": "Class StateCloseStatic Inheritance Object AbstractCartonState StateCloseStatic Namespace : softtissue.Core.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class StateCloseStatic : AbstractCartonState Methods EnterState(CartonStateManager, Animator) Declaration public override void EnterState(CartonStateManager stateManager, Animator animatorController) Parameters Type Name Description CartonStateManager stateManager Animator animatorController Overrides AbstractCartonState.EnterState(CartonStateManager, Animator) ExitState(CartonStateManager) Declaration public override void ExitState(CartonStateManager stateManager) Parameters Type Name Description CartonStateManager stateManager Overrides AbstractCartonState.ExitState(CartonStateManager)"
+  },
+  "api/softtissue.Core.Carton.StateMachine.StateFlat.html": {
+    "href": "api/softtissue.Core.Carton.StateMachine.StateFlat.html",
+    "title": "Class StateFlat | Kitten Rhythm Specification",
+    "keywords": "Class StateFlat 紙箱壓扁狀態 Inheritance Object AbstractCartonState StateFlat Namespace : softtissue.Core.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class StateFlat : AbstractCartonState Methods EnterState(CartonStateManager, Animator) Declaration public override void EnterState(CartonStateManager stateManager, Animator animatorController) Parameters Type Name Description CartonStateManager stateManager Animator animatorController Overrides AbstractCartonState.EnterState(CartonStateManager, Animator) ExitState(CartonStateManager) Declaration public override void ExitState(CartonStateManager stateManager) Parameters Type Name Description CartonStateManager stateManager Overrides AbstractCartonState.ExitState(CartonStateManager)"
+  },
+  "api/softtissue.Core.Carton.StateMachine.StateOpenDynamic.html": {
+    "href": "api/softtissue.Core.Carton.StateMachine.StateOpenDynamic.html",
+    "title": "Class StateOpenDynamic | Kitten Rhythm Specification",
+    "keywords": "Class StateOpenDynamic Inheritance Object AbstractCartonState StateOpenDynamic Namespace : softtissue.Core.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class StateOpenDynamic : AbstractCartonState Methods EnterState(CartonStateManager, Animator) Declaration public override void EnterState(CartonStateManager stateManager, Animator animatorController) Parameters Type Name Description CartonStateManager stateManager Animator animatorController Overrides AbstractCartonState.EnterState(CartonStateManager, Animator) ExitState(CartonStateManager) Declaration public override void ExitState(CartonStateManager stateManager) Parameters Type Name Description CartonStateManager stateManager Overrides AbstractCartonState.ExitState(CartonStateManager)"
+  },
+  "api/softtissue.Core.Carton.StateMachine.StateOpenStatic.html": {
+    "href": "api/softtissue.Core.Carton.StateMachine.StateOpenStatic.html",
+    "title": "Class StateOpenStatic | Kitten Rhythm Specification",
+    "keywords": "Class StateOpenStatic Inheritance Object AbstractCartonState StateOpenStatic Namespace : softtissue.Core.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class StateOpenStatic : AbstractCartonState Methods EnterState(CartonStateManager, Animator) Declaration public override void EnterState(CartonStateManager stateManager, Animator animatorController) Parameters Type Name Description CartonStateManager stateManager Animator animatorController Overrides AbstractCartonState.EnterState(CartonStateManager, Animator) ExitState(CartonStateManager) Declaration public override void ExitState(CartonStateManager stateManager) Parameters Type Name Description CartonStateManager stateManager Overrides AbstractCartonState.ExitState(CartonStateManager)"
+  },
+  "api/softtissue.Core.Character.AbstractMovement.html": {
+    "href": "api/softtissue.Core.Character.AbstractMovement.html",
+    "title": "Class AbstractMovement | Kitten Rhythm Specification",
+    "keywords": "Class AbstractMovement 抽象移動類別 Inheritance Object AbstractMovement Namespace : softtissue.Core.Character Assembly : cs.temp.dll.dll Syntax public abstract class AbstractMovement : MonoBehaviour Fields backwardTarget Declaration protected Transform backwardTarget Field Value Type Description Transform eastNorthTarget Declaration protected Transform eastNorthTarget Field Value Type Description Transform eastSouthTarget Declaration protected Transform eastSouthTarget Field Value Type Description Transform forwardTarget Declaration protected Transform forwardTarget Field Value Type Description Transform leftTarget Declaration protected Transform leftTarget Field Value Type Description Transform rightTarget Declaration protected Transform rightTarget Field Value Type Description Transform soRotation Declaration protected SO_Rotation soRotation Field Value Type Description SO_Rotation westNorthTarget Declaration protected Transform westNorthTarget Field Value Type Description Transform westSouthTarget Declaration protected Transform westSouthTarget Field Value Type Description Transform Methods InitializeJumpTargetDictionary() 將座標物件存入字典 Declaration protected abstract void InitializeJumpTargetDictionary()"
+  },
+  "api/softtissue.Core.Character.CharacterAnimator.html": {
+    "href": "api/softtissue.Core.Character.CharacterAnimator.html",
+    "title": "Class CharacterAnimator | Kitten Rhythm Specification",
+    "keywords": "Class CharacterAnimator Inheritance Object CharacterAnimator Namespace : softtissue.Core.Character Assembly : cs.temp.dll.dll Syntax public class CharacterAnimator : MonoBehaviour Methods AnimHandler(String) Declaration public void AnimHandler(string anim) Parameters Type Name Description String anim"
+  },
+  "api/softtissue.Core.Character.CharacterAssemble.html": {
+    "href": "api/softtissue.Core.Character.CharacterAssemble.html",
+    "title": "Class CharacterAssemble | Kitten Rhythm Specification",
+    "keywords": "Class CharacterAssemble Inheritance Object CharacterAssemble Namespace : softtissue.Core.Character Assembly : cs.temp.dll.dll Syntax public class CharacterAssemble : MonoBehaviour"
+  },
+  "api/softtissue.Core.Character.FollowPath.html": {
+    "href": "api/softtissue.Core.Character.FollowPath.html",
+    "title": "Class FollowPath | Kitten Rhythm Specification",
+    "keywords": "Class FollowPath Inheritance Object FollowPath Namespace : softtissue.Core.Character Assembly : cs.temp.dll.dll Syntax public class FollowPath : MonoBehaviour Fields rb Declaration public Rigidbody rb Field Value Type Description Rigidbody"
+  },
+  "api/softtissue.Core.Character.html": {
+    "href": "api/softtissue.Core.Character.html",
+    "title": "Namespace softtissue.Core.Character | Kitten Rhythm Specification",
+    "keywords": "Namespace softtissue.Core.Character Classes AbstractMovement 抽象移動類別 CharacterAnimator CharacterAssemble FollowPath JumpSelf JumpTargetData 跳躍目標 Y0 平面座標 OriginResetTrigger RotateSelf SnapToCartonBase SO_JumpPlayData"
+  },
+  "api/softtissue.Core.Character.JumpSelf.html": {
+    "href": "api/softtissue.Core.Character.JumpSelf.html",
+    "title": "Class JumpSelf | Kitten Rhythm Specification",
+    "keywords": "Class JumpSelf Inheritance Object JumpSelf Namespace : softtissue.Core.Character Assembly : cs.temp.dll.dll Syntax public class JumpSelf : MonoBehaviour, IMovable<bool>, IRotatable<string> Fields jumpTargetPanel Declaration public GameObject jumpTargetPanel Field Value Type Description GameObject rb Declaration public Rigidbody rb Field Value Type Description Rigidbody Methods Move(Boolean) Declaration public void Move(bool isJump) Parameters Type Name Description Boolean isJump RotateTarget(String) Declaration public void RotateTarget(string newRotation) Parameters Type Name Description String newRotation"
+  },
+  "api/softtissue.Core.Character.JumpTargetData.html": {
+    "href": "api/softtissue.Core.Character.JumpTargetData.html",
+    "title": "Class JumpTargetData | Kitten Rhythm Specification",
+    "keywords": "Class JumpTargetData 跳躍目標 Y0 平面座標 Inheritance Object JumpTargetData Namespace : softtissue.Core.Character Assembly : cs.temp.dll.dll Syntax public class JumpTargetData : MonoBehaviour Fields JumpTarget Declaration public Dictionary<string, Transform> JumpTarget Field Value Type Description Dictionary < String , Transform > soRotation Declaration protected SO_Rotation soRotation Field Value Type Description SO_Rotation"
+  },
+  "api/softtissue.Core.Character.OriginResetTrigger.html": {
+    "href": "api/softtissue.Core.Character.OriginResetTrigger.html",
+    "title": "Class OriginResetTrigger | Kitten Rhythm Specification",
+    "keywords": "Class OriginResetTrigger Inheritance Object OriginResetTrigger Namespace : softtissue.Core.Character Assembly : cs.temp.dll.dll Syntax public class OriginResetTrigger : MonoBehaviour Fields character Declaration public Transform character Field Value Type Description Transform resetThreshold Declaration public float resetThreshold Field Value Type Description Single Methods UpdateMagnitude() Declaration public void UpdateMagnitude()"
+  },
+  "api/softtissue.Core.Character.RotateSelf.html": {
+    "href": "api/softtissue.Core.Character.RotateSelf.html",
+    "title": "Class RotateSelf | Kitten Rhythm Specification",
+    "keywords": "Class RotateSelf Inheritance Object RotateSelf Namespace : softtissue.Core.Character Assembly : cs.temp.dll.dll Syntax public class RotateSelf : MonoBehaviour, IRotatable<string> Methods RotateTarget(String) Declaration public void RotateTarget(string direction) Parameters Type Name Description String direction"
+  },
+  "api/softtissue.Core.Character.SnapToCartonBase.html": {
+    "href": "api/softtissue.Core.Character.SnapToCartonBase.html",
+    "title": "Class SnapToCartonBase | Kitten Rhythm Specification",
+    "keywords": "Class SnapToCartonBase Inheritance Object SnapToCartonBase Namespace : softtissue.Core.Character Assembly : cs.temp.dll.dll Syntax public class SnapToCartonBase : MonoBehaviour"
+  },
+  "api/softtissue.Core.Character.SO_JumpPlayData.html": {
+    "href": "api/softtissue.Core.Character.SO_JumpPlayData.html",
+    "title": "Class SO_JumpPlayData | Kitten Rhythm Specification",
+    "keywords": "Class SO_JumpPlayData Inheritance Object SO_JumpPlayData Namespace : softtissue.Core.Character Assembly : cs.temp.dll.dll Syntax public static class SO_JumpPlayData Fields isBoost Declaration public static bool isBoost Field Value Type Description Boolean JumpBoost Declaration public static float JumpBoost Field Value Type Description Single"
+  },
+  "api/softtissue.Core.Deprecated.EventManager.html": {
+    "href": "api/softtissue.Core.Deprecated.EventManager.html",
+    "title": "Class EventManager | Kitten Rhythm Specification",
+    "keywords": "Class EventManager Inheritance Object EventManager Namespace : softtissue.Core.Deprecated Assembly : cs.temp.dll.dll Syntax [Obsolete(\"\\n已棄用\\nFMOD 直接讀取 Beat 資料已不使用\\n\")] public class EventManager : MonoBehaviour"
+  },
+  "api/softtissue.Core.Deprecated.FloatingOrigin.html": {
+    "href": "api/softtissue.Core.Deprecated.FloatingOrigin.html",
+    "title": "Class FloatingOrigin | Kitten Rhythm Specification",
+    "keywords": "Class FloatingOrigin !! 已棄用 !! 如果超出指定距離，重設所有物件至原點 Inheritance Object FloatingOrigin Namespace : softtissue.Core.Deprecated Assembly : cs.temp.dll.dll Syntax [Obsolete(\"並未使用\", true)] public class FloatingOrigin : MonoBehaviour Fields cm1 Declaration public Cinemachine.CinemachineVirtualCameraBase cm1 Field Value Type Description Cinemachine.CinemachineVirtualCameraBase mainCamera Declaration public UnityEngine.Camera mainCamera Field Value Type Description UnityEngine.Camera thresHold Declaration public float thresHold Field Value Type Description Single"
+  },
+  "api/softtissue.Core.Deprecated.GameEventSystem.html": {
+    "href": "api/softtissue.Core.Deprecated.GameEventSystem.html",
+    "title": "Class GameEventSystem | Kitten Rhythm Specification",
+    "keywords": "Class GameEventSystem 遊戲事件系統(已棄用) Inheritance Object GameEventSystem Namespace : softtissue.Core.Deprecated Assembly : cs.temp.dll.dll Syntax [Obsolete(\"GameEventSystem Singleton 已棄用，請改用 ScriptableObject Unity Events\")] public class GameEventSystem : MonoBehaviour Fields singleton Declaration public static GameEventSystem singleton Field Value Type Description GameEventSystem Methods JumpExtentHandler(Boolean) Declaration public void JumpExtentHandler(bool isJump) Parameters Type Name Description Boolean isJump JumpSelfHandler(Boolean) Declaration public void JumpSelfHandler(bool isJump) Parameters Type Name Description Boolean isJump RotateSelfHandler(String) Declaration public void RotateSelfHandler(string direction) Parameters Type Name Description String direction Events onJumpExtentTrigger Declaration public event Action<bool> onJumpExtentTrigger Event Type Type Description Action < Boolean > onJumpSelfTrigger Declaration public event Action<bool> onJumpSelfTrigger Event Type Type Description Action < Boolean > onRotateSelfTrigger Declaration public event Action<string> onRotateSelfTrigger Event Type Type Description Action < String >"
+  },
+  "api/softtissue.Core.Deprecated.html": {
+    "href": "api/softtissue.Core.Deprecated.html",
+    "title": "Namespace softtissue.Core.Deprecated | Kitten Rhythm Specification",
+    "keywords": "Namespace softtissue.Core.Deprecated Classes EventManager FloatingOrigin !! 已棄用 !! 如果超出指定距離，重設所有物件至原點 GameEventSystem 遊戲事件系統(已棄用) JumpSelf JumpTargetUpdate MasterMusicManager MasterMusicManager.TimelineInfo UnitPanel Delegates MasterMusicManager.BeatEventDelegate MasterMusicManager.MarkerEventDelegate"
+  },
+  "api/softtissue.Core.Deprecated.JumpSelf.html": {
+    "href": "api/softtissue.Core.Deprecated.JumpSelf.html",
+    "title": "Class JumpSelf | Kitten Rhythm Specification",
+    "keywords": "Class JumpSelf Inheritance Object JumpSelf Namespace : softtissue.Core.Deprecated Assembly : cs.temp.dll.dll Syntax [Obsolete(\"已棄用\")] public class JumpSelf : MonoBehaviour Methods GetRotationTarget(String) Declaration public void GetRotationTarget(string newRotation) Parameters Type Name Description String newRotation Jump(Boolean) Declaration public void Jump(bool isJump) Parameters Type Name Description Boolean isJump"
+  },
+  "api/softtissue.Core.Deprecated.JumpTargetUpdate.html": {
+    "href": "api/softtissue.Core.Deprecated.JumpTargetUpdate.html",
+    "title": "Class JumpTargetUpdate | Kitten Rhythm Specification",
+    "keywords": "Class JumpTargetUpdate Inheritance Object JumpTargetUpdate Namespace : softtissue.Core.Deprecated Assembly : cs.temp.dll.dll Syntax [Obsolete(\"已棄用\")] public class JumpTargetUpdate : MonoBehaviour Methods UpdatePosition(Boolean) Declaration public void UpdatePosition(bool isTrigger) Parameters Type Name Description Boolean isTrigger"
+  },
+  "api/softtissue.Core.Deprecated.MasterMusicManager.BeatEventDelegate.html": {
+    "href": "api/softtissue.Core.Deprecated.MasterMusicManager.BeatEventDelegate.html",
+    "title": "Delegate MasterMusicManager.BeatEventDelegate | Kitten Rhythm Specification",
+    "keywords": "Delegate MasterMusicManager.BeatEventDelegate Namespace : softtissue.Core.Deprecated Assembly : cs.temp.dll.dll Syntax public delegate void BeatEventDelegate();"
+  },
+  "api/softtissue.Core.Deprecated.MasterMusicManager.html": {
+    "href": "api/softtissue.Core.Deprecated.MasterMusicManager.html",
+    "title": "Class MasterMusicManager | Kitten Rhythm Specification",
+    "keywords": "Class MasterMusicManager Inheritance Object MasterMusicManager Namespace : softtissue.Core.Deprecated Assembly : cs.temp.dll.dll Syntax [Obsolete(\"\\n已棄用\\nFMOD 直接讀取 Beat 與 Marker 資料不堪用\\n\")] public class MasterMusicManager : MonoBehaviour Fields Emitter Declaration public StudioEventEmitter Emitter Field Value Type Description StudioEventEmitter instance Declaration public static MasterMusicManager instance Field Value Type Description MasterMusicManager lastBeat Declaration public static int lastBeat Field Value Type Description Int32 lastMarkerString Declaration public static string lastMarkerString Field Value Type Description String timelineInfo Declaration public MasterMusicManager.TimelineInfo timelineInfo Field Value Type Description MasterMusicManager.TimelineInfo Methods UpdateMusicSection() Declaration public void UpdateMusicSection() Events beatUpdate Declaration public static event MasterMusicManager.BeatEventDelegate beatUpdate Event Type Type Description MasterMusicManager.BeatEventDelegate markerUpdate Declaration public static event MasterMusicManager.MarkerEventDelegate markerUpdate Event Type Type Description MasterMusicManager.MarkerEventDelegate"
+  },
+  "api/softtissue.Core.Deprecated.MasterMusicManager.MarkerEventDelegate.html": {
+    "href": "api/softtissue.Core.Deprecated.MasterMusicManager.MarkerEventDelegate.html",
+    "title": "Delegate MasterMusicManager.MarkerEventDelegate | Kitten Rhythm Specification",
+    "keywords": "Delegate MasterMusicManager.MarkerEventDelegate Namespace : softtissue.Core.Deprecated Assembly : cs.temp.dll.dll Syntax public delegate void MarkerEventDelegate();"
+  },
+  "api/softtissue.Core.Deprecated.MasterMusicManager.TimelineInfo.html": {
+    "href": "api/softtissue.Core.Deprecated.MasterMusicManager.TimelineInfo.html",
+    "title": "Class MasterMusicManager.TimelineInfo | Kitten Rhythm Specification",
+    "keywords": "Class MasterMusicManager.TimelineInfo Inheritance Object MasterMusicManager.TimelineInfo Namespace : softtissue.Core.Deprecated Assembly : cs.temp.dll.dll Syntax public class TimelineInfo Fields currentBeat Declaration public int currentBeat Field Value Type Description Int32 lastMarker Declaration public string lastMarker Field Value Type Description String"
+  },
+  "api/softtissue.Core.Deprecated.UnitPanel.html": {
+    "href": "api/softtissue.Core.Deprecated.UnitPanel.html",
+    "title": "Class UnitPanel | Kitten Rhythm Specification",
+    "keywords": "Class UnitPanel Inheritance Object UnitPanel Namespace : softtissue.Core.Deprecated Assembly : cs.temp.dll.dll Syntax [Obsolete(\"此腳本未使用\")] public class UnitPanel : MonoBehaviour Fields slot0 Declaration public GameObject slot0 Field Value Type Description GameObject"
+  },
+  "api/softtissue.Core.FormationStateMachine.AbstractState.html": {
+    "href": "api/softtissue.Core.FormationStateMachine.AbstractState.html",
+    "title": "Class AbstractState | Kitten Rhythm Specification",
+    "keywords": "Class AbstractState State 的抽象 教學 Inheritance Object AbstractState State0 State1 State2 State3 Namespace : softtissue.Core.FormationStateMachine Assembly : cs.temp.dll.dll Syntax public abstract class AbstractState Methods EnterState(GameObject[], StateManager, Vector3Event) Declaration public abstract void EnterState(GameObject[] gameObjects, StateManager stateControl, Vector3Event spawnCharacter) Parameters Type Name Description GameObject [] gameObjects StateManager stateControl Vector3Event spawnCharacter ExitState(GameObject[], StateManager) Declaration public abstract void ExitState(GameObject[] gameObjects, StateManager stateControl) Parameters Type Name Description GameObject [] gameObjects StateManager stateControl"
+  },
+  "api/softtissue.Core.FormationStateMachine.DebugStateController.html": {
+    "href": "api/softtissue.Core.FormationStateMachine.DebugStateController.html",
+    "title": "Class DebugStateController | Kitten Rhythm Specification",
+    "keywords": "Class DebugStateController Inheritance Object DebugStateController Namespace : softtissue.Core.FormationStateMachine Assembly : cs.temp.dll.dll Syntax public class DebugStateController : MonoBehaviour"
+  },
+  "api/softtissue.Core.FormationStateMachine.html": {
+    "href": "api/softtissue.Core.FormationStateMachine.html",
+    "title": "Namespace softtissue.Core.FormationStateMachine | Kitten Rhythm Specification",
+    "keywords": "Namespace softtissue.Core.FormationStateMachine Classes AbstractState State 的抽象 教學 DebugStateController State0 Concrete State 從 State 抽象層實例的狀態 教學 State1 Concrete State 從 State 抽象層實例的狀態 教學 State2 Concrete State 從 State 抽象層實例的狀態 教學 State3 Concrete State 從 State 抽象層實例的狀態 教學 StateManager A Context of Formation State Machine 管理 State 的前後關係 教學"
+  },
+  "api/softtissue.Core.FormationStateMachine.State0.html": {
+    "href": "api/softtissue.Core.FormationStateMachine.State0.html",
+    "title": "Class State0 | Kitten Rhythm Specification",
+    "keywords": "Class State0 Concrete State 從 State 抽象層實例的狀態 教學 Inheritance Object AbstractState State0 Namespace : softtissue.Core.FormationStateMachine Assembly : cs.temp.dll.dll Syntax public class State0 : AbstractState Methods EnterState(GameObject[], StateManager, Vector3Event) Declaration public override void EnterState(GameObject[] gameObject, StateManager stateControl, Vector3Event spawnEvent) Parameters Type Name Description GameObject [] gameObject StateManager stateControl Vector3Event spawnEvent Overrides AbstractState.EnterState(GameObject[], StateManager, Vector3Event) ExitState(GameObject[], StateManager) Declaration public override void ExitState(GameObject[] gameObjects, StateManager stateControl) Parameters Type Name Description GameObject [] gameObjects StateManager stateControl Overrides AbstractState.ExitState(GameObject[], StateManager)"
+  },
+  "api/softtissue.Core.FormationStateMachine.State1.html": {
+    "href": "api/softtissue.Core.FormationStateMachine.State1.html",
+    "title": "Class State1 | Kitten Rhythm Specification",
+    "keywords": "Class State1 Concrete State 從 State 抽象層實例的狀態 教學 Inheritance Object AbstractState State1 Namespace : softtissue.Core.FormationStateMachine Assembly : cs.temp.dll.dll Syntax public class State1 : AbstractState Methods EnterState(GameObject[], StateManager, Vector3Event) Declaration public override void EnterState(GameObject[] gameObject, StateManager state, Vector3Event spawnEvent) Parameters Type Name Description GameObject [] gameObject StateManager state Vector3Event spawnEvent Overrides AbstractState.EnterState(GameObject[], StateManager, Vector3Event) ExitState(GameObject[], StateManager) Declaration public override void ExitState(GameObject[] gameObjects, StateManager stateControl) Parameters Type Name Description GameObject [] gameObjects StateManager stateControl Overrides AbstractState.ExitState(GameObject[], StateManager)"
+  },
+  "api/softtissue.Core.FormationStateMachine.State2.html": {
+    "href": "api/softtissue.Core.FormationStateMachine.State2.html",
+    "title": "Class State2 | Kitten Rhythm Specification",
+    "keywords": "Class State2 Concrete State 從 State 抽象層實例的狀態 教學 Inheritance Object AbstractState State2 Namespace : softtissue.Core.FormationStateMachine Assembly : cs.temp.dll.dll Syntax public class State2 : AbstractState Methods EnterState(GameObject[], StateManager, Vector3Event) Declaration public override void EnterState(GameObject[] gameObject, StateManager state, Vector3Event spawnEvent) Parameters Type Name Description GameObject [] gameObject StateManager state Vector3Event spawnEvent Overrides AbstractState.EnterState(GameObject[], StateManager, Vector3Event) ExitState(GameObject[], StateManager) Declaration public override void ExitState(GameObject[] gameObjects, StateManager stateControl) Parameters Type Name Description GameObject [] gameObjects StateManager stateControl Overrides AbstractState.ExitState(GameObject[], StateManager)"
+  },
+  "api/softtissue.Core.FormationStateMachine.State3.html": {
+    "href": "api/softtissue.Core.FormationStateMachine.State3.html",
+    "title": "Class State3 | Kitten Rhythm Specification",
+    "keywords": "Class State3 Concrete State 從 State 抽象層實例的狀態 教學 Inheritance Object AbstractState State3 Namespace : softtissue.Core.FormationStateMachine Assembly : cs.temp.dll.dll Syntax public class State3 : AbstractState Methods EnterState(GameObject[], StateManager, Vector3Event) Declaration public override void EnterState(GameObject[] gameObjects, StateManager state, Vector3Event spawnEvent) Parameters Type Name Description GameObject [] gameObjects StateManager state Vector3Event spawnEvent Overrides AbstractState.EnterState(GameObject[], StateManager, Vector3Event) ExitState(GameObject[], StateManager) Declaration public override void ExitState(GameObject[] gameObjects, StateManager stateControl) Parameters Type Name Description GameObject [] gameObjects StateManager stateControl Overrides AbstractState.ExitState(GameObject[], StateManager)"
+  },
+  "api/softtissue.Core.FormationStateMachine.StateManager.html": {
+    "href": "api/softtissue.Core.FormationStateMachine.StateManager.html",
+    "title": "Class StateManager | Kitten Rhythm Specification",
+    "keywords": "Class StateManager A Context of Formation State Machine 管理 State 的前後關係 教學 Inheritance Object StateManager Namespace : softtissue.Core.FormationStateMachine Assembly : cs.temp.dll.dll Syntax public class StateManager : MonoBehaviour Methods SwitchState(Int32) Declaration public void SwitchState(int statePhase) Parameters Type Name Description Int32 statePhase"
+  },
+  "api/softtissue.Core.Interfaces.html": {
+    "href": "api/softtissue.Core.Interfaces.html",
+    "title": "Namespace softtissue.Core.Interfaces | Kitten Rhythm Specification",
+    "keywords": "Namespace softtissue.Core.Interfaces Interfaces IMovable<T> INonJumpable 不可跳躍區域 IRotatable<T> IStandable"
+  },
+  "api/softtissue.Core.Interfaces.IMovable-1.html": {
+    "href": "api/softtissue.Core.Interfaces.IMovable-1.html",
+    "title": "Interface IMovable<T> | Kitten Rhythm Specification",
+    "keywords": "Interface IMovable<T> Namespace : softtissue.Core.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IMovable<T> Type Parameters Name Description T Methods Move(T) Declaration void Move(T isTrigger) Parameters Type Name Description T isTrigger"
+  },
+  "api/softtissue.Core.Interfaces.INonJumpable.html": {
+    "href": "api/softtissue.Core.Interfaces.INonJumpable.html",
+    "title": "Interface INonJumpable | Kitten Rhythm Specification",
+    "keywords": "Interface INonJumpable 不可跳躍區域 Namespace : softtissue.Core.Interfaces Assembly : cs.temp.dll.dll Syntax public interface INonJumpable Methods BackToPrevLocation() Declaration void BackToPrevLocation()"
+  },
+  "api/softtissue.Core.Interfaces.IRotatable-1.html": {
+    "href": "api/softtissue.Core.Interfaces.IRotatable-1.html",
+    "title": "Interface IRotatable<T> | Kitten Rhythm Specification",
+    "keywords": "Interface IRotatable<T> Namespace : softtissue.Core.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IRotatable<T> Type Parameters Name Description T Methods RotateTarget(T) Declaration void RotateTarget(T target) Parameters Type Name Description T target"
+  },
+  "api/softtissue.Core.Interfaces.IStandable.html": {
+    "href": "api/softtissue.Core.Interfaces.IStandable.html",
+    "title": "Interface IStandable | Kitten Rhythm Specification",
+    "keywords": "Interface IStandable Namespace : softtissue.Core.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IStandable Methods OverwritePosition() Declaration void OverwritePosition()"
+  },
+  "api/softtissue.Core.Items.AbstractItem.html": {
+    "href": "api/softtissue.Core.Items.AbstractItem.html",
+    "title": "Class AbstractItem | Kitten Rhythm Specification",
+    "keywords": "Class AbstractItem Inheritance Object AbstractItem Namespace : softtissue.Core.Items Assembly : cs.temp.dll.dll Syntax public abstract class AbstractItem : MonoBehaviour"
+  },
+  "api/softtissue.Core.Items.html": {
+    "href": "api/softtissue.Core.Items.html",
+    "title": "Namespace softtissue.Core.Items | Kitten Rhythm Specification",
+    "keywords": "Namespace softtissue.Core.Items Classes AbstractItem PathItem"
+  },
+  "api/softtissue.Core.Items.PathItem.html": {
+    "href": "api/softtissue.Core.Items.PathItem.html",
+    "title": "Class PathItem | Kitten Rhythm Specification",
+    "keywords": "Class PathItem Inheritance Object PathItem Namespace : softtissue.Core.Items Assembly : cs.temp.dll.dll Syntax public class PathItem : MonoBehaviour Fields wayPoints Declaration public GameObject[] wayPoints Field Value Type Description GameObject []"
+  },
+  "api/softtissue.Core.Koreo.DrumBeatKoreo.html": {
+    "href": "api/softtissue.Core.Koreo.DrumBeatKoreo.html",
+    "title": "Class DrumBeatKoreo | Kitten Rhythm Specification",
+    "keywords": "Class DrumBeatKoreo Inheritance Object DrumBeatKoreo Namespace : softtissue.Core.Koreo Assembly : cs.temp.dll.dll Syntax public class DrumBeatKoreo : MonoBehaviour Fields eventID Declaration public string eventID Field Value Type Description String"
+  },
+  "api/softtissue.Core.Koreo.html": {
+    "href": "api/softtissue.Core.Koreo.html",
+    "title": "Namespace softtissue.Core.Koreo | Kitten Rhythm Specification",
+    "keywords": "Namespace softtissue.Core.Koreo Classes DrumBeatKoreo KoreBeat Koreo Beat 事件轉 SO 事件"
+  },
+  "api/softtissue.Core.Koreo.KoreBeat.html": {
+    "href": "api/softtissue.Core.Koreo.KoreBeat.html",
+    "title": "Class KoreBeat | Kitten Rhythm Specification",
+    "keywords": "Class KoreBeat Koreo Beat 事件轉 SO 事件 Inheritance Object KoreBeat Namespace : softtissue.Core.Koreo Assembly : cs.temp.dll.dll Syntax public class KoreBeat : MonoBehaviour Fields eventID Declaration public string eventID Field Value Type Description String"
+  },
+  "api/softtissue.Core.Level.GroundDetector.html": {
+    "href": "api/softtissue.Core.Level.GroundDetector.html",
+    "title": "Class GroundDetector | Kitten Rhythm Specification",
+    "keywords": "Class GroundDetector Inheritance Object GroundDetector Namespace : softtissue.Core.Level Assembly : cs.temp.dll.dll Syntax public class GroundDetector : MonoBehaviour"
+  },
+  "api/softtissue.Core.Level.html": {
+    "href": "api/softtissue.Core.Level.html",
+    "title": "Namespace softtissue.Core.Level | Kitten Rhythm Specification",
+    "keywords": "Namespace softtissue.Core.Level Classes GroundDetector LevelController"
+  },
+  "api/softtissue.Core.Level.LevelController.html": {
+    "href": "api/softtissue.Core.Level.LevelController.html",
+    "title": "Class LevelController | Kitten Rhythm Specification",
+    "keywords": "Class LevelController Inheritance Object LevelController Namespace : softtissue.Core.Level Assembly : cs.temp.dll.dll Syntax public class LevelController : MonoBehaviour Methods ResetOriginHandler(Single) Declaration public void ResetOriginHandler(float offset) Parameters Type Name Description Single offset"
+  },
+  "api/softtissue.Core.Managers.FmodKoreoController.html": {
+    "href": "api/softtissue.Core.Managers.FmodKoreoController.html",
+    "title": "Class FmodKoreoController | Kitten Rhythm Specification",
+    "keywords": "Class FmodKoreoController 控制 FMOD Studio Event Emitter 以驅動 Koreographer 事件 Inheritance Object FmodKoreoController Namespace : softtissue.Core.Managers Assembly : cs.temp.dll.dll Syntax public class FmodKoreoController : MonoBehaviour Fields emitter Declaration public StudioEventEmitter emitter Field Value Type Description StudioEventEmitter Methods SwitchMusicSection() Declaration public void SwitchMusicSection()"
+  },
+  "api/softtissue.Core.Managers.GameManager.html": {
+    "href": "api/softtissue.Core.Managers.GameManager.html",
+    "title": "Class GameManager | Kitten Rhythm Specification",
+    "keywords": "Class GameManager 遊戲重要事件管理 Inheritance Object GameManager Namespace : softtissue.Core.Managers Assembly : cs.temp.dll.dll Syntax public class GameManager : MonoBehaviour Methods UpdateVinylCollection() Declaration public void UpdateVinylCollection()"
+  },
+  "api/softtissue.Core.Managers.html": {
+    "href": "api/softtissue.Core.Managers.html",
+    "title": "Namespace softtissue.Core.Managers | Kitten Rhythm Specification",
+    "keywords": "Namespace softtissue.Core.Managers Classes FmodKoreoController 控制 FMOD Studio Event Emitter 以驅動 Koreographer 事件 GameManager 遊戲重要事件管理 JumpManager PlayerManager 遊戲角色生成與位置管理 TouchManager 偵測使用者滑動的八個方位"
+  },
+  "api/softtissue.Core.Managers.JumpManager.html": {
+    "href": "api/softtissue.Core.Managers.JumpManager.html",
+    "title": "Class JumpManager | Kitten Rhythm Specification",
+    "keywords": "Class JumpManager Inheritance Object JumpManager Namespace : softtissue.Core.Managers Assembly : cs.temp.dll.dll Syntax public class JumpManager : MonoBehaviour Methods JumpEventHandler(Boolean) Declaration public void JumpEventHandler(bool isJump) Parameters Type Name Description Boolean isJump"
+  },
+  "api/softtissue.Core.Managers.PlayerManager.html": {
+    "href": "api/softtissue.Core.Managers.PlayerManager.html",
+    "title": "Class PlayerManager | Kitten Rhythm Specification",
+    "keywords": "Class PlayerManager 遊戲角色生成與位置管理 Inheritance Object PlayerManager Namespace : softtissue.Core.Managers Assembly : cs.temp.dll.dll Syntax public class PlayerManager : MonoBehaviour Fields character0 Declaration public GameObject character0 Field Value Type Description GameObject character1 Declaration public GameObject character1 Field Value Type Description GameObject character2 Declaration public GameObject character2 Field Value Type Description GameObject character3 Declaration public GameObject character3 Field Value Type Description GameObject characters Declaration public GameObject[] characters Field Value Type Description GameObject [] Methods GenerateCharacter(Vector3) Declaration public void GenerateCharacter(Vector3 position) Parameters Type Name Description Vector3 position MoveCharacterUnit(ScriptableObject) Declaration public void MoveCharacterUnit(ScriptableObject so) Parameters Type Name Description ScriptableObject so"
+  },
+  "api/softtissue.Core.Managers.TouchManager.html": {
+    "href": "api/softtissue.Core.Managers.TouchManager.html",
+    "title": "Class TouchManager | Kitten Rhythm Specification",
+    "keywords": "Class TouchManager 偵測使用者滑動的八個方位 Inheritance Object TouchManager Namespace : softtissue.Core.Managers Assembly : cs.temp.dll.dll Syntax public class TouchManager : MonoBehaviour Methods ToggleEnableInputProcess(Boolean) Declaration public void ToggleEnableInputProcess(bool isEnable) Parameters Type Name Description Boolean isEnable"
+  },
+  "api/softtissue.Core.Obstacle.html": {
+    "href": "api/softtissue.Core.Obstacle.html",
+    "title": "Namespace softtissue.Core.Obstacle | Kitten Rhythm Specification",
+    "keywords": "Namespace softtissue.Core.Obstacle Classes PillarController"
+  },
+  "api/softtissue.Core.Obstacle.PillarController.html": {
+    "href": "api/softtissue.Core.Obstacle.PillarController.html",
+    "title": "Class PillarController | Kitten Rhythm Specification",
+    "keywords": "Class PillarController Inheritance Object PillarController Namespace : softtissue.Core.Obstacle Assembly : cs.temp.dll.dll Syntax public class PillarController : MonoBehaviour"
+  },
+  "api/softtissue.Core.Props.html": {
+    "href": "api/softtissue.Core.Props.html",
+    "title": "Namespace softtissue.Core.Props | Kitten Rhythm Specification",
+    "keywords": "Namespace softtissue.Core.Props Classes InnerItemController LightingCollect 安裝在 InnerItem 中的 PropsController 可站立互動道具 RecordCollect"
+  },
+  "api/softtissue.Core.Props.InnerItemController.html": {
+    "href": "api/softtissue.Core.Props.InnerItemController.html",
+    "title": "Class InnerItemController | Kitten Rhythm Specification",
+    "keywords": "Class InnerItemController Inheritance Object InnerItemController Namespace : softtissue.Core.Props Assembly : cs.temp.dll.dll Syntax public class InnerItemController : MonoBehaviour Fields carton Declaration public GameObject carton Field Value Type Description GameObject collectionEvent Declaration public UnityEvent collectionEvent Field Value Type Description UnityEvent innerItem Declaration public GameObject innerItem Field Value Type Description GameObject innerItemAnimator Declaration public Animator innerItemAnimator Field Value Type Description Animator"
+  },
+  "api/softtissue.Core.Props.LightingCollect.html": {
+    "href": "api/softtissue.Core.Props.LightingCollect.html",
+    "title": "Class LightingCollect | Kitten Rhythm Specification",
+    "keywords": "Class LightingCollect 安裝在 InnerItem 中的 Inheritance Object LightingCollect Namespace : softtissue.Core.Props Assembly : cs.temp.dll.dll Syntax public class LightingCollect : MonoBehaviour Methods LightingCollectEvent() Declaration public void LightingCollectEvent()"
+  },
+  "api/softtissue.Core.Props.PropsController.html": {
+    "href": "api/softtissue.Core.Props.PropsController.html",
+    "title": "Class PropsController | Kitten Rhythm Specification",
+    "keywords": "Class PropsController 可站立互動道具 Inheritance Object PropsController Namespace : softtissue.Core.Props Assembly : cs.temp.dll.dll Syntax public class PropsController : MonoBehaviour Fields standPos Declaration public GameObject standPos Field Value Type Description GameObject"
+  },
+  "api/softtissue.Core.Props.RecordCollect.html": {
+    "href": "api/softtissue.Core.Props.RecordCollect.html",
+    "title": "Class RecordCollect | Kitten Rhythm Specification",
+    "keywords": "Class RecordCollect Inheritance Object RecordCollect Namespace : softtissue.Core.Props Assembly : cs.temp.dll.dll Syntax public class RecordCollect : MonoBehaviour Methods RecordCollectEvent() Declaration public void RecordCollectEvent()"
+  },
+  "api/softtissue.Core.Rhythm.Disk.html": {
+    "href": "api/softtissue.Core.Rhythm.Disk.html",
+    "title": "Class Disk | Kitten Rhythm Specification",
+    "keywords": "Class Disk Inheritance Object Disk Implements IBeatable Namespace : softtissue.Core.Rhythm Assembly : cs.temp.dll.dll Syntax public class Disk : MonoBehaviour, IBeatable Methods BeatResponse() Declaration public void BeatResponse() Implements IBeatable"
+  },
+  "api/softtissue.Core.Rhythm.html": {
+    "href": "api/softtissue.Core.Rhythm.html",
+    "title": "Namespace softtissue.Core.Rhythm | Kitten Rhythm Specification",
+    "keywords": "Namespace softtissue.Core.Rhythm Classes Disk Interfaces IBeatable"
+  },
+  "api/softtissue.Core.Rhythm.IBeatable.html": {
+    "href": "api/softtissue.Core.Rhythm.IBeatable.html",
+    "title": "Interface IBeatable | Kitten Rhythm Specification",
+    "keywords": "Interface IBeatable Namespace : softtissue.Core.Rhythm Assembly : cs.temp.dll.dll Syntax public interface IBeatable Methods BeatResponse() Declaration void BeatResponse()"
+  },
+  "api/softtissue.Core.Validators.CharacterAssembleValidator.html": {
+    "href": "api/softtissue.Core.Validators.CharacterAssembleValidator.html",
+    "title": "Class CharacterAssembleValidator | Kitten Rhythm Specification",
+    "keywords": "Class CharacterAssembleValidator Inheritance Object CharacterAssembleValidator Namespace : softtissue.Core.Validators Assembly : cs.temp.dll.dll Syntax public class CharacterAssembleValidator : ValueValidator<CharacterAssemble> Methods CanValidateProperty(InspectorProperty) Declaration public override bool CanValidateProperty(InspectorProperty property) Parameters Type Name Description InspectorProperty property Returns Type Description Boolean Validate(ValidationResult) Declaration protected override void Validate(ValidationResult result) Parameters Type Name Description ValidationResult result"
+  },
+  "api/softtissue.Core.Validators.html": {
+    "href": "api/softtissue.Core.Validators.html",
+    "title": "Namespace softtissue.Core.Validators | Kitten Rhythm Specification",
+    "keywords": "Namespace softtissue.Core.Validators Classes CharacterAssembleValidator NeedsComponentAttribute 檢測屬性型別 NeedsComponentValidator"
+  },
+  "api/softtissue.Core.Validators.NeedsComponentAttribute.html": {
+    "href": "api/softtissue.Core.Validators.NeedsComponentAttribute.html",
+    "title": "Class NeedsComponentAttribute | Kitten Rhythm Specification",
+    "keywords": "Class NeedsComponentAttribute 檢測屬性型別 Inheritance Object Attribute NeedsComponentAttribute Namespace : softtissue.Core.Validators Assembly : cs.temp.dll.dll Syntax public class NeedsComponentAttribute : Attribute, _Attribute Constructors NeedsComponentAttribute(Type) Declaration public NeedsComponentAttribute(Type type) Parameters Type Name Description Type type Fields type Declaration public Type type Field Value Type Description Type"
+  },
+  "api/softtissue.Core.Validators.NeedsComponentValidator.html": {
+    "href": "api/softtissue.Core.Validators.NeedsComponentValidator.html",
+    "title": "Class NeedsComponentValidator | Kitten Rhythm Specification",
+    "keywords": "Class NeedsComponentValidator Inheritance Object NeedsComponentValidator Namespace : softtissue.Core.Validators Assembly : cs.temp.dll.dll Syntax public class NeedsComponentValidator : AttributeValidator<NeedsComponentAttribute, GameObject> Methods Validate(ValidationResult) Declaration protected override void Validate(ValidationResult result) Parameters Type Name Description ValidationResult result"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Kitten Rhythm Specification | Kitten Rhythm Specification",
+    "keywords": "Kitten Rhythm Specification How to Play Tech Stack Platforms"
+  },
+  "manual/LockCameraZ.html": {
+    "href": "manual/LockCameraZ.html",
+    "title": "Lock Camera Z | Kitten Rhythm Specification",
+    "keywords": "Lock Camera Z Scripting API 使用 用於 Cinemachine Extensions 鎖定 X 軸與 Y 軸。 CinimachineVirtualCamera Extensions Add Extensions > LockCameraZ 結構 Camera/ ├─ Main Camera ├─ CM vcam 1 圖例"
+  }
+}

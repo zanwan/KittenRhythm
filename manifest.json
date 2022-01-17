@@ -1,0 +1,1222 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/KittenRhythm/KittenRhythm",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Camera.LockCameraZ.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Camera.LockCameraZ.html",
+          "hash": "QmYrM0ksmSWEem3bpqMBZSKkUXMdGb+nIPKNlcNQZK4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Camera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Camera.html",
+          "hash": "Gf+FEFsQCAy7Y5Os+17cwH23Blvg5gDhScmTfOjCLtQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.CartonMovementController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.CartonMovementController.html",
+          "hash": "phan4lQJyi0Sujn0yahNuyXagDnxjiPa7Z+ZuT20aL8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.CartonStateController.CartonState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.CartonStateController.CartonState.html",
+          "hash": "pPUTOF0O4LlqBPQQB8v73YJSwadCsPTPJx13UjxNlOk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.CartonStateController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.CartonStateController.html",
+          "hash": "B4x8DsQ1DgKdXvWjlr43wzcMzZsL5rYSc5r2KQr8UJ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.CartonTriggerController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.CartonTriggerController.html",
+          "hash": "1XHI1jx4lc2mxMFovtEOShD+1f+d6CWHqlFQFQq3BAY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.FollowPathTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.FollowPathTrigger.html",
+          "hash": "k0ConyF/zUA5hSGQP2OyYEEE+7x6q3CHs0Ii/reuvcE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.InnerItem.InnerItemController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.InnerItem.InnerItemController.html",
+          "hash": "GwJMvsOBDVlidDnytxUoasfsczTlprK3tPrrUWl2zx0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum.html",
+          "hash": "F+ypCmof/YNGz5uAbpmauxLlGdRJJpp83Vf0+Z87SgY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.InnerItem.SO_InnerItemData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.InnerItem.SO_InnerItemData.html",
+          "hash": "meupF/3W10XNnh89B0sXkXpMIImtmyV7CfUSeSpJvMA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.InnerItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.InnerItem.html",
+          "hash": "P27lJJkUPGPYxzuP9Ofb6lq52R3p30HpRCHHCB2ksmI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.PathRoute.PathRouteController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.PathRoute.PathRouteController.html",
+          "hash": "hUgxk63emwW0C027tHvxBY9VEWNherYHPUOKSqyRlaE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.PathRoute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.PathRoute.html",
+          "hash": "j9dr/nnt1hK8N7RYi/lQJO2RikbO3UCDA7KOaJ2Bvyo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.StateMachine.AbstractCartonState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.StateMachine.AbstractCartonState.html",
+          "hash": "4u+FH31sI6vCa4jPymprXH1ui4EsEjpa3sKnUhvnsBU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.StateMachine.CartonStateManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.StateMachine.CartonStateManager.html",
+          "hash": "WUJgyNO9Ek6FiWLVsYYdFYAsirxWQ2r+6BoswfUq6Rs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.StateMachine.CartonTriggerStateManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.StateMachine.CartonTriggerStateManager.html",
+          "hash": "0ULi8jYM7PtQDmOCC9fUvp9XebrLW62q+RlKDPrxkBM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum.html",
+          "hash": "b/r3ZlyR4csroIER6ANslyVFSrr3APVJ4TiyJhBMBbQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.StateMachine.SO_CartonState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.StateMachine.SO_CartonState.html",
+          "hash": "wsQod2X6sOXaaPQQxml62+Bzr9SHfFayy8h7Djz1DAc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.StateMachine.StateCloseDynamic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.StateMachine.StateCloseDynamic.html",
+          "hash": "DZGukp8CW/XkmkqKA1WWznue+LJYEIsZFKSxLl07D0g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.StateMachine.StateCloseStatic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.StateMachine.StateCloseStatic.html",
+          "hash": "2c032XVd9neBCPXhpIfeQ7tBaLSezi5C4Nsapkxkm88="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.StateMachine.StateFlat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.StateMachine.StateFlat.html",
+          "hash": "U7e9GIU+xj24aztRUh9r+8i744LjKZn9ploAoP0eRrc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.StateMachine.StateOpenDynamic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.StateMachine.StateOpenDynamic.html",
+          "hash": "+6p8xIUVKT6oGVq/gxBJc1bcXgSHQ6zglRjrKlHBCPY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.StateMachine.StateOpenStatic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.StateMachine.StateOpenStatic.html",
+          "hash": "eGqgNFwjvE3px5gbQ8bK1YejQiRHRIRWa18t+p5Oq8Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.StateMachine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.StateMachine.html",
+          "hash": "wzI2MgaTAz2kmPwS862AhETem2D/hW0zhQrKX95PO6s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Carton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Carton.html",
+          "hash": "5vUHqIkJRZNMFrn9f+63LU4FYbOBgIa5kuJTK3QS9rE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Character.AbstractMovement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Character.AbstractMovement.html",
+          "hash": "gV57ygiPiSgJ6iknmxo+Jestk9S9IrJ6uJUqTClZRvQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Character.CharacterAnimator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Character.CharacterAnimator.html",
+          "hash": "mANPS7OAEx1B29WKT8mLgtoF3+OSX5h8orGznS+uZMc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Character.CharacterAssemble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Character.CharacterAssemble.html",
+          "hash": "54blQ8fJSGOq9pAGYObxuCB0CYXdy/IERxmP1NZ/fe0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Character.FollowPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Character.FollowPath.html",
+          "hash": "+kdIBTayZjMW0O7tiWhbVP0y5JJt0tKsOw4ul0Iqmj4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Character.JumpSelf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Character.JumpSelf.html",
+          "hash": "7edV6FHmAmrPO3s6XDcdRf2xR95qh5u8+8LevkMC4Ao="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Character.JumpTargetData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Character.JumpTargetData.html",
+          "hash": "4jXqGox7mpXaScot1KlXM5qJ8gN6xNJjgYoGqudvxss="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Character.OriginResetTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Character.OriginResetTrigger.html",
+          "hash": "4Dj8nsUUbmfQZzqWgd5Efev5VBZCEikdU+ulsxOiC2M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Character.RotateSelf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Character.RotateSelf.html",
+          "hash": "5QeYeoSTj0p4Pt4QwFJY6pWlduQdD5sDCAW3aT9+Sig="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Character.SO_JumpPlayData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Character.SO_JumpPlayData.html",
+          "hash": "iWIkujmbNRiDUwCHSX1oSh8PBGNZ4jGauC9kFA92hUQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Character.SnapToCartonBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Character.SnapToCartonBase.html",
+          "hash": "p1Vsm5G/4YW6pzYadoG2InPtjgCgkVkN6vngrywnvbI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Character.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Character.html",
+          "hash": "oNL8UtU+CHiL+VFbaXCkaxSaT2VB6tipdzxB1ndhlHE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Deprecated.EventManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Deprecated.EventManager.html",
+          "hash": "Gs65wCPUeiGbX/PQyomhG0oIkKNWzcDVi6sgmT5m3Fg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Deprecated.FloatingOrigin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Deprecated.FloatingOrigin.html",
+          "hash": "qZyhHdgbBHiPUgn1Ktvkl61B1WfhwQkM/C+6U6SxMtk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Deprecated.GameEventSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Deprecated.GameEventSystem.html",
+          "hash": "79zNwnxaNmIhWVzWYsRYnj4xqQxX6XNKGR++JDDYDvQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Deprecated.JumpSelf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Deprecated.JumpSelf.html",
+          "hash": "un0uqdBXMsjWMqEzLx6/XZMqft+K1brNuxATkWZiV+M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Deprecated.JumpTargetUpdate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Deprecated.JumpTargetUpdate.html",
+          "hash": "9tn3iUgLRJ4+39bST6fmlDqo6sC0i5qHnDSTQNCKT94="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Deprecated.MasterMusicManager.BeatEventDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Deprecated.MasterMusicManager.BeatEventDelegate.html",
+          "hash": "Pwe5iYx59GAJTlQw2UHLIWr9Mr43WQKlhC8nk0P5i+s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Deprecated.MasterMusicManager.MarkerEventDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Deprecated.MasterMusicManager.MarkerEventDelegate.html",
+          "hash": "g1tqZKPX8UWODTOBRcPPFnQZfcjU5e4FAr3Ps8GLB34="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Deprecated.MasterMusicManager.TimelineInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Deprecated.MasterMusicManager.TimelineInfo.html",
+          "hash": "vZxWI11Ms5za6M7zgTM7UNQ9IE5BEaQcMAW+ytDNO0U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Deprecated.MasterMusicManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Deprecated.MasterMusicManager.html",
+          "hash": "ih1NyNcvyPZxhjyk20+bTY62kwYlW6u7cKBNy7yUiiA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Deprecated.UnitPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Deprecated.UnitPanel.html",
+          "hash": "Z1ffc0zPa5iF88UTqsSqrTxx7ENg+UjkPATdNTDVIDA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Deprecated.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Deprecated.html",
+          "hash": "CzkO3HlJft33AOubrcIcCOQ7Oy0QAyT0PuQcvq3nOao="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.FormationStateMachine.AbstractState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.FormationStateMachine.AbstractState.html",
+          "hash": "mYiIeCqAW8w5on7fI6qGmoW2R9tjZsuA7qiGO/SekZw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.FormationStateMachine.DebugStateController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.FormationStateMachine.DebugStateController.html",
+          "hash": "2BI4FGIM+DWXn7UIEQfvPI8CiRannXMXYiHaegD09xo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.FormationStateMachine.State0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.FormationStateMachine.State0.html",
+          "hash": "juUSIXcpRQDlbvw3yYv3qmq4v9nUvi6VBT1jtp9B6wQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.FormationStateMachine.State1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.FormationStateMachine.State1.html",
+          "hash": "nrTgAMvqdfzE8FgeiXUn2uvS64DMRST4uQVXD1gYCE0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.FormationStateMachine.State2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.FormationStateMachine.State2.html",
+          "hash": "k8gneZv26/sgMW3sTXFPuk6hR5auzmwqF0KXo9aohfE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.FormationStateMachine.State3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.FormationStateMachine.State3.html",
+          "hash": "vKpji3TbOqXT/Lvk18y0TmoOjdgzPclVJ4WDEPP0Yh8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.FormationStateMachine.StateManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.FormationStateMachine.StateManager.html",
+          "hash": "nFOOrPHbXjXlU51MaWHzCLpXao+LX1WvrJ8wK3WlK98="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.FormationStateMachine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.FormationStateMachine.html",
+          "hash": "ierIKYxKtlvUU9lcxxcO+ywHG0sfXG5wI9BnWl81uM4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Interfaces.IMovable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Interfaces.IMovable-1.html",
+          "hash": "YcxzkkYrbWdlqhZQBCQR7ymLq2PWhex+1nwc80H0adk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Interfaces.INonJumpable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Interfaces.INonJumpable.html",
+          "hash": "bjLKwUtjdxFx+5teMYdbABsL3IFJaczDXP5Qe1I77RE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Interfaces.IRotatable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Interfaces.IRotatable-1.html",
+          "hash": "Tvs9EUmH/Aj3vhS2ApvkVBy1wyUjbAMbBq0otn2ojBQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Interfaces.IStandable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Interfaces.IStandable.html",
+          "hash": "eJpm9u7qAM7FdlAaNxtR4mnzsG8OYrZMZe3qmjIdG2E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Interfaces.html",
+          "hash": "32jcwdGIGkchF1BZpm2G8N6imt7qSbE8yr/UhtBkpoE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Items.AbstractItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Items.AbstractItem.html",
+          "hash": "Ia+ejVQUEgeKnK82B7hUfHJA1d4fxMk2VzXCvZwdSJk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Items.PathItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Items.PathItem.html",
+          "hash": "FzhLiDKF2m2WdN3ZDUJct2c1REPsmF0/P4Bq3Gs4zuA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Items.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Items.html",
+          "hash": "RHa4bZ0CQnLMwv1l12uV1vvCIvENIH5XvB++Fxorkec="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Koreo.DrumBeatKoreo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Koreo.DrumBeatKoreo.html",
+          "hash": "CMR65OGcJqnbpyFWz+WesXZ48lcOA1BN/6ZA3sD/b0U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Koreo.KoreBeat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Koreo.KoreBeat.html",
+          "hash": "+cbCnBd+15TowggPI3SlaoERH+eBDmWRgMJPgKwVe/4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Koreo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Koreo.html",
+          "hash": "lNKXgb8fZk2t7odpS96uZQOhwyjNsfvzn4D9o889iFc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Level.GroundDetector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Level.GroundDetector.html",
+          "hash": "VMJIcb9MDAaEYQz3y1eqDh6/Ayaa+ha4YUTHjoqTd8g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Level.LevelController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Level.LevelController.html",
+          "hash": "9MBewtpMMfNcYURB5paRbyIMee6T/daMD+Lejz25EhA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Level.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Level.html",
+          "hash": "0QsW8MLhOAn2/t4ACh5cpprOmAd6v4qzk/hSsSlNedk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Managers.FmodKoreoController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Managers.FmodKoreoController.html",
+          "hash": "zhgUXRyAM3qOPok6cpzXPZdUDPoURGkMwLg1bxQJqbc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Managers.GameManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Managers.GameManager.html",
+          "hash": "qljKfhyz38Otl91wydzg3caYzyt0cgmngoxfE6lEVWE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Managers.JumpManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Managers.JumpManager.html",
+          "hash": "Q0SzbLkIs0QdJOhfDq9V6zhQi0x5VzscWfUw9TwPXFE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Managers.PlayerManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Managers.PlayerManager.html",
+          "hash": "g2Nf2EVGdBb1uzuEuxXzfIEmoLZi0wb7bN1f0yAYEoM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Managers.TouchManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Managers.TouchManager.html",
+          "hash": "GWD/whpo0wQfwNlZxzuqxBZ/KuatQrH7XqEJUOGdVZs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Managers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Managers.html",
+          "hash": "/17vvZ0BNi+7WeoH5RrD9rkYRjpBCSnTn8QxFW7XBm4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Obstacle.PillarController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Obstacle.PillarController.html",
+          "hash": "ElHrJoJWD4uqo8TazdwKKYyuCMuxBiJAxXFgyQF/fy0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Obstacle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Obstacle.html",
+          "hash": "J80ofzRt/I6RxnUsTRF3vKdwv+Xsn5NFsS3rHnD8euk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Props.InnerItemController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Props.InnerItemController.html",
+          "hash": "0e61R8MNvFbEkoP8+OYRr6IpHMzEwgwyY0BO0im19h8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Props.LightingCollect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Props.LightingCollect.html",
+          "hash": "ncKIcas4DW1Ikx6R+S85Y2ysgnZKBschaMk1zSKJpLQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Props.PropsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Props.PropsController.html",
+          "hash": "f1ZdMXHbrKUvENXciLH2BMRTxDJUBZj1fGXDqPvW/Wg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Props.RecordCollect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Props.RecordCollect.html",
+          "hash": "9lnF2zrmniUEO1mE4ZZqOk1EUo4vRnpydZyNVap7Gto="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Props.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Props.html",
+          "hash": "ydPCwP4iMLERnOxulRwx6NEktxIRxGVgs5Nw8XPDp6E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Rhythm.Disk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Rhythm.Disk.html",
+          "hash": "+h1Yf+pE2IMFpqWm4OfzBdRvulJImaj+AVDAW32e9TY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Rhythm.IBeatable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Rhythm.IBeatable.html",
+          "hash": "ANi5n1iWvOBu6VZ9XdyYIJIFQ+Dwdm3f20ZWxDDReak="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Rhythm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Rhythm.html",
+          "hash": "zWUNXRCyck+doukX191fyqhrCibK6XgJsJLV59JdO0Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Validators.CharacterAssembleValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Validators.CharacterAssembleValidator.html",
+          "hash": "HFNMXbrSIi03FaY6AWTlzmoTsL+iP6eminXS1ocnvCw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Validators.NeedsComponentAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Validators.NeedsComponentAttribute.html",
+          "hash": "QWzWih12fKrOcD3JA4O/6x7uvokiX3gOPcgB/+Kg+t8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Validators.NeedsComponentValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Validators.NeedsComponentValidator.html",
+          "hash": "b4TtRsehyQBkcYyktO1tZwVAyuQZ9EwDqDtFaqrHN0k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Core.Validators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Core.Validators.html",
+          "hash": "IT+JjQm8ZdSjYrNdTPE+wsQp38G5TQGMBY5v44dRIF0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "fOH5DtCY7RvluzN5tQgHIeOsVK/LZrrC5gni/vYsmso="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "GKzAK3PeXMOCduUYvLA6TiOQxWBZVsXb8ZC9QxlcS/E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/LockCameraZ.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/LockCameraZ.html",
+          "hash": "Cppec+R+ZotieK39QfLKfdPBnaXQvzRCp0ZMpXisorI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "eyoRAHDS2TjMk7uZcJ49pxpClonqDlK8EeBXZrYaAYI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/LockCameraZ.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/LockCameraZ.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/icon.svg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/icon.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "OgPj1fSguijAvCCBNMGKahMs3haCeGEYVvf1SPYP/Mg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 89,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
