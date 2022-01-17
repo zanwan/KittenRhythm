@@ -1,7 +1,7 @@
 # Kitten Rhythm Specification
 
-## 遊玩方式
+## How to Play
 
-## 技術
+## Tech Stack
 
-## 上架平台
+## Platforms
