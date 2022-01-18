@@ -1,198 +1,43 @@
 ### YamlMime:TableOfContent
-- uid: softtissue.Core.Camera
-  name: softtissue.Core.Camera
+- uid: softtissue.Camera
+  name: softtissue.Camera
   items:
-  - uid: softtissue.Core.Camera.LockCameraZ
+  - uid: softtissue.Camera.LockCameraZ
     name: LockCameraZ
-- uid: softtissue.Core.Carton
-  name: softtissue.Core.Carton
+- uid: softtissue.Carton.InnerItem
+  name: softtissue.Carton.InnerItem
   items:
-  - uid: softtissue.Core.Carton.CartonMovementController
-    name: CartonMovementController
-  - uid: softtissue.Core.Carton.CartonStateController
-    name: CartonStateController
-  - uid: softtissue.Core.Carton.CartonStateController.CartonState
-    name: CartonStateController.CartonState
-  - uid: softtissue.Core.Carton.CartonTriggerController
-    name: CartonTriggerController
-  - uid: softtissue.Core.Carton.FollowPathTrigger
-    name: FollowPathTrigger
-- uid: softtissue.Core.Carton.InnerItem
-  name: softtissue.Core.Carton.InnerItem
-  items:
-  - uid: softtissue.Core.Carton.InnerItem.InnerItemController
+  - uid: softtissue.Carton.InnerItem.InnerItemController
     name: InnerItemController
-  - uid: softtissue.Core.Carton.InnerItem.SO_InnerItemData
+  - uid: softtissue.Carton.InnerItem.SO_InnerItemData
     name: SO_InnerItemData
-  - uid: softtissue.Core.Carton.InnerItem.SO_InnerItemData.ItemEnum
+  - uid: softtissue.Carton.InnerItem.SO_InnerItemData.ItemEnum
     name: SO_InnerItemData.ItemEnum
-- uid: softtissue.Core.Carton.PathRoute
-  name: softtissue.Core.Carton.PathRoute
+- uid: softtissue.Carton.PathRoute
+  name: softtissue.Carton.PathRoute
   items:
-  - uid: softtissue.Core.Carton.PathRoute.PathRouteController
-    name: PathRouteController
-- uid: softtissue.Core.Carton.StateMachine
-  name: softtissue.Core.Carton.StateMachine
+  - uid: softtissue.Carton.PathRoute.SlidePathController
+    name: SlidePathController
+- uid: softtissue.Carton.StateMachine
+  name: softtissue.Carton.StateMachine
   items:
-  - uid: softtissue.Core.Carton.StateMachine.AbstractCartonState
+  - uid: softtissue.Carton.StateMachine.AbstractCartonState
     name: AbstractCartonState
-  - uid: softtissue.Core.Carton.StateMachine.CartonStateManager
-    name: CartonStateManager
-  - uid: softtissue.Core.Carton.StateMachine.CartonTriggerStateManager
-    name: CartonTriggerStateManager
-  - uid: softtissue.Core.Carton.StateMachine.SO_CartonState
-    name: SO_CartonState
-  - uid: softtissue.Core.Carton.StateMachine.SO_CartonState.StateEnum
-    name: SO_CartonState.StateEnum
-  - uid: softtissue.Core.Carton.StateMachine.StateCloseDynamic
+  - uid: softtissue.Carton.StateMachine.CartonStateController
+    name: CartonStateController
+  - uid: softtissue.Carton.StateMachine.CartonTriggerController
+    name: CartonTriggerController
+  - uid: softtissue.Carton.StateMachine.SO_CartonStateData
+    name: SO_CartonStateData
+  - uid: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
+    name: SO_CartonStateData.StateEnum
+  - uid: softtissue.Carton.StateMachine.StateCloseDynamic
     name: StateCloseDynamic
-  - uid: softtissue.Core.Carton.StateMachine.StateCloseStatic
+  - uid: softtissue.Carton.StateMachine.StateCloseStatic
     name: StateCloseStatic
-  - uid: softtissue.Core.Carton.StateMachine.StateFlat
+  - uid: softtissue.Carton.StateMachine.StateFlat
     name: StateFlat
-  - uid: softtissue.Core.Carton.StateMachine.StateOpenDynamic
+  - uid: softtissue.Carton.StateMachine.StateOpenDynamic
     name: StateOpenDynamic
-  - uid: softtissue.Core.Carton.StateMachine.StateOpenStatic
+  - uid: softtissue.Carton.StateMachine.StateOpenStatic
     name: StateOpenStatic
-- uid: softtissue.Core.Character
-  name: softtissue.Core.Character
-  items:
-  - uid: softtissue.Core.Character.AbstractMovement
-    name: AbstractMovement
-  - uid: softtissue.Core.Character.CharacterAnimator
-    name: CharacterAnimator
-  - uid: softtissue.Core.Character.CharacterAssemble
-    name: CharacterAssemble
-  - uid: softtissue.Core.Character.FollowPath
-    name: FollowPath
-  - uid: softtissue.Core.Character.JumpSelf
-    name: JumpSelf
-  - uid: softtissue.Core.Character.JumpTargetData
-    name: JumpTargetData
-  - uid: softtissue.Core.Character.OriginResetTrigger
-    name: OriginResetTrigger
-  - uid: softtissue.Core.Character.RotateSelf
-    name: RotateSelf
-  - uid: softtissue.Core.Character.SnapToCartonBase
-    name: SnapToCartonBase
-  - uid: softtissue.Core.Character.SO_JumpPlayData
-    name: SO_JumpPlayData
-- uid: softtissue.Core.Deprecated
-  name: softtissue.Core.Deprecated
-  items:
-  - uid: softtissue.Core.Deprecated.EventManager
-    name: EventManager
-  - uid: softtissue.Core.Deprecated.FloatingOrigin
-    name: FloatingOrigin
-  - uid: softtissue.Core.Deprecated.GameEventSystem
-    name: GameEventSystem
-  - uid: softtissue.Core.Deprecated.JumpSelf
-    name: JumpSelf
-  - uid: softtissue.Core.Deprecated.JumpTargetUpdate
-    name: JumpTargetUpdate
-  - uid: softtissue.Core.Deprecated.MasterMusicManager
-    name: MasterMusicManager
-  - uid: softtissue.Core.Deprecated.MasterMusicManager.BeatEventDelegate
-    name: MasterMusicManager.BeatEventDelegate
-  - uid: softtissue.Core.Deprecated.MasterMusicManager.MarkerEventDelegate
-    name: MasterMusicManager.MarkerEventDelegate
-  - uid: softtissue.Core.Deprecated.MasterMusicManager.TimelineInfo
-    name: MasterMusicManager.TimelineInfo
-  - uid: softtissue.Core.Deprecated.UnitPanel
-    name: UnitPanel
-- uid: softtissue.Core.FormationStateMachine
-  name: softtissue.Core.FormationStateMachine
-  items:
-  - uid: softtissue.Core.FormationStateMachine.AbstractState
-    name: AbstractState
-  - uid: softtissue.Core.FormationStateMachine.DebugStateController
-    name: DebugStateController
-  - uid: softtissue.Core.FormationStateMachine.State0
-    name: State0
-  - uid: softtissue.Core.FormationStateMachine.State1
-    name: State1
-  - uid: softtissue.Core.FormationStateMachine.State2
-    name: State2
-  - uid: softtissue.Core.FormationStateMachine.State3
-    name: State3
-  - uid: softtissue.Core.FormationStateMachine.StateManager
-    name: StateManager
-- uid: softtissue.Core.Interfaces
-  name: softtissue.Core.Interfaces
-  items:
-  - uid: softtissue.Core.Interfaces.IMovable`1
-    name: IMovable<T>
-    name.vb: IMovable(Of T)
-  - uid: softtissue.Core.Interfaces.INonJumpable
-    name: INonJumpable
-  - uid: softtissue.Core.Interfaces.IRotatable`1
-    name: IRotatable<T>
-    name.vb: IRotatable(Of T)
-  - uid: softtissue.Core.Interfaces.IStandable
-    name: IStandable
-- uid: softtissue.Core.Items
-  name: softtissue.Core.Items
-  items:
-  - uid: softtissue.Core.Items.AbstractItem
-    name: AbstractItem
-  - uid: softtissue.Core.Items.PathItem
-    name: PathItem
-- uid: softtissue.Core.Koreo
-  name: softtissue.Core.Koreo
-  items:
-  - uid: softtissue.Core.Koreo.DrumBeatKoreo
-    name: DrumBeatKoreo
-  - uid: softtissue.Core.Koreo.KoreBeat
-    name: KoreBeat
-- uid: softtissue.Core.Level
-  name: softtissue.Core.Level
-  items:
-  - uid: softtissue.Core.Level.GroundDetector
-    name: GroundDetector
-  - uid: softtissue.Core.Level.LevelController
-    name: LevelController
-- uid: softtissue.Core.Managers
-  name: softtissue.Core.Managers
-  items:
-  - uid: softtissue.Core.Managers.FmodKoreoController
-    name: FmodKoreoController
-  - uid: softtissue.Core.Managers.GameManager
-    name: GameManager
-  - uid: softtissue.Core.Managers.JumpManager
-    name: JumpManager
-  - uid: softtissue.Core.Managers.PlayerManager
-    name: PlayerManager
-  - uid: softtissue.Core.Managers.TouchManager
-    name: TouchManager
-- uid: softtissue.Core.Obstacle
-  name: softtissue.Core.Obstacle
-  items:
-  - uid: softtissue.Core.Obstacle.PillarController
-    name: PillarController
-- uid: softtissue.Core.Props
-  name: softtissue.Core.Props
-  items:
-  - uid: softtissue.Core.Props.InnerItemController
-    name: InnerItemController
-  - uid: softtissue.Core.Props.LightingCollect
-    name: LightingCollect
-  - uid: softtissue.Core.Props.PropsController
-    name: PropsController
-  - uid: softtissue.Core.Props.RecordCollect
-    name: RecordCollect
-- uid: softtissue.Core.Rhythm
-  name: softtissue.Core.Rhythm
-  items:
-  - uid: softtissue.Core.Rhythm.Disk
-    name: Disk
-  - uid: softtissue.Core.Rhythm.IBeatable
-    name: IBeatable
-- uid: softtissue.Core.Validators
-  name: softtissue.Core.Validators
-  items:
-  - uid: softtissue.Core.Validators.CharacterAssembleValidator
-    name: CharacterAssembleValidator
-  - uid: softtissue.Core.Validators.NeedsComponentAttribute
-    name: NeedsComponentAttribute
-  - uid: softtissue.Core.Validators.NeedsComponentValidator
-    name: NeedsComponentValidator

@@ -1,0 +1,115 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Carton.StateMachine.AbstractCartonState
+  commentId: T:softtissue.Carton.StateMachine.AbstractCartonState
+  id: AbstractCartonState
+  parent: softtissue.Carton.StateMachine
+  children:
+  - softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
+  langs:
+  - csharp
+  - vb
+  name: AbstractCartonState
+  nameWithType: AbstractCartonState
+  fullName: softtissue.Carton.StateMachine.AbstractCartonState
+  type: Class
+  source:
+    id: AbstractCartonState
+    path: ''
+    startLine: 6446
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  summary: "\n紙箱抽象狀態機\n"
+  example: []
+  syntax:
+    content: public abstract class AbstractCartonState
+    content.vb: Public MustInherit Class AbstractCartonState
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - softtissue.Carton.StateMachine.StateCloseDynamic
+  - softtissue.Carton.StateMachine.StateCloseStatic
+  - softtissue.Carton.StateMachine.StateFlat
+  - softtissue.Carton.StateMachine.StateOpenDynamic
+  - softtissue.Carton.StateMachine.StateOpenStatic
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
+  commentId: M:softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
+  id: EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
+  parent: softtissue.Carton.StateMachine.AbstractCartonState
+  langs:
+  - csharp
+  - vb
+  name: EnterState(CartonStateController, Animator)
+  nameWithType: AbstractCartonState.EnterState(CartonStateController, Animator)
+  fullName: softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.CartonStateController, Animator)
+  type: Method
+  source:
+    id: EnterState
+    path: ''
+    startLine: 6453
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  summary: "\n進入狀態\n"
+  example: []
+  syntax:
+    content: public abstract void EnterState(CartonStateController stateController, Animator animatorController)
+    parameters:
+    - id: stateController
+      type: softtissue.Carton.StateMachine.CartonStateController
+      description: ''
+    - id: animatorController
+      type: Global.Animator
+      description: ''
+    content.vb: Public MustOverride Sub EnterState(stateController As CartonStateController, animatorController As Animator)
+  overload: softtissue.Carton.StateMachine.AbstractCartonState.EnterState*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+references:
+- uid: softtissue.Carton.StateMachine
+  commentId: N:softtissue.Carton.StateMachine
+  name: softtissue.Carton.StateMachine
+  nameWithType: softtissue.Carton.StateMachine
+  fullName: softtissue.Carton.StateMachine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: softtissue.Carton.StateMachine.AbstractCartonState.EnterState*
+  commentId: Overload:softtissue.Carton.StateMachine.AbstractCartonState.EnterState
+  name: EnterState
+  nameWithType: AbstractCartonState.EnterState
+  fullName: softtissue.Carton.StateMachine.AbstractCartonState.EnterState
+- uid: softtissue.Carton.StateMachine.CartonStateController
+  commentId: T:softtissue.Carton.StateMachine.CartonStateController
+  parent: softtissue.Carton.StateMachine
+  name: CartonStateController
+  nameWithType: CartonStateController
+  fullName: softtissue.Carton.StateMachine.CartonStateController
+- uid: Global.Animator
+  isExternal: true
+  name: Animator
+  nameWithType: Animator
+  fullName: Animator

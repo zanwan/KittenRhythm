@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Camera.LockCameraZ
+  commentId: T:softtissue.Camera.LockCameraZ
+  id: LockCameraZ
+  parent: softtissue.Camera
+  children:
+  - softtissue.Camera.LockCameraZ.PostPipelineStageCallback(CinemachineVirtualCameraBase,CinemachineCore.Stage,CameraState@,System.Single)
+  - softtissue.Camera.LockCameraZ.xOffset
+  - softtissue.Camera.LockCameraZ.yOffset
+  langs:
+  - csharp
+  - vb
+  name: LockCameraZ
+  nameWithType: LockCameraZ
+  fullName: softtissue.Camera.LockCameraZ
+  type: Class
+  source:
+    id: LockCameraZ
+    path: ''
+    startLine: 6409
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Camera
+  summary: "\nCinemachine Extensions 鎖定 X 軸與 Y 軸\n"
+  example: []
+  syntax:
+    content: 'public class LockCameraZ : CinemachineExtension'
+    content.vb: >-
+      Public Class LockCameraZ
+          Inherits CinemachineExtension
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Camera.LockCameraZ.xOffset
+  commentId: F:softtissue.Camera.LockCameraZ.xOffset
+  id: xOffset
+  parent: softtissue.Camera.LockCameraZ
+  langs:
+  - csharp
+  - vb
+  name: xOffset
+  nameWithType: LockCameraZ.xOffset
+  fullName: softtissue.Camera.LockCameraZ.xOffset
+  type: Field
+  source:
+    id: xOffset
+    path: ''
+    startLine: 6414
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Camera
+  syntax:
+    content: public float xOffset
+    return:
+      type: System.Single
+    content.vb: Public xOffset As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Camera.LockCameraZ.yOffset
+  commentId: F:softtissue.Camera.LockCameraZ.yOffset
+  id: yOffset
+  parent: softtissue.Camera.LockCameraZ
+  langs:
+  - csharp
+  - vb
+  name: yOffset
+  nameWithType: LockCameraZ.yOffset
+  fullName: softtissue.Camera.LockCameraZ.yOffset
+  type: Field
+  source:
+    id: yOffset
+    path: ''
+    startLine: 6415
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Camera
+  syntax:
+    content: public float yOffset
+    return:
+      type: System.Single
+    content.vb: Public yOffset As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Camera.LockCameraZ.PostPipelineStageCallback(CinemachineVirtualCameraBase,CinemachineCore.Stage,CameraState@,System.Single)
+  commentId: M:softtissue.Camera.LockCameraZ.PostPipelineStageCallback(CinemachineVirtualCameraBase,CinemachineCore.Stage,CameraState@,System.Single)
+  id: PostPipelineStageCallback(CinemachineVirtualCameraBase,CinemachineCore.Stage,CameraState@,System.Single)
+  parent: softtissue.Camera.LockCameraZ
+  langs:
+  - csharp
+  - vb
+  name: PostPipelineStageCallback(CinemachineVirtualCameraBase, CinemachineCore.Stage, ref CameraState, Single)
+  nameWithType: LockCameraZ.PostPipelineStageCallback(CinemachineVirtualCameraBase, CinemachineCore.Stage, ref CameraState, Single)
+  fullName: softtissue.Camera.LockCameraZ.PostPipelineStageCallback(CinemachineVirtualCameraBase, CinemachineCore.Stage, ref CameraState, System.Single)
+  type: Method
+  source:
+    id: PostPipelineStageCallback
+    path: ''
+    startLine: 6425
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Camera
+  summary: "\nStandard CinemachineExtension callback\n"
+  example: []
+  syntax:
+    content: protected override void PostPipelineStageCallback(CinemachineVirtualCameraBase vcam, CinemachineCore.Stage stage, ref CameraState state, float deltaTime)
+    parameters:
+    - id: vcam
+      type: Global.CinemachineVirtualCameraBase
+      description: ''
+    - id: stage
+      type: Global.CinemachineCore.Stage
+      description: ''
+    - id: state
+      type: Global.CameraState
+      description: ''
+    - id: deltaTime
+      type: System.Single
+      description: ''
+    content.vb: Protected Overrides Sub PostPipelineStageCallback(vcam As CinemachineVirtualCameraBase, stage As CinemachineCore.Stage, ByRef state As CameraState, deltaTime As Single)
+  overload: softtissue.Camera.LockCameraZ.PostPipelineStageCallback*
+  nameWithType.vb: LockCameraZ.PostPipelineStageCallback(CinemachineVirtualCameraBase, CinemachineCore.Stage, ByRef CameraState, Single)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+  fullName.vb: softtissue.Camera.LockCameraZ.PostPipelineStageCallback(CinemachineVirtualCameraBase, CinemachineCore.Stage, ByRef CameraState, System.Single)
+  name.vb: PostPipelineStageCallback(CinemachineVirtualCameraBase, CinemachineCore.Stage, ByRef CameraState, Single)
+references:
+- uid: softtissue.Camera
+  commentId: N:softtissue.Camera
+  name: softtissue.Camera
+  nameWithType: softtissue.Camera
+  fullName: softtissue.Camera
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: softtissue.Camera.LockCameraZ.PostPipelineStageCallback*
+  commentId: Overload:softtissue.Camera.LockCameraZ.PostPipelineStageCallback
+  name: PostPipelineStageCallback
+  nameWithType: LockCameraZ.PostPipelineStageCallback
+  fullName: softtissue.Camera.LockCameraZ.PostPipelineStageCallback
+- uid: Global.CinemachineVirtualCameraBase
+  commentId: '!:Global.CinemachineVirtualCameraBase'
+  isExternal: true
+  name: CinemachineVirtualCameraBase
+  nameWithType: CinemachineVirtualCameraBase
+  fullName: CinemachineVirtualCameraBase
+- uid: Global.CinemachineCore.Stage
+  commentId: '!:Global.CinemachineCore.Stage'
+  isExternal: true
+  name: CinemachineCore.Stage
+  nameWithType: CinemachineCore.Stage
+  fullName: CinemachineCore.Stage
+- uid: Global.CameraState
+  commentId: '!:Global.CameraState'
+  isExternal: true
+  name: CameraState
+  nameWithType: CameraState
+  fullName: CameraState

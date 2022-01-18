@@ -1,6 +1,6 @@
 # Lock Camera Z
 
-[Scripting API](/api/softtissue.Core.Camera.LockCameraZ.html)
+[Scripting API](/KittenRhythm/api/softtissue.Core.Camera.LockCameraZ.html)
 
 ## 使用
 

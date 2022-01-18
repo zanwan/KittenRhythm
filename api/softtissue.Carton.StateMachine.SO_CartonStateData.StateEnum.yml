@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
+  commentId: T:softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
+  id: SO_CartonStateData.StateEnum
+  parent: softtissue.Carton.StateMachine
+  children:
+  - softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum.StateCloseDynamic
+  - softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum.StateCloseStatic
+  - softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum.StateFlat
+  - softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum.StateOpenDynamic
+  - softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum.StateOpenStatic
+  langs:
+  - csharp
+  - vb
+  name: SO_CartonStateData.StateEnum
+  nameWithType: SO_CartonStateData.StateEnum
+  fullName: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
+  type: Enum
+  source:
+    id: StateEnum
+    path: ''
+    startLine: 6822
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  summary: "\n紙箱狀態枚舉\n"
+  example: []
+  syntax:
+    content: public enum StateEnum
+    content.vb: Public Enum StateEnum
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum.StateCloseStatic
+  commentId: F:softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum.StateCloseStatic
+  id: StateCloseStatic
+  parent: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
+  langs:
+  - csharp
+  - vb
+  name: StateCloseStatic
+  nameWithType: SO_CartonStateData.StateEnum.StateCloseStatic
+  fullName: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum.StateCloseStatic
+  type: Field
+  source:
+    id: StateCloseStatic
+    path: ''
+    startLine: 6825
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  example: []
+  syntax:
+    content: StateCloseStatic = 0
+    return:
+      type: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
+      description: 靜態關閉
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum.StateOpenStatic
+  commentId: F:softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum.StateOpenStatic
+  id: StateOpenStatic
+  parent: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
+  langs:
+  - csharp
+  - vb
+  name: StateOpenStatic
+  nameWithType: SO_CartonStateData.StateEnum.StateOpenStatic
+  fullName: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum.StateOpenStatic
+  type: Field
+  source:
+    id: StateOpenStatic
+    path: ''
+    startLine: 6827
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  example: []
+  syntax:
+    content: StateOpenStatic = 1
+    return:
+      type: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
+      description: 靜態開啟
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum.StateFlat
+  commentId: F:softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum.StateFlat
+  id: StateFlat
+  parent: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
+  langs:
+  - csharp
+  - vb
+  name: StateFlat
+  nameWithType: SO_CartonStateData.StateEnum.StateFlat
+  fullName: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum.StateFlat
+  type: Field
+  source:
+    id: StateFlat
+    path: ''
+    startLine: 6829
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  example: []
+  syntax:
+    content: StateFlat = 2
+    return:
+      type: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
+      description: 靜態扁平
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum.StateCloseDynamic
+  commentId: F:softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum.StateCloseDynamic
+  id: StateCloseDynamic
+  parent: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
+  langs:
+  - csharp
+  - vb
+  name: StateCloseDynamic
+  nameWithType: SO_CartonStateData.StateEnum.StateCloseDynamic
+  fullName: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum.StateCloseDynamic
+  type: Field
+  source:
+    id: StateCloseDynamic
+    path: ''
+    startLine: 6831
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  example: []
+  syntax:
+    content: StateCloseDynamic = 3
+    return:
+      type: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
+      description: 關閉動畫
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum.StateOpenDynamic
+  commentId: F:softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum.StateOpenDynamic
+  id: StateOpenDynamic
+  parent: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
+  langs:
+  - csharp
+  - vb
+  name: StateOpenDynamic
+  nameWithType: SO_CartonStateData.StateEnum.StateOpenDynamic
+  fullName: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum.StateOpenDynamic
+  type: Field
+  source:
+    id: StateOpenDynamic
+    path: ''
+    startLine: 6833
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  example: []
+  syntax:
+    content: StateOpenDynamic = 4
+    return:
+      type: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
+      description: 開啟動畫
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: softtissue.Carton.StateMachine
+  commentId: N:softtissue.Carton.StateMachine
+  name: softtissue.Carton.StateMachine
+  nameWithType: softtissue.Carton.StateMachine
+  fullName: softtissue.Carton.StateMachine
+- uid: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
+  commentId: T:softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
+  parent: softtissue.Carton.StateMachine
+  name: SO_CartonStateData.StateEnum
+  nameWithType: SO_CartonStateData.StateEnum
+  fullName: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum

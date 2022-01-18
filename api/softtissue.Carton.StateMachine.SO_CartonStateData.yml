@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Carton.StateMachine.SO_CartonStateData
+  commentId: T:softtissue.Carton.StateMachine.SO_CartonStateData
+  id: SO_CartonStateData
+  parent: softtissue.Carton.StateMachine
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SO_CartonStateData
+  nameWithType: SO_CartonStateData
+  fullName: softtissue.Carton.StateMachine.SO_CartonStateData
+  type: Class
+  source:
+    id: SO_CartonStateData
+    path: ''
+    startLine: 6817
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  syntax:
+    content: 'public class SO_CartonStateData : ScriptableObject'
+    content.vb: >-
+      Public Class SO_CartonStateData
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: softtissue.Carton.StateMachine
+  commentId: N:softtissue.Carton.StateMachine
+  name: softtissue.Carton.StateMachine
+  nameWithType: softtissue.Carton.StateMachine
+  fullName: softtissue.Carton.StateMachine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

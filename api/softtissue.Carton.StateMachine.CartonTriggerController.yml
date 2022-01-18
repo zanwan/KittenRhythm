@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Carton.StateMachine.CartonTriggerController
+  commentId: T:softtissue.Carton.StateMachine.CartonTriggerController
+  id: CartonTriggerController
+  parent: softtissue.Carton.StateMachine
+  children:
+  - softtissue.Carton.StateMachine.CartonTriggerController.triggerCollect
+  - softtissue.Carton.StateMachine.CartonTriggerController.triggerFlatten
+  - softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState
+  langs:
+  - csharp
+  - vb
+  name: CartonTriggerController
+  nameWithType: CartonTriggerController
+  fullName: softtissue.Carton.StateMachine.CartonTriggerController
+  type: Class
+  source:
+    id: CartonTriggerController
+    path: ''
+    startLine: 6756
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  summary: "\n觸發紙箱狀態切換器\n"
+  example: []
+  syntax:
+    content: 'public class CartonTriggerController : MonoBehaviour'
+    content.vb: >-
+      Public Class CartonTriggerController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Carton.StateMachine.CartonTriggerController.triggerCollect
+  commentId: F:softtissue.Carton.StateMachine.CartonTriggerController.triggerCollect
+  id: triggerCollect
+  parent: softtissue.Carton.StateMachine.CartonTriggerController
+  langs:
+  - csharp
+  - vb
+  name: triggerCollect
+  nameWithType: CartonTriggerController.triggerCollect
+  fullName: softtissue.Carton.StateMachine.CartonTriggerController.triggerCollect
+  type: Field
+  source:
+    id: triggerCollect
+    path: ''
+    startLine: 6767
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  summary: "\n當紙箱開啟時 InnerItem 的蒐集事件\n"
+  example: []
+  syntax:
+    content: public UnityEvent triggerCollect
+    return:
+      type: Global.UnityEvent
+      description: '觸發 UET_OpenToStaticOpenHandler, 觸發 UET_InnerItemCollectHandler, (CartonMovementController) 觸發 UET_UnFollowPath '
+    content.vb: Public triggerCollect As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.StateMachine.CartonTriggerController.triggerFlatten
+  commentId: F:softtissue.Carton.StateMachine.CartonTriggerController.triggerFlatten
+  id: triggerFlatten
+  parent: softtissue.Carton.StateMachine.CartonTriggerController
+  langs:
+  - csharp
+  - vb
+  name: triggerFlatten
+  nameWithType: CartonTriggerController.triggerFlatten
+  fullName: softtissue.Carton.StateMachine.CartonTriggerController.triggerFlatten
+  type: Field
+  source:
+    id: triggerFlatten
+    path: ''
+    startLine: 6774
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  summary: "\n當紙箱關閉時被壓扁事件\n"
+  example: []
+  syntax:
+    content: public UnityEvent triggerFlatten
+    return:
+      type: Global.UnityEvent
+      description: '觸發 UET_CloseToFlatHandler, (CartonMovementController) 觸發 UET_UnFollowPath '
+    content.vb: Public triggerFlatten As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState
+  commentId: M:softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState
+  id: UET_UpdateCartonCurrentState
+  parent: softtissue.Carton.StateMachine.CartonTriggerController
+  langs:
+  - csharp
+  - vb
+  name: UET_UpdateCartonCurrentState()
+  nameWithType: CartonTriggerController.UET_UpdateCartonCurrentState()
+  fullName: softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState()
+  type: Method
+  source:
+    id: UET_UpdateCartonCurrentState
+    path: ''
+    startLine: 6786
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  summary: "\n取得 CartonStateController 最近狀態\n"
+  example: []
+  syntax:
+    content: public void UET_UpdateCartonCurrentState()
+    content.vb: Public Sub UET_UpdateCartonCurrentState
+  overload: softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Carton.StateMachine
+  commentId: N:softtissue.Carton.StateMachine
+  name: softtissue.Carton.StateMachine
+  nameWithType: softtissue.Carton.StateMachine
+  fullName: softtissue.Carton.StateMachine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.UnityEvent
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEvent
+- uid: softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState*
+  commentId: Overload:softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState
+  name: UET_UpdateCartonCurrentState
+  nameWithType: CartonTriggerController.UET_UpdateCartonCurrentState
+  fullName: softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState

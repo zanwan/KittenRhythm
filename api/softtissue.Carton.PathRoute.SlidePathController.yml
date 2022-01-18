@@ -1,0 +1,241 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Carton.PathRoute.SlidePathController
+  commentId: T:softtissue.Carton.PathRoute.SlidePathController
+  id: SlidePathController
+  parent: softtissue.Carton.PathRoute
+  children:
+  - softtissue.Carton.PathRoute.SlidePathController.cartonToCloseStatic
+  - softtissue.Carton.PathRoute.SlidePathController.isLinked
+  - softtissue.Carton.PathRoute.SlidePathController.liked
+  - softtissue.Carton.PathRoute.SlidePathController.UET_ClosePathRoute
+  - softtissue.Carton.PathRoute.SlidePathController.UET_OpenPathRoute
+  - softtissue.Carton.PathRoute.SlidePathController.unLinked
+  langs:
+  - csharp
+  - vb
+  name: SlidePathController
+  nameWithType: SlidePathController
+  fullName: softtissue.Carton.PathRoute.SlidePathController
+  type: Class
+  source:
+    id: SlidePathController
+    path: ''
+    startLine: 6920
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.PathRoute
+  syntax:
+    content: 'public class SlidePathController : MonoBehaviour'
+    content.vb: >-
+      Public Class SlidePathController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Carton.PathRoute.SlidePathController.isLinked
+  commentId: F:softtissue.Carton.PathRoute.SlidePathController.isLinked
+  id: isLinked
+  parent: softtissue.Carton.PathRoute.SlidePathController
+  langs:
+  - csharp
+  - vb
+  name: isLinked
+  nameWithType: SlidePathController.isLinked
+  fullName: softtissue.Carton.PathRoute.SlidePathController.isLinked
+  type: Field
+  source:
+    id: isLinked
+    path: ''
+    startLine: 6924
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.PathRoute
+  syntax:
+    content: public bool isLinked
+    return:
+      type: System.Boolean
+    content.vb: Public isLinked As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.PathRoute.SlidePathController.cartonToCloseStatic
+  commentId: F:softtissue.Carton.PathRoute.SlidePathController.cartonToCloseStatic
+  id: cartonToCloseStatic
+  parent: softtissue.Carton.PathRoute.SlidePathController
+  langs:
+  - csharp
+  - vb
+  name: cartonToCloseStatic
+  nameWithType: SlidePathController.cartonToCloseStatic
+  fullName: softtissue.Carton.PathRoute.SlidePathController.cartonToCloseStatic
+  type: Field
+  source:
+    id: cartonToCloseStatic
+    path: ''
+    startLine: 6927
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.PathRoute
+  syntax:
+    content: public UnityEvent cartonToCloseStatic
+    return:
+      type: Global.UnityEvent
+    content.vb: Public cartonToCloseStatic As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.PathRoute.SlidePathController.liked
+  commentId: F:softtissue.Carton.PathRoute.SlidePathController.liked
+  id: liked
+  parent: softtissue.Carton.PathRoute.SlidePathController
+  langs:
+  - csharp
+  - vb
+  name: liked
+  nameWithType: SlidePathController.liked
+  fullName: softtissue.Carton.PathRoute.SlidePathController.liked
+  type: Field
+  source:
+    id: liked
+    path: ''
+    startLine: 6928
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.PathRoute
+  syntax:
+    content: public UnityEvent liked
+    return:
+      type: Global.UnityEvent
+    content.vb: Public liked As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.PathRoute.SlidePathController.unLinked
+  commentId: F:softtissue.Carton.PathRoute.SlidePathController.unLinked
+  id: unLinked
+  parent: softtissue.Carton.PathRoute.SlidePathController
+  langs:
+  - csharp
+  - vb
+  name: unLinked
+  nameWithType: SlidePathController.unLinked
+  fullName: softtissue.Carton.PathRoute.SlidePathController.unLinked
+  type: Field
+  source:
+    id: unLinked
+    path: ''
+    startLine: 6929
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.PathRoute
+  syntax:
+    content: public UnityEvent unLinked
+    return:
+      type: Global.UnityEvent
+    content.vb: Public unLinked As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.PathRoute.SlidePathController.UET_ClosePathRoute
+  commentId: M:softtissue.Carton.PathRoute.SlidePathController.UET_ClosePathRoute
+  id: UET_ClosePathRoute
+  parent: softtissue.Carton.PathRoute.SlidePathController
+  langs:
+  - csharp
+  - vb
+  name: UET_ClosePathRoute()
+  nameWithType: SlidePathController.UET_ClosePathRoute()
+  fullName: softtissue.Carton.PathRoute.SlidePathController.UET_ClosePathRoute()
+  type: Method
+  source:
+    id: UET_ClosePathRoute
+    path: ''
+    startLine: 6963
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.PathRoute
+  syntax:
+    content: public void UET_ClosePathRoute()
+    content.vb: Public Sub UET_ClosePathRoute
+  overload: softtissue.Carton.PathRoute.SlidePathController.UET_ClosePathRoute*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.PathRoute.SlidePathController.UET_OpenPathRoute
+  commentId: M:softtissue.Carton.PathRoute.SlidePathController.UET_OpenPathRoute
+  id: UET_OpenPathRoute
+  parent: softtissue.Carton.PathRoute.SlidePathController
+  langs:
+  - csharp
+  - vb
+  name: UET_OpenPathRoute()
+  nameWithType: SlidePathController.UET_OpenPathRoute()
+  fullName: softtissue.Carton.PathRoute.SlidePathController.UET_OpenPathRoute()
+  type: Method
+  source:
+    id: UET_OpenPathRoute
+    path: ''
+    startLine: 6969
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.PathRoute
+  syntax:
+    content: public void UET_OpenPathRoute()
+    content.vb: Public Sub UET_OpenPathRoute
+  overload: softtissue.Carton.PathRoute.SlidePathController.UET_OpenPathRoute*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Carton.PathRoute
+  commentId: N:softtissue.Carton.PathRoute
+  name: softtissue.Carton.PathRoute
+  nameWithType: softtissue.Carton.PathRoute
+  fullName: softtissue.Carton.PathRoute
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.UnityEvent
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEvent
+- uid: softtissue.Carton.PathRoute.SlidePathController.UET_ClosePathRoute*
+  commentId: Overload:softtissue.Carton.PathRoute.SlidePathController.UET_ClosePathRoute
+  name: UET_ClosePathRoute
+  nameWithType: SlidePathController.UET_ClosePathRoute
+  fullName: softtissue.Carton.PathRoute.SlidePathController.UET_ClosePathRoute
+- uid: softtissue.Carton.PathRoute.SlidePathController.UET_OpenPathRoute*
+  commentId: Overload:softtissue.Carton.PathRoute.SlidePathController.UET_OpenPathRoute
+  name: UET_OpenPathRoute
+  nameWithType: SlidePathController.UET_OpenPathRoute
+  fullName: softtissue.Carton.PathRoute.SlidePathController.UET_OpenPathRoute

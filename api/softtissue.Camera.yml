@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Camera
+  commentId: N:softtissue.Camera
+  id: softtissue.Camera
+  children:
+  - softtissue.Camera.LockCameraZ
+  langs:
+  - csharp
+  - vb
+  name: softtissue.Camera
+  nameWithType: softtissue.Camera
+  fullName: softtissue.Camera
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: softtissue.Camera.LockCameraZ
+  commentId: T:softtissue.Camera.LockCameraZ
+  name: LockCameraZ
+  nameWithType: LockCameraZ
+  fullName: softtissue.Camera.LockCameraZ
