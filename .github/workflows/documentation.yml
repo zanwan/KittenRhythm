@@ -16,7 +16,7 @@ jobs:
         #   submodules: true
 
       - name: Install DocFX
-        run: choco install -y docfx
+        run: choco install -y docfx --ignore-checksums
 
       - name: Use README.md as index.md
         run: cp README.md index.md
