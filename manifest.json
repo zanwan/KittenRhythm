@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/softtissue.Camera.LockCameraZ.html",
-          "hash": "DNqKff8cOzOWIlRDYqjxdFoEkWWp5I09WkHTLXLxTzI="
+          "hash": "1/J2bbfO6b3eEd0Iy9tW2N8dm5Isto6nKBPWDDEnb18="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/softtissue.Camera.html",
-          "hash": "W2iOMfS3COBhpK3zO/M+2RxrMepSyJyhJEZ82swb9go="
+          "hash": "76UlIG3hbmWVY1dz5KuCrJ29IoF7tA4TCYyILLQX1gQ="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/softtissue.Carton.InnerItem.InnerItemController.html",
-          "hash": "WbuzNghfONBdHKIWRbJHDrVtnsHO0QOcM8HPz5Nv+8c="
+          "hash": "y1il2w3wqHBhYCwpAzHYGMrnFvyGcZyTsANLukZi9l0="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/softtissue.Carton.InnerItem.SO_InnerItemData.ItemEnum.html",
-          "hash": "oCwnTgXjiQLbZc3682UWK9s7n/OwQ1aO22YF+2Haxm0="
+          "hash": "XaAhVS9mkCD92tLJ65R4FiyiumtlHKj5z0MG6AkIp38="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/softtissue.Carton.InnerItem.SO_InnerItemData.html",
-          "hash": "dlyh8/hjZgr7lfOF82anKd9YuLGCVTg9zvH5PCgwodc="
+          "hash": "UDsF4Z2PtTLWcZR1uTzMgM6/CsA6vuxg92geewQzOjY="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/softtissue.Carton.InnerItem.html",
-          "hash": "CHjFm+gVg0CmMKqqe/1H6xcvNP4uWYcVEZEKzDsVpE0="
+          "hash": "aVvdBe7X2O8JCHwjfJYE6FENwv0E8I5OBewr8Enk6Ww="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/softtissue.Carton.PathRoute.SlidePathController.html",
-          "hash": "/6cZehLQCPlmUmpQhRpZYE8z1HF0khnsAfAG5/Mld9E="
+          "hash": "wBRtoaRgvpf72qDAcMr1xk3X2fF+PwagOIFwBFJwF4g="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/softtissue.Carton.PathRoute.html",
-          "hash": "L5MVgi/HGdPM0ugV3DhJi234HjircB35s8puD1h2F/8="
+          "hash": "qlPQTyv8IeQAy0FkyDF1qTXpmmHYs8yGDxVOVgmrvu0="
         }
       },
       "is_incremental": false,
@@ -114,31 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/softtissue.Carton.StateMachine.AbstractCartonState.html",
-          "hash": "7yqBS7LA9g+qdm1v3CqZ/armUJb9X9talNig+qSlSlg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/softtissue.Carton.StateMachine.CartonStateController.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/softtissue.Carton.StateMachine.CartonStateController.html",
-          "hash": "mfuCj8uufGYJnB/OQTX9VIRl/cJ+IabYjheVSfj73pc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/softtissue.Carton.StateMachine.CartonTriggerController.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/softtissue.Carton.StateMachine.CartonTriggerController.html",
-          "hash": "nO0J+5+W3Y8RKrPNnFRBl/rBZ9YQngl1WUgL8igZMiw="
+          "hash": "Z1olf4WXvjV+RnmiQu5XFvuLdLkW43KmCg5noBiQApk="
         }
       },
       "is_incremental": false,
@@ -150,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum.html",
-          "hash": "i4epCi1UlRQMky/l9UZy57MejetaTWor+ctg/HaWGi0="
+          "hash": "RNab/exMxn5F8uhX3XyPNT5AbG46LqeMFz3QH0WPsmQ="
         }
       },
       "is_incremental": false,
@@ -162,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/softtissue.Carton.StateMachine.SO_CartonStateData.html",
-          "hash": "8ay7cV1wsLciqilk6IKKoRVX2JOT513Y/Pljw1A8reA="
+          "hash": "x5yTavPlLObGtAins/IQHuasu+vZgFY/0I177qmkA60="
         }
       },
       "is_incremental": false,
@@ -174,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/softtissue.Carton.StateMachine.StateCloseDynamic.html",
-          "hash": "e7KdsJ4n5yl8481hmouJ+HPCxHuGsLLGKAPzZjxxVLs="
+          "hash": "4+cptB0YO2ArsXRihcCzqr3ySIjdX0T8orihQRGISwc="
         }
       },
       "is_incremental": false,
@@ -186,7 +162,19 @@
       "output": {
         ".html": {
           "relative_path": "api/softtissue.Carton.StateMachine.StateCloseStatic.html",
-          "hash": "Y3h3Gx9cTU0gev/hPneITmbiteABWGuKLORVF5Vx6Uo="
+          "hash": "dIlhYEfIsgwttRjxGsvqI/hNq5JpVOJvKbD9yiVKOqw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Carton.StateMachine.StateController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Carton.StateMachine.StateController.html",
+          "hash": "PjKfQASnSI5Y51zeT/LhJQ04Ijs6JBeiAbzrwJhK0nE="
         }
       },
       "is_incremental": false,
@@ -198,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/softtissue.Carton.StateMachine.StateFlat.html",
-          "hash": "WiGbNMJxlNcKyvfGas52RFj2gwAcQZP+7d7cjtw7tLs="
+          "hash": "3l4IiE3I41ZtCLX9wAHkWDCWWg51jpY8zb8810X6rmM="
         }
       },
       "is_incremental": false,
@@ -210,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/softtissue.Carton.StateMachine.StateOpenDynamic.html",
-          "hash": "HTTDWmTrMkEgjPjk5IBbwYp2G6alRmSvQCkdraKEqrc="
+          "hash": "MwQk2wz10mKOwJLXvofVLc7Ri9iS7XEd9qXaZOwjJtE="
         }
       },
       "is_incremental": false,
@@ -222,7 +210,19 @@
       "output": {
         ".html": {
           "relative_path": "api/softtissue.Carton.StateMachine.StateOpenStatic.html",
-          "hash": "18rjr8LHjdLvGLOtGlntfJVJiNq7OakVZ+vWct5cetw="
+          "hash": "Yo0L1UskJJPeHJYU7cT40693bXUbsbAGi3G4lp8vAXM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Carton.StateMachine.TriggerController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Carton.StateMachine.TriggerController.html",
+          "hash": "jP+q9jO+Nu5A+ARSNo+2ePUPl0J5Q3ZnyhH9SgULBb4="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,151 @@
       "output": {
         ".html": {
           "relative_path": "api/softtissue.Carton.StateMachine.html",
-          "hash": "aV4IJG7ANwnMCjndo/o9zFeo1ZzJtHJxRj3SMSFx5oA="
+          "hash": "TnwCgR/HgY56O15UmSen50h1tIYNDm/I0RP6KEP8bao="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Character.AnimatorController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Character.AnimatorController.html",
+          "hash": "NH9eoy3WfBzi1UxTQaa9xARWZDSjMKGNAAon1k7KPtY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Character.CharacterAssemble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Character.CharacterAssemble.html",
+          "hash": "U0BhTD+WGavG0mqh7f9VD6iMBdLASzZ0F0OV3nhbFko="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Character.Control.JumpController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Character.Control.JumpController.html",
+          "hash": "91ZGa9dD+5rGMEx9Ysk+pqg4Mduy385QlEWtya7kOC0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Character.Control.JumpTargetData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Character.Control.JumpTargetData.html",
+          "hash": "2504EiTZh5cG23XZoqZaIA5aPM4f2rUBrnON1h8d08Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Character.Control.RotateController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Character.Control.RotateController.html",
+          "hash": "j0KoeCrVRsFawo0PNjuglIwfCY7Rzwrg8Wfm5ufEDzQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Character.Control.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Character.Control.html",
+          "hash": "BZLVeE8ab2GdHRZ4tgC0rOG/SjHjgAVBU0ra/lyVYS0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Character.Follow.SO_JumpBoostData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Character.Follow.SO_JumpBoostData.html",
+          "hash": "4irfbDZv2xxCUkhqZ2WylFUg14W5P//M/VAEY/KGxmw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Character.Follow.SlidePathController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Character.Follow.SlidePathController.html",
+          "hash": "2hGQtZNrj8GjoAtdXTB1VrJ6i8XVm55faZ2ANkxC0p8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Character.Follow.SnapPositionController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Character.Follow.SnapPositionController.html",
+          "hash": "KNOA86Fba5vk2JS011QjEQ6GI60AaHAtnmFUb3S2ayw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Character.Follow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Character.Follow.html",
+          "hash": "6up1RWzcnLzKSjV/tB0J390rxartyBC86bq4SPogqM0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Character.OriginResetController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Character.OriginResetController.html",
+          "hash": "v1GLKeMvEk97ZzpPKJMB0LpMclyrtZ6oNGTu7IkyqLw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/softtissue.Character.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/softtissue.Character.html",
+          "hash": "j0KSbS9/fByrcn6+gfBkGEwg5De0fHXPwCUCkHogCHE="
         }
       },
       "is_incremental": false,
@@ -246,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "gj7859iXQqbV3E33LON5C1TzeaD+uFN5acXlO1lN7fg="
+          "hash": "qqeNzGYIoOUsqZUzJ+d7En+8lrrZcTzqSCL0RPuEbUk="
         }
       },
       "is_incremental": false,
@@ -258,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "GKzAK3PeXMOCduUYvLA6TiOQxWBZVsXb8ZC9QxlcS/E="
+          "hash": "BpqMcxOQe0Ej/0KeY8FEC7fkSRFvo6UDUkoMfzwAz7Y="
         }
       },
       "is_incremental": false,
@@ -270,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/CartonStateController.html",
-          "hash": "xMn7vReD93qbaVV8BEzl4j0feIizf0jrS0xtTWNGqqw="
+          "hash": "6Icv8MkCA1oE1GU5pb9Ie0N1N/rZu73adhxwThFl1Ks="
         }
       },
       "is_incremental": false,
@@ -282,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/LockCameraZ.html",
-          "hash": "rThFTv3oD7t5LapfnkOXdMvC9tYANwZeZ7V8tOoz4ps="
+          "hash": "Efiz8r7IaQM+WjxLeqNs7v3CSCw9liA/kAB0nAFubd8="
         }
       },
       "is_incremental": false,
@@ -294,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/NamingConvention.html",
-          "hash": "jQlTIAGpxjZdT8Mhg0ZbsRmxhnOUJoJz8EHHukQyqzA="
+          "hash": "5/3AWjfQ/O97DdEbT/kVtKoYmh9u2LZWRBQFZXM2O6Q="
         }
       },
       "is_incremental": false,
@@ -378,7 +522,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 19,
+          "total_file_count": 31,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

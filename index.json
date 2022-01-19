@@ -42,22 +42,12 @@
   "api/softtissue.Carton.StateMachine.AbstractCartonState.html": {
     "href": "api/softtissue.Carton.StateMachine.AbstractCartonState.html",
     "title": "Class AbstractCartonState | Kitten Rhythm Specification",
-    "keywords": "Class AbstractCartonState 紙箱抽象狀態機 Inheritance Object AbstractCartonState StateCloseDynamic StateCloseStatic StateFlat StateOpenDynamic StateOpenStatic Namespace : softtissue.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public abstract class AbstractCartonState Methods EnterState(CartonStateController, Animator) 進入狀態 Declaration public abstract void EnterState(CartonStateController stateController, Animator animatorController) Parameters Type Name Description CartonStateController stateController Animator animatorController"
-  },
-  "api/softtissue.Carton.StateMachine.CartonStateController.html": {
-    "href": "api/softtissue.Carton.StateMachine.CartonStateController.html",
-    "title": "Class CartonStateController | Kitten Rhythm Specification",
-    "keywords": "Class CartonStateController 紙箱狀態機管理 Inheritance Object CartonStateController Namespace : softtissue.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class CartonStateController : MonoBehaviour, IBeatable Fields animatorController Declaration public Animator animatorController Field Value Type Description Animator carton Declaration public GameObject carton Field Value Type Description GameObject cartonCurrentState Declaration public string cartonCurrentState Field Value Type Description String closePathRouteLogic 紙箱開啟事件發送 Declaration public UnityEvent closePathRouteLogic Field Value Type Description UnityEvent 用於觸發 SlidePathController UET_ClosePathRoute() flat Declaration public GameObject flat Field Value Type Description GameObject flatDust Declaration public GameObject flatDust Field Value Type Description GameObject innerItemContainer Declaration public GameObject innerItemContainer Field Value Type Description GameObject isDynamic Declaration public bool isDynamic Field Value Type Description Boolean isLinked Declaration public bool isLinked Field Value Type Description Boolean isReverse Declaration public bool isReverse Field Value Type Description Boolean mmCameraShakeEvent Declaration public MM_CameraShakeEvent mmCameraShakeEvent Field Value Type Description MM_CameraShakeEvent openPathRouteLogic 紙箱關閉事件發送 Declaration public UnityEvent openPathRouteLogic Field Value Type Description UnityEvent 用於觸發 SlidePathController UET_OpenPathRoute() stateEnum Declaration public SO_CartonStateData.StateEnum stateEnum Field Value Type Description SO_CartonStateData.StateEnum updateCartonCurrentState 紙箱狀態更新事件發送 Declaration public UnityEvent updateCartonCurrentState Field Value Type Description UnityEvent 用於觸發 CartonTriggerStateController UET_UpdateCartonCurrentState() Methods UET_CartonLikedHandler() Declaration public void UET_CartonLikedHandler() UET_CartonUnLinkedHandler() Declaration public void UET_CartonUnLinkedHandler() UET_CloseToFlatHandler() Declaration public void UET_CloseToFlatHandler() UET_DynamicCloseToStaticClose() Declaration public void UET_DynamicCloseToStaticClose() UET_OpenToStaticOpenHandler() Declaration public void UET_OpenToStaticOpenHandler() UET_SO_IBeatResponse() Declaration public void UET_SO_IBeatResponse()"
-  },
-  "api/softtissue.Carton.StateMachine.CartonTriggerController.html": {
-    "href": "api/softtissue.Carton.StateMachine.CartonTriggerController.html",
-    "title": "Class CartonTriggerController | Kitten Rhythm Specification",
-    "keywords": "Class CartonTriggerController 觸發紙箱狀態切換器 Inheritance Object CartonTriggerController Namespace : softtissue.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class CartonTriggerController : MonoBehaviour Fields triggerCollect 當紙箱開啟時 InnerItem 的蒐集事件 Declaration public UnityEvent triggerCollect Field Value Type Description UnityEvent 觸發 UET_OpenToStaticOpenHandler, 觸發 UET_InnerItemCollectHandler, (CartonMovementController) 觸發 UET_UnFollowPath triggerFlatten 當紙箱關閉時被壓扁事件 Declaration public UnityEvent triggerFlatten Field Value Type Description UnityEvent 觸發 UET_CloseToFlatHandler, (CartonMovementController) 觸發 UET_UnFollowPath Methods UET_UpdateCartonCurrentState() 取得 CartonStateController 最近狀態 Declaration public void UET_UpdateCartonCurrentState()"
+    "keywords": "Class AbstractCartonState 紙箱抽象狀態機 Inheritance Object AbstractCartonState StateCloseDynamic StateCloseStatic StateFlat StateOpenDynamic StateOpenStatic Namespace : softtissue.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public abstract class AbstractCartonState Methods EnterState(StateController, Animator) 進入狀態 Declaration public abstract void EnterState(StateController stateController, Animator animatorController) Parameters Type Name Description StateController stateController Animator animatorController"
   },
   "api/softtissue.Carton.StateMachine.html": {
     "href": "api/softtissue.Carton.StateMachine.html",
     "title": "Namespace softtissue.Carton.StateMachine | Kitten Rhythm Specification",
-    "keywords": "Namespace softtissue.Carton.StateMachine Classes AbstractCartonState 紙箱抽象狀態機 CartonStateController 紙箱狀態機管理 CartonTriggerController 觸發紙箱狀態切換器 SO_CartonStateData StateCloseDynamic 狀態機狀態:關閉動畫 StateCloseStatic 狀態機狀態:靜態關閉 StateFlat 紙箱壓扁狀態 StateOpenDynamic 狀態機狀態:開啟動畫 StateOpenStatic 狀態機狀態:靜態開啟 Enums SO_CartonStateData.StateEnum 紙箱狀態枚舉"
+    "keywords": "Namespace softtissue.Carton.StateMachine Classes AbstractCartonState 紙箱抽象狀態機 SO_CartonStateData StateCloseDynamic 狀態機狀態:關閉動畫 StateCloseStatic 狀態機狀態:靜態關閉 StateController 紙箱狀態機管理 StateFlat 紙箱壓扁狀態 StateOpenDynamic 狀態機狀態:開啟動畫 StateOpenStatic 狀態機狀態:靜態開啟 TriggerController 觸發紙箱狀態切換器 Enums SO_CartonStateData.StateEnum 紙箱狀態枚舉"
   },
   "api/softtissue.Carton.StateMachine.SO_CartonStateData.html": {
     "href": "api/softtissue.Carton.StateMachine.SO_CartonStateData.html",
@@ -72,27 +62,97 @@
   "api/softtissue.Carton.StateMachine.StateCloseDynamic.html": {
     "href": "api/softtissue.Carton.StateMachine.StateCloseDynamic.html",
     "title": "Class StateCloseDynamic | Kitten Rhythm Specification",
-    "keywords": "Class StateCloseDynamic 狀態機狀態:關閉動畫 Inheritance Object AbstractCartonState StateCloseDynamic Namespace : softtissue.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class StateCloseDynamic : AbstractCartonState Methods EnterState(CartonStateController, Animator) Declaration public override void EnterState(CartonStateController stateController, Animator animatorController) Parameters Type Name Description CartonStateController stateController Animator animatorController Overrides AbstractCartonState.EnterState(CartonStateController, Animator)"
+    "keywords": "Class StateCloseDynamic 狀態機狀態:關閉動畫 Inheritance Object AbstractCartonState StateCloseDynamic Namespace : softtissue.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class StateCloseDynamic : AbstractCartonState Methods EnterState(StateController, Animator) Declaration public override void EnterState(StateController stateController, Animator animatorController) Parameters Type Name Description StateController stateController Animator animatorController Overrides AbstractCartonState.EnterState(StateController, Animator)"
   },
   "api/softtissue.Carton.StateMachine.StateCloseStatic.html": {
     "href": "api/softtissue.Carton.StateMachine.StateCloseStatic.html",
     "title": "Class StateCloseStatic | Kitten Rhythm Specification",
-    "keywords": "Class StateCloseStatic 狀態機狀態:靜態關閉 Inheritance Object AbstractCartonState StateCloseStatic Namespace : softtissue.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class StateCloseStatic : AbstractCartonState Methods EnterState(CartonStateController, Animator) Declaration public override void EnterState(CartonStateController stateController, Animator animatorController) Parameters Type Name Description CartonStateController stateController Animator animatorController Overrides AbstractCartonState.EnterState(CartonStateController, Animator)"
+    "keywords": "Class StateCloseStatic 狀態機狀態:靜態關閉 Inheritance Object AbstractCartonState StateCloseStatic Namespace : softtissue.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class StateCloseStatic : AbstractCartonState Methods EnterState(StateController, Animator) Declaration public override void EnterState(StateController stateController, Animator animatorController) Parameters Type Name Description StateController stateController Animator animatorController Overrides AbstractCartonState.EnterState(StateController, Animator)"
+  },
+  "api/softtissue.Carton.StateMachine.StateController.html": {
+    "href": "api/softtissue.Carton.StateMachine.StateController.html",
+    "title": "Class StateController | Kitten Rhythm Specification",
+    "keywords": "Class StateController 紙箱狀態機管理 Inheritance Object StateController Namespace : softtissue.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class StateController : MonoBehaviour, IBeatable Fields animatorController Declaration public Animator animatorController Field Value Type Description Animator carton Declaration public GameObject carton Field Value Type Description GameObject cartonCurrentState Declaration public string cartonCurrentState Field Value Type Description String closePathRouteLogic 紙箱開啟事件發送 Declaration public UnityEvent closePathRouteLogic Field Value Type Description UnityEvent 用於觸發 SlidePathController UET_ClosePathRoute() flat Declaration public GameObject flat Field Value Type Description GameObject flatDust Declaration public GameObject flatDust Field Value Type Description GameObject innerItemContainer Declaration public GameObject innerItemContainer Field Value Type Description GameObject isDynamic Declaration public bool isDynamic Field Value Type Description Boolean isLinked Declaration public bool isLinked Field Value Type Description Boolean isReverse Declaration public bool isReverse Field Value Type Description Boolean mmCameraShakeEvent Declaration public MM_CameraShakeEvent mmCameraShakeEvent Field Value Type Description MM_CameraShakeEvent openPathRouteLogic 紙箱關閉事件發送 Declaration public UnityEvent openPathRouteLogic Field Value Type Description UnityEvent 用於觸發 SlidePathController UET_OpenPathRoute() stateEnum Declaration public SO_CartonStateData.StateEnum stateEnum Field Value Type Description SO_CartonStateData.StateEnum updateCartonCurrentState 紙箱狀態更新事件發送 Declaration public UnityEvent updateCartonCurrentState Field Value Type Description UnityEvent 用於觸發 CartonTriggerStateController UET_UpdateCartonCurrentState() Methods UET_CartonLikedHandler() Declaration public void UET_CartonLikedHandler() UET_CartonUnLinkedHandler() Declaration public void UET_CartonUnLinkedHandler() UET_CloseToFlatHandler() Declaration public void UET_CloseToFlatHandler() UET_DynamicCloseToStaticClose() Declaration public void UET_DynamicCloseToStaticClose() UET_OpenToStaticOpenHandler() Declaration public void UET_OpenToStaticOpenHandler() UET_SO_IBeatResponse() Declaration public void UET_SO_IBeatResponse()"
   },
   "api/softtissue.Carton.StateMachine.StateFlat.html": {
     "href": "api/softtissue.Carton.StateMachine.StateFlat.html",
     "title": "Class StateFlat | Kitten Rhythm Specification",
-    "keywords": "Class StateFlat 紙箱壓扁狀態 Inheritance Object AbstractCartonState StateFlat Namespace : softtissue.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class StateFlat : AbstractCartonState Methods EnterState(CartonStateController, Animator) 狀態機狀態:靜態扁平 Declaration public override void EnterState(CartonStateController stateController, Animator animatorController) Parameters Type Name Description CartonStateController stateController Animator animatorController Overrides AbstractCartonState.EnterState(CartonStateController, Animator)"
+    "keywords": "Class StateFlat 紙箱壓扁狀態 Inheritance Object AbstractCartonState StateFlat Namespace : softtissue.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class StateFlat : AbstractCartonState Methods EnterState(StateController, Animator) 狀態機狀態:靜態扁平 Declaration public override void EnterState(StateController stateController, Animator animatorController) Parameters Type Name Description StateController stateController Animator animatorController Overrides AbstractCartonState.EnterState(StateController, Animator)"
   },
   "api/softtissue.Carton.StateMachine.StateOpenDynamic.html": {
     "href": "api/softtissue.Carton.StateMachine.StateOpenDynamic.html",
     "title": "Class StateOpenDynamic | Kitten Rhythm Specification",
-    "keywords": "Class StateOpenDynamic 狀態機狀態:開啟動畫 Inheritance Object AbstractCartonState StateOpenDynamic Namespace : softtissue.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class StateOpenDynamic : AbstractCartonState Methods EnterState(CartonStateController, Animator) Declaration public override void EnterState(CartonStateController stateController, Animator animatorController) Parameters Type Name Description CartonStateController stateController Animator animatorController Overrides AbstractCartonState.EnterState(CartonStateController, Animator)"
+    "keywords": "Class StateOpenDynamic 狀態機狀態:開啟動畫 Inheritance Object AbstractCartonState StateOpenDynamic Namespace : softtissue.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class StateOpenDynamic : AbstractCartonState Methods EnterState(StateController, Animator) Declaration public override void EnterState(StateController stateController, Animator animatorController) Parameters Type Name Description StateController stateController Animator animatorController Overrides AbstractCartonState.EnterState(StateController, Animator)"
   },
   "api/softtissue.Carton.StateMachine.StateOpenStatic.html": {
     "href": "api/softtissue.Carton.StateMachine.StateOpenStatic.html",
     "title": "Class StateOpenStatic | Kitten Rhythm Specification",
-    "keywords": "Class StateOpenStatic 狀態機狀態:靜態開啟 Inheritance Object AbstractCartonState StateOpenStatic Namespace : softtissue.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class StateOpenStatic : AbstractCartonState Methods EnterState(CartonStateController, Animator) Declaration public override void EnterState(CartonStateController stateController, Animator animatorController) Parameters Type Name Description CartonStateController stateController Animator animatorController Overrides AbstractCartonState.EnterState(CartonStateController, Animator)"
+    "keywords": "Class StateOpenStatic 狀態機狀態:靜態開啟 Inheritance Object AbstractCartonState StateOpenStatic Namespace : softtissue.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class StateOpenStatic : AbstractCartonState Methods EnterState(StateController, Animator) Declaration public override void EnterState(StateController stateController, Animator animatorController) Parameters Type Name Description StateController stateController Animator animatorController Overrides AbstractCartonState.EnterState(StateController, Animator)"
+  },
+  "api/softtissue.Carton.StateMachine.TriggerController.html": {
+    "href": "api/softtissue.Carton.StateMachine.TriggerController.html",
+    "title": "Class TriggerController | Kitten Rhythm Specification",
+    "keywords": "Class TriggerController 觸發紙箱狀態切換器 Inheritance Object TriggerController Namespace : softtissue.Carton.StateMachine Assembly : cs.temp.dll.dll Syntax public class TriggerController : MonoBehaviour Fields triggerCollect 當紙箱開啟時 InnerItem 的蒐集事件 Declaration public UnityEvent triggerCollect Field Value Type Description UnityEvent 觸發 UET_OpenToStaticOpenHandler, 觸發 UET_InnerItemCollectHandler, (CartonMovementController) 觸發 UET_UnFollowPath triggerFlatten 當紙箱關閉時被壓扁事件 Declaration public UnityEvent triggerFlatten Field Value Type Description UnityEvent 觸發 UET_CloseToFlatHandler, (CartonMovementController) 觸發 UET_UnFollowPath Methods UET_UpdateCartonCurrentState() 取得 CartonStateController 最近狀態 Declaration public void UET_UpdateCartonCurrentState()"
+  },
+  "api/softtissue.Character.AnimatorController.html": {
+    "href": "api/softtissue.Character.AnimatorController.html",
+    "title": "Class AnimatorController | Kitten Rhythm Specification",
+    "keywords": "Class AnimatorController 角色動畫控制器 Inheritance Object AnimatorController Namespace : softtissue.Character Assembly : cs.temp.dll.dll Syntax public class AnimatorController : MonoBehaviour Methods AnimHandler(String) Declaration public void AnimHandler(string anim) Parameters Type Name Description String anim"
+  },
+  "api/softtissue.Character.CharacterAssemble.html": {
+    "href": "api/softtissue.Character.CharacterAssemble.html",
+    "title": "Class CharacterAssemble | Kitten Rhythm Specification",
+    "keywords": "Class CharacterAssemble 角色元件自動組裝 Inheritance Object CharacterAssemble Namespace : softtissue.Character Assembly : cs.temp.dll.dll Syntax public class CharacterAssemble : MonoBehaviour"
+  },
+  "api/softtissue.Character.Control.html": {
+    "href": "api/softtissue.Character.Control.html",
+    "title": "Namespace softtissue.Character.Control | Kitten Rhythm Specification",
+    "keywords": "Namespace softtissue.Character.Control Classes JumpController 跳躍控制器 JumpTargetData 跳躍目標 Y0 平面座標 RotateController 旋轉控制器"
+  },
+  "api/softtissue.Character.Control.JumpController.html": {
+    "href": "api/softtissue.Character.Control.JumpController.html",
+    "title": "Class JumpController | Kitten Rhythm Specification",
+    "keywords": "Class JumpController 跳躍控制器 Inheritance Object JumpController Namespace : softtissue.Character.Control Assembly : cs.temp.dll.dll Syntax public class JumpController : MonoBehaviour, IMovable<bool>, IRotatable<string> Fields jumpTargetPanel Declaration public GameObject jumpTargetPanel Field Value Type Description GameObject rb Declaration public Rigidbody rb Field Value Type Description Rigidbody Methods Move(Boolean) Declaration public void Move(bool isJump) Parameters Type Name Description Boolean isJump RotateTarget(String) Declaration public void RotateTarget(string newRotation) Parameters Type Name Description String newRotation"
+  },
+  "api/softtissue.Character.Control.JumpTargetData.html": {
+    "href": "api/softtissue.Character.Control.JumpTargetData.html",
+    "title": "Class JumpTargetData | Kitten Rhythm Specification",
+    "keywords": "Class JumpTargetData 跳躍目標 Y0 平面座標 Inheritance Object JumpTargetData Namespace : softtissue.Character.Control Assembly : cs.temp.dll.dll Syntax public class JumpTargetData : MonoBehaviour Fields JumpTarget Declaration public Dictionary<string, Transform> JumpTarget Field Value Type Description Dictionary < String , Transform > soRotation Declaration protected SO_Rotation soRotation Field Value Type Description SO_Rotation"
+  },
+  "api/softtissue.Character.Control.RotateController.html": {
+    "href": "api/softtissue.Character.Control.RotateController.html",
+    "title": "Class RotateController | Kitten Rhythm Specification",
+    "keywords": "Class RotateController 旋轉控制器 Inheritance Object RotateController Namespace : softtissue.Character.Control Assembly : cs.temp.dll.dll Syntax public class RotateController : MonoBehaviour, IRotatable<string> Methods RotateTarget(String) Declaration public void RotateTarget(string direction) Parameters Type Name Description String direction"
+  },
+  "api/softtissue.Character.Follow.html": {
+    "href": "api/softtissue.Character.Follow.html",
+    "title": "Namespace softtissue.Character.Follow | Kitten Rhythm Specification",
+    "keywords": "Namespace softtissue.Character.Follow Classes SlidePathController 路徑跟隨控制器 SnapPositionController SO_JumpBoostData 跳躍加乘資料"
+  },
+  "api/softtissue.Character.Follow.SlidePathController.html": {
+    "href": "api/softtissue.Character.Follow.SlidePathController.html",
+    "title": "Class SlidePathController | Kitten Rhythm Specification",
+    "keywords": "Class SlidePathController 路徑跟隨控制器 Inheritance Object SlidePathController Namespace : softtissue.Character.Follow Assembly : cs.temp.dll.dll Syntax public class SlidePathController : MonoBehaviour Fields rb Declaration public Rigidbody rb Field Value Type Description Rigidbody"
+  },
+  "api/softtissue.Character.Follow.SnapPositionController.html": {
+    "href": "api/softtissue.Character.Follow.SnapPositionController.html",
+    "title": "Class SnapPositionController | Kitten Rhythm Specification",
+    "keywords": "Class SnapPositionController Inheritance Object SnapPositionController Namespace : softtissue.Character.Follow Assembly : cs.temp.dll.dll Syntax public class SnapPositionController : MonoBehaviour"
+  },
+  "api/softtissue.Character.Follow.SO_JumpBoostData.html": {
+    "href": "api/softtissue.Character.Follow.SO_JumpBoostData.html",
+    "title": "Class SO_JumpBoostData | Kitten Rhythm Specification",
+    "keywords": "Class SO_JumpBoostData 跳躍加乘資料 Inheritance Object SO_JumpBoostData Namespace : softtissue.Character.Follow Assembly : cs.temp.dll.dll Syntax public static class SO_JumpBoostData Fields isBoost Declaration public static bool isBoost Field Value Type Description Boolean JumpBoost Declaration public static float JumpBoost Field Value Type Description Single"
+  },
+  "api/softtissue.Character.html": {
+    "href": "api/softtissue.Character.html",
+    "title": "Namespace softtissue.Character | Kitten Rhythm Specification",
+    "keywords": "Namespace softtissue.Character Classes AnimatorController 角色動畫控制器 CharacterAssemble 角色元件自動組裝 OriginResetController Floating Origin 控制器"
+  },
+  "api/softtissue.Character.OriginResetController.html": {
+    "href": "api/softtissue.Character.OriginResetController.html",
+    "title": "Class OriginResetController | Kitten Rhythm Specification",
+    "keywords": "Class OriginResetController Floating Origin 控制器 Inheritance Object OriginResetController Namespace : softtissue.Character Assembly : cs.temp.dll.dll Syntax public class OriginResetController : MonoBehaviour Fields character Declaration public Transform character Field Value Type Description Transform resetThreshold Declaration public float resetThreshold Field Value Type Description Single Methods UpdateMagnitude() Declaration public void UpdateMagnitude()"
   },
   "index.html": {
     "href": "index.html",

@@ -219,12 +219,12 @@ references:
   commentId: T:softtissue.Carton.StateMachine.AbstractCartonState
   fullName: softtissue.Carton.StateMachine.AbstractCartonState
   nameWithType: AbstractCartonState
-- uid: softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
-  name: EnterState(CartonStateController, Animator)
-  href: api/softtissue.Carton.StateMachine.AbstractCartonState.html#softtissue_Carton_StateMachine_AbstractCartonState_EnterState_softtissue_Carton_StateMachine_CartonStateController_Animator_
-  commentId: M:softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
-  fullName: softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.CartonStateController, Animator)
-  nameWithType: AbstractCartonState.EnterState(CartonStateController, Animator)
+- uid: softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.StateController,Animator)
+  name: EnterState(StateController, Animator)
+  href: api/softtissue.Carton.StateMachine.AbstractCartonState.html#softtissue_Carton_StateMachine_AbstractCartonState_EnterState_softtissue_Carton_StateMachine_StateController_Animator_
+  commentId: M:softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.StateController,Animator)
+  fullName: softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.StateController, Animator)
+  nameWithType: AbstractCartonState.EnterState(StateController, Animator)
 - uid: softtissue.Carton.StateMachine.AbstractCartonState.EnterState*
   name: EnterState
   href: api/softtissue.Carton.StateMachine.AbstractCartonState.html#softtissue_Carton_StateMachine_AbstractCartonState_EnterState_
@@ -232,205 +232,6 @@ references:
   isSpec: "True"
   fullName: softtissue.Carton.StateMachine.AbstractCartonState.EnterState
   nameWithType: AbstractCartonState.EnterState
-- uid: softtissue.Carton.StateMachine.CartonStateController
-  name: CartonStateController
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html
-  commentId: T:softtissue.Carton.StateMachine.CartonStateController
-  fullName: softtissue.Carton.StateMachine.CartonStateController
-  nameWithType: CartonStateController
-- uid: softtissue.Carton.StateMachine.CartonStateController.animatorController
-  name: animatorController
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_animatorController
-  commentId: F:softtissue.Carton.StateMachine.CartonStateController.animatorController
-  fullName: softtissue.Carton.StateMachine.CartonStateController.animatorController
-  nameWithType: CartonStateController.animatorController
-- uid: softtissue.Carton.StateMachine.CartonStateController.carton
-  name: carton
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_carton
-  commentId: F:softtissue.Carton.StateMachine.CartonStateController.carton
-  fullName: softtissue.Carton.StateMachine.CartonStateController.carton
-  nameWithType: CartonStateController.carton
-- uid: softtissue.Carton.StateMachine.CartonStateController.cartonCurrentState
-  name: cartonCurrentState
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_cartonCurrentState
-  commentId: F:softtissue.Carton.StateMachine.CartonStateController.cartonCurrentState
-  fullName: softtissue.Carton.StateMachine.CartonStateController.cartonCurrentState
-  nameWithType: CartonStateController.cartonCurrentState
-- uid: softtissue.Carton.StateMachine.CartonStateController.closePathRouteLogic
-  name: closePathRouteLogic
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_closePathRouteLogic
-  commentId: F:softtissue.Carton.StateMachine.CartonStateController.closePathRouteLogic
-  fullName: softtissue.Carton.StateMachine.CartonStateController.closePathRouteLogic
-  nameWithType: CartonStateController.closePathRouteLogic
-- uid: softtissue.Carton.StateMachine.CartonStateController.flat
-  name: flat
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_flat
-  commentId: F:softtissue.Carton.StateMachine.CartonStateController.flat
-  fullName: softtissue.Carton.StateMachine.CartonStateController.flat
-  nameWithType: CartonStateController.flat
-- uid: softtissue.Carton.StateMachine.CartonStateController.flatDust
-  name: flatDust
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_flatDust
-  commentId: F:softtissue.Carton.StateMachine.CartonStateController.flatDust
-  fullName: softtissue.Carton.StateMachine.CartonStateController.flatDust
-  nameWithType: CartonStateController.flatDust
-- uid: softtissue.Carton.StateMachine.CartonStateController.innerItemContainer
-  name: innerItemContainer
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_innerItemContainer
-  commentId: F:softtissue.Carton.StateMachine.CartonStateController.innerItemContainer
-  fullName: softtissue.Carton.StateMachine.CartonStateController.innerItemContainer
-  nameWithType: CartonStateController.innerItemContainer
-- uid: softtissue.Carton.StateMachine.CartonStateController.isDynamic
-  name: isDynamic
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_isDynamic
-  commentId: F:softtissue.Carton.StateMachine.CartonStateController.isDynamic
-  fullName: softtissue.Carton.StateMachine.CartonStateController.isDynamic
-  nameWithType: CartonStateController.isDynamic
-- uid: softtissue.Carton.StateMachine.CartonStateController.isLinked
-  name: isLinked
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_isLinked
-  commentId: F:softtissue.Carton.StateMachine.CartonStateController.isLinked
-  fullName: softtissue.Carton.StateMachine.CartonStateController.isLinked
-  nameWithType: CartonStateController.isLinked
-- uid: softtissue.Carton.StateMachine.CartonStateController.isReverse
-  name: isReverse
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_isReverse
-  commentId: F:softtissue.Carton.StateMachine.CartonStateController.isReverse
-  fullName: softtissue.Carton.StateMachine.CartonStateController.isReverse
-  nameWithType: CartonStateController.isReverse
-- uid: softtissue.Carton.StateMachine.CartonStateController.mmCameraShakeEvent
-  name: mmCameraShakeEvent
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_mmCameraShakeEvent
-  commentId: F:softtissue.Carton.StateMachine.CartonStateController.mmCameraShakeEvent
-  fullName: softtissue.Carton.StateMachine.CartonStateController.mmCameraShakeEvent
-  nameWithType: CartonStateController.mmCameraShakeEvent
-- uid: softtissue.Carton.StateMachine.CartonStateController.openPathRouteLogic
-  name: openPathRouteLogic
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_openPathRouteLogic
-  commentId: F:softtissue.Carton.StateMachine.CartonStateController.openPathRouteLogic
-  fullName: softtissue.Carton.StateMachine.CartonStateController.openPathRouteLogic
-  nameWithType: CartonStateController.openPathRouteLogic
-- uid: softtissue.Carton.StateMachine.CartonStateController.stateEnum
-  name: stateEnum
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_stateEnum
-  commentId: F:softtissue.Carton.StateMachine.CartonStateController.stateEnum
-  fullName: softtissue.Carton.StateMachine.CartonStateController.stateEnum
-  nameWithType: CartonStateController.stateEnum
-- uid: softtissue.Carton.StateMachine.CartonStateController.UET_CartonLikedHandler
-  name: UET_CartonLikedHandler()
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_UET_CartonLikedHandler
-  commentId: M:softtissue.Carton.StateMachine.CartonStateController.UET_CartonLikedHandler
-  fullName: softtissue.Carton.StateMachine.CartonStateController.UET_CartonLikedHandler()
-  nameWithType: CartonStateController.UET_CartonLikedHandler()
-- uid: softtissue.Carton.StateMachine.CartonStateController.UET_CartonLikedHandler*
-  name: UET_CartonLikedHandler
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_UET_CartonLikedHandler_
-  commentId: Overload:softtissue.Carton.StateMachine.CartonStateController.UET_CartonLikedHandler
-  isSpec: "True"
-  fullName: softtissue.Carton.StateMachine.CartonStateController.UET_CartonLikedHandler
-  nameWithType: CartonStateController.UET_CartonLikedHandler
-- uid: softtissue.Carton.StateMachine.CartonStateController.UET_CartonUnLinkedHandler
-  name: UET_CartonUnLinkedHandler()
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_UET_CartonUnLinkedHandler
-  commentId: M:softtissue.Carton.StateMachine.CartonStateController.UET_CartonUnLinkedHandler
-  fullName: softtissue.Carton.StateMachine.CartonStateController.UET_CartonUnLinkedHandler()
-  nameWithType: CartonStateController.UET_CartonUnLinkedHandler()
-- uid: softtissue.Carton.StateMachine.CartonStateController.UET_CartonUnLinkedHandler*
-  name: UET_CartonUnLinkedHandler
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_UET_CartonUnLinkedHandler_
-  commentId: Overload:softtissue.Carton.StateMachine.CartonStateController.UET_CartonUnLinkedHandler
-  isSpec: "True"
-  fullName: softtissue.Carton.StateMachine.CartonStateController.UET_CartonUnLinkedHandler
-  nameWithType: CartonStateController.UET_CartonUnLinkedHandler
-- uid: softtissue.Carton.StateMachine.CartonStateController.UET_CloseToFlatHandler
-  name: UET_CloseToFlatHandler()
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_UET_CloseToFlatHandler
-  commentId: M:softtissue.Carton.StateMachine.CartonStateController.UET_CloseToFlatHandler
-  fullName: softtissue.Carton.StateMachine.CartonStateController.UET_CloseToFlatHandler()
-  nameWithType: CartonStateController.UET_CloseToFlatHandler()
-- uid: softtissue.Carton.StateMachine.CartonStateController.UET_CloseToFlatHandler*
-  name: UET_CloseToFlatHandler
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_UET_CloseToFlatHandler_
-  commentId: Overload:softtissue.Carton.StateMachine.CartonStateController.UET_CloseToFlatHandler
-  isSpec: "True"
-  fullName: softtissue.Carton.StateMachine.CartonStateController.UET_CloseToFlatHandler
-  nameWithType: CartonStateController.UET_CloseToFlatHandler
-- uid: softtissue.Carton.StateMachine.CartonStateController.UET_DynamicCloseToStaticClose
-  name: UET_DynamicCloseToStaticClose()
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_UET_DynamicCloseToStaticClose
-  commentId: M:softtissue.Carton.StateMachine.CartonStateController.UET_DynamicCloseToStaticClose
-  fullName: softtissue.Carton.StateMachine.CartonStateController.UET_DynamicCloseToStaticClose()
-  nameWithType: CartonStateController.UET_DynamicCloseToStaticClose()
-- uid: softtissue.Carton.StateMachine.CartonStateController.UET_DynamicCloseToStaticClose*
-  name: UET_DynamicCloseToStaticClose
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_UET_DynamicCloseToStaticClose_
-  commentId: Overload:softtissue.Carton.StateMachine.CartonStateController.UET_DynamicCloseToStaticClose
-  isSpec: "True"
-  fullName: softtissue.Carton.StateMachine.CartonStateController.UET_DynamicCloseToStaticClose
-  nameWithType: CartonStateController.UET_DynamicCloseToStaticClose
-- uid: softtissue.Carton.StateMachine.CartonStateController.UET_OpenToStaticOpenHandler
-  name: UET_OpenToStaticOpenHandler()
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_UET_OpenToStaticOpenHandler
-  commentId: M:softtissue.Carton.StateMachine.CartonStateController.UET_OpenToStaticOpenHandler
-  fullName: softtissue.Carton.StateMachine.CartonStateController.UET_OpenToStaticOpenHandler()
-  nameWithType: CartonStateController.UET_OpenToStaticOpenHandler()
-- uid: softtissue.Carton.StateMachine.CartonStateController.UET_OpenToStaticOpenHandler*
-  name: UET_OpenToStaticOpenHandler
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_UET_OpenToStaticOpenHandler_
-  commentId: Overload:softtissue.Carton.StateMachine.CartonStateController.UET_OpenToStaticOpenHandler
-  isSpec: "True"
-  fullName: softtissue.Carton.StateMachine.CartonStateController.UET_OpenToStaticOpenHandler
-  nameWithType: CartonStateController.UET_OpenToStaticOpenHandler
-- uid: softtissue.Carton.StateMachine.CartonStateController.UET_SO_IBeatResponse
-  name: UET_SO_IBeatResponse()
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_UET_SO_IBeatResponse
-  commentId: M:softtissue.Carton.StateMachine.CartonStateController.UET_SO_IBeatResponse
-  fullName: softtissue.Carton.StateMachine.CartonStateController.UET_SO_IBeatResponse()
-  nameWithType: CartonStateController.UET_SO_IBeatResponse()
-- uid: softtissue.Carton.StateMachine.CartonStateController.UET_SO_IBeatResponse*
-  name: UET_SO_IBeatResponse
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_UET_SO_IBeatResponse_
-  commentId: Overload:softtissue.Carton.StateMachine.CartonStateController.UET_SO_IBeatResponse
-  isSpec: "True"
-  fullName: softtissue.Carton.StateMachine.CartonStateController.UET_SO_IBeatResponse
-  nameWithType: CartonStateController.UET_SO_IBeatResponse
-- uid: softtissue.Carton.StateMachine.CartonStateController.updateCartonCurrentState
-  name: updateCartonCurrentState
-  href: api/softtissue.Carton.StateMachine.CartonStateController.html#softtissue_Carton_StateMachine_CartonStateController_updateCartonCurrentState
-  commentId: F:softtissue.Carton.StateMachine.CartonStateController.updateCartonCurrentState
-  fullName: softtissue.Carton.StateMachine.CartonStateController.updateCartonCurrentState
-  nameWithType: CartonStateController.updateCartonCurrentState
-- uid: softtissue.Carton.StateMachine.CartonTriggerController
-  name: CartonTriggerController
-  href: api/softtissue.Carton.StateMachine.CartonTriggerController.html
-  commentId: T:softtissue.Carton.StateMachine.CartonTriggerController
-  fullName: softtissue.Carton.StateMachine.CartonTriggerController
-  nameWithType: CartonTriggerController
-- uid: softtissue.Carton.StateMachine.CartonTriggerController.triggerCollect
-  name: triggerCollect
-  href: api/softtissue.Carton.StateMachine.CartonTriggerController.html#softtissue_Carton_StateMachine_CartonTriggerController_triggerCollect
-  commentId: F:softtissue.Carton.StateMachine.CartonTriggerController.triggerCollect
-  fullName: softtissue.Carton.StateMachine.CartonTriggerController.triggerCollect
-  nameWithType: CartonTriggerController.triggerCollect
-- uid: softtissue.Carton.StateMachine.CartonTriggerController.triggerFlatten
-  name: triggerFlatten
-  href: api/softtissue.Carton.StateMachine.CartonTriggerController.html#softtissue_Carton_StateMachine_CartonTriggerController_triggerFlatten
-  commentId: F:softtissue.Carton.StateMachine.CartonTriggerController.triggerFlatten
-  fullName: softtissue.Carton.StateMachine.CartonTriggerController.triggerFlatten
-  nameWithType: CartonTriggerController.triggerFlatten
-- uid: softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState
-  name: UET_UpdateCartonCurrentState()
-  href: api/softtissue.Carton.StateMachine.CartonTriggerController.html#softtissue_Carton_StateMachine_CartonTriggerController_UET_UpdateCartonCurrentState
-  commentId: M:softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState
-  fullName: softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState()
-  nameWithType: CartonTriggerController.UET_UpdateCartonCurrentState()
-- uid: softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState*
-  name: UET_UpdateCartonCurrentState
-  href: api/softtissue.Carton.StateMachine.CartonTriggerController.html#softtissue_Carton_StateMachine_CartonTriggerController_UET_UpdateCartonCurrentState_
-  commentId: Overload:softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState
-  isSpec: "True"
-  fullName: softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState
-  nameWithType: CartonTriggerController.UET_UpdateCartonCurrentState
 - uid: softtissue.Carton.StateMachine.SO_CartonStateData
   name: SO_CartonStateData
   href: api/softtissue.Carton.StateMachine.SO_CartonStateData.html
@@ -479,12 +280,12 @@ references:
   commentId: T:softtissue.Carton.StateMachine.StateCloseDynamic
   fullName: softtissue.Carton.StateMachine.StateCloseDynamic
   nameWithType: StateCloseDynamic
-- uid: softtissue.Carton.StateMachine.StateCloseDynamic.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
-  name: EnterState(CartonStateController, Animator)
-  href: api/softtissue.Carton.StateMachine.StateCloseDynamic.html#softtissue_Carton_StateMachine_StateCloseDynamic_EnterState_softtissue_Carton_StateMachine_CartonStateController_Animator_
-  commentId: M:softtissue.Carton.StateMachine.StateCloseDynamic.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
-  fullName: softtissue.Carton.StateMachine.StateCloseDynamic.EnterState(softtissue.Carton.StateMachine.CartonStateController, Animator)
-  nameWithType: StateCloseDynamic.EnterState(CartonStateController, Animator)
+- uid: softtissue.Carton.StateMachine.StateCloseDynamic.EnterState(softtissue.Carton.StateMachine.StateController,Animator)
+  name: EnterState(StateController, Animator)
+  href: api/softtissue.Carton.StateMachine.StateCloseDynamic.html#softtissue_Carton_StateMachine_StateCloseDynamic_EnterState_softtissue_Carton_StateMachine_StateController_Animator_
+  commentId: M:softtissue.Carton.StateMachine.StateCloseDynamic.EnterState(softtissue.Carton.StateMachine.StateController,Animator)
+  fullName: softtissue.Carton.StateMachine.StateCloseDynamic.EnterState(softtissue.Carton.StateMachine.StateController, Animator)
+  nameWithType: StateCloseDynamic.EnterState(StateController, Animator)
 - uid: softtissue.Carton.StateMachine.StateCloseDynamic.EnterState*
   name: EnterState
   href: api/softtissue.Carton.StateMachine.StateCloseDynamic.html#softtissue_Carton_StateMachine_StateCloseDynamic_EnterState_
@@ -498,12 +299,12 @@ references:
   commentId: T:softtissue.Carton.StateMachine.StateCloseStatic
   fullName: softtissue.Carton.StateMachine.StateCloseStatic
   nameWithType: StateCloseStatic
-- uid: softtissue.Carton.StateMachine.StateCloseStatic.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
-  name: EnterState(CartonStateController, Animator)
-  href: api/softtissue.Carton.StateMachine.StateCloseStatic.html#softtissue_Carton_StateMachine_StateCloseStatic_EnterState_softtissue_Carton_StateMachine_CartonStateController_Animator_
-  commentId: M:softtissue.Carton.StateMachine.StateCloseStatic.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
-  fullName: softtissue.Carton.StateMachine.StateCloseStatic.EnterState(softtissue.Carton.StateMachine.CartonStateController, Animator)
-  nameWithType: StateCloseStatic.EnterState(CartonStateController, Animator)
+- uid: softtissue.Carton.StateMachine.StateCloseStatic.EnterState(softtissue.Carton.StateMachine.StateController,Animator)
+  name: EnterState(StateController, Animator)
+  href: api/softtissue.Carton.StateMachine.StateCloseStatic.html#softtissue_Carton_StateMachine_StateCloseStatic_EnterState_softtissue_Carton_StateMachine_StateController_Animator_
+  commentId: M:softtissue.Carton.StateMachine.StateCloseStatic.EnterState(softtissue.Carton.StateMachine.StateController,Animator)
+  fullName: softtissue.Carton.StateMachine.StateCloseStatic.EnterState(softtissue.Carton.StateMachine.StateController, Animator)
+  nameWithType: StateCloseStatic.EnterState(StateController, Animator)
 - uid: softtissue.Carton.StateMachine.StateCloseStatic.EnterState*
   name: EnterState
   href: api/softtissue.Carton.StateMachine.StateCloseStatic.html#softtissue_Carton_StateMachine_StateCloseStatic_EnterState_
@@ -511,18 +312,186 @@ references:
   isSpec: "True"
   fullName: softtissue.Carton.StateMachine.StateCloseStatic.EnterState
   nameWithType: StateCloseStatic.EnterState
+- uid: softtissue.Carton.StateMachine.StateController
+  name: StateController
+  href: api/softtissue.Carton.StateMachine.StateController.html
+  commentId: T:softtissue.Carton.StateMachine.StateController
+  fullName: softtissue.Carton.StateMachine.StateController
+  nameWithType: StateController
+- uid: softtissue.Carton.StateMachine.StateController.animatorController
+  name: animatorController
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_animatorController
+  commentId: F:softtissue.Carton.StateMachine.StateController.animatorController
+  fullName: softtissue.Carton.StateMachine.StateController.animatorController
+  nameWithType: StateController.animatorController
+- uid: softtissue.Carton.StateMachine.StateController.carton
+  name: carton
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_carton
+  commentId: F:softtissue.Carton.StateMachine.StateController.carton
+  fullName: softtissue.Carton.StateMachine.StateController.carton
+  nameWithType: StateController.carton
+- uid: softtissue.Carton.StateMachine.StateController.cartonCurrentState
+  name: cartonCurrentState
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_cartonCurrentState
+  commentId: F:softtissue.Carton.StateMachine.StateController.cartonCurrentState
+  fullName: softtissue.Carton.StateMachine.StateController.cartonCurrentState
+  nameWithType: StateController.cartonCurrentState
+- uid: softtissue.Carton.StateMachine.StateController.closePathRouteLogic
+  name: closePathRouteLogic
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_closePathRouteLogic
+  commentId: F:softtissue.Carton.StateMachine.StateController.closePathRouteLogic
+  fullName: softtissue.Carton.StateMachine.StateController.closePathRouteLogic
+  nameWithType: StateController.closePathRouteLogic
+- uid: softtissue.Carton.StateMachine.StateController.flat
+  name: flat
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_flat
+  commentId: F:softtissue.Carton.StateMachine.StateController.flat
+  fullName: softtissue.Carton.StateMachine.StateController.flat
+  nameWithType: StateController.flat
+- uid: softtissue.Carton.StateMachine.StateController.flatDust
+  name: flatDust
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_flatDust
+  commentId: F:softtissue.Carton.StateMachine.StateController.flatDust
+  fullName: softtissue.Carton.StateMachine.StateController.flatDust
+  nameWithType: StateController.flatDust
+- uid: softtissue.Carton.StateMachine.StateController.innerItemContainer
+  name: innerItemContainer
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_innerItemContainer
+  commentId: F:softtissue.Carton.StateMachine.StateController.innerItemContainer
+  fullName: softtissue.Carton.StateMachine.StateController.innerItemContainer
+  nameWithType: StateController.innerItemContainer
+- uid: softtissue.Carton.StateMachine.StateController.isDynamic
+  name: isDynamic
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_isDynamic
+  commentId: F:softtissue.Carton.StateMachine.StateController.isDynamic
+  fullName: softtissue.Carton.StateMachine.StateController.isDynamic
+  nameWithType: StateController.isDynamic
+- uid: softtissue.Carton.StateMachine.StateController.isLinked
+  name: isLinked
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_isLinked
+  commentId: F:softtissue.Carton.StateMachine.StateController.isLinked
+  fullName: softtissue.Carton.StateMachine.StateController.isLinked
+  nameWithType: StateController.isLinked
+- uid: softtissue.Carton.StateMachine.StateController.isReverse
+  name: isReverse
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_isReverse
+  commentId: F:softtissue.Carton.StateMachine.StateController.isReverse
+  fullName: softtissue.Carton.StateMachine.StateController.isReverse
+  nameWithType: StateController.isReverse
+- uid: softtissue.Carton.StateMachine.StateController.mmCameraShakeEvent
+  name: mmCameraShakeEvent
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_mmCameraShakeEvent
+  commentId: F:softtissue.Carton.StateMachine.StateController.mmCameraShakeEvent
+  fullName: softtissue.Carton.StateMachine.StateController.mmCameraShakeEvent
+  nameWithType: StateController.mmCameraShakeEvent
+- uid: softtissue.Carton.StateMachine.StateController.openPathRouteLogic
+  name: openPathRouteLogic
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_openPathRouteLogic
+  commentId: F:softtissue.Carton.StateMachine.StateController.openPathRouteLogic
+  fullName: softtissue.Carton.StateMachine.StateController.openPathRouteLogic
+  nameWithType: StateController.openPathRouteLogic
+- uid: softtissue.Carton.StateMachine.StateController.stateEnum
+  name: stateEnum
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_stateEnum
+  commentId: F:softtissue.Carton.StateMachine.StateController.stateEnum
+  fullName: softtissue.Carton.StateMachine.StateController.stateEnum
+  nameWithType: StateController.stateEnum
+- uid: softtissue.Carton.StateMachine.StateController.UET_CartonLikedHandler
+  name: UET_CartonLikedHandler()
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_UET_CartonLikedHandler
+  commentId: M:softtissue.Carton.StateMachine.StateController.UET_CartonLikedHandler
+  fullName: softtissue.Carton.StateMachine.StateController.UET_CartonLikedHandler()
+  nameWithType: StateController.UET_CartonLikedHandler()
+- uid: softtissue.Carton.StateMachine.StateController.UET_CartonLikedHandler*
+  name: UET_CartonLikedHandler
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_UET_CartonLikedHandler_
+  commentId: Overload:softtissue.Carton.StateMachine.StateController.UET_CartonLikedHandler
+  isSpec: "True"
+  fullName: softtissue.Carton.StateMachine.StateController.UET_CartonLikedHandler
+  nameWithType: StateController.UET_CartonLikedHandler
+- uid: softtissue.Carton.StateMachine.StateController.UET_CartonUnLinkedHandler
+  name: UET_CartonUnLinkedHandler()
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_UET_CartonUnLinkedHandler
+  commentId: M:softtissue.Carton.StateMachine.StateController.UET_CartonUnLinkedHandler
+  fullName: softtissue.Carton.StateMachine.StateController.UET_CartonUnLinkedHandler()
+  nameWithType: StateController.UET_CartonUnLinkedHandler()
+- uid: softtissue.Carton.StateMachine.StateController.UET_CartonUnLinkedHandler*
+  name: UET_CartonUnLinkedHandler
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_UET_CartonUnLinkedHandler_
+  commentId: Overload:softtissue.Carton.StateMachine.StateController.UET_CartonUnLinkedHandler
+  isSpec: "True"
+  fullName: softtissue.Carton.StateMachine.StateController.UET_CartonUnLinkedHandler
+  nameWithType: StateController.UET_CartonUnLinkedHandler
+- uid: softtissue.Carton.StateMachine.StateController.UET_CloseToFlatHandler
+  name: UET_CloseToFlatHandler()
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_UET_CloseToFlatHandler
+  commentId: M:softtissue.Carton.StateMachine.StateController.UET_CloseToFlatHandler
+  fullName: softtissue.Carton.StateMachine.StateController.UET_CloseToFlatHandler()
+  nameWithType: StateController.UET_CloseToFlatHandler()
+- uid: softtissue.Carton.StateMachine.StateController.UET_CloseToFlatHandler*
+  name: UET_CloseToFlatHandler
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_UET_CloseToFlatHandler_
+  commentId: Overload:softtissue.Carton.StateMachine.StateController.UET_CloseToFlatHandler
+  isSpec: "True"
+  fullName: softtissue.Carton.StateMachine.StateController.UET_CloseToFlatHandler
+  nameWithType: StateController.UET_CloseToFlatHandler
+- uid: softtissue.Carton.StateMachine.StateController.UET_DynamicCloseToStaticClose
+  name: UET_DynamicCloseToStaticClose()
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_UET_DynamicCloseToStaticClose
+  commentId: M:softtissue.Carton.StateMachine.StateController.UET_DynamicCloseToStaticClose
+  fullName: softtissue.Carton.StateMachine.StateController.UET_DynamicCloseToStaticClose()
+  nameWithType: StateController.UET_DynamicCloseToStaticClose()
+- uid: softtissue.Carton.StateMachine.StateController.UET_DynamicCloseToStaticClose*
+  name: UET_DynamicCloseToStaticClose
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_UET_DynamicCloseToStaticClose_
+  commentId: Overload:softtissue.Carton.StateMachine.StateController.UET_DynamicCloseToStaticClose
+  isSpec: "True"
+  fullName: softtissue.Carton.StateMachine.StateController.UET_DynamicCloseToStaticClose
+  nameWithType: StateController.UET_DynamicCloseToStaticClose
+- uid: softtissue.Carton.StateMachine.StateController.UET_OpenToStaticOpenHandler
+  name: UET_OpenToStaticOpenHandler()
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_UET_OpenToStaticOpenHandler
+  commentId: M:softtissue.Carton.StateMachine.StateController.UET_OpenToStaticOpenHandler
+  fullName: softtissue.Carton.StateMachine.StateController.UET_OpenToStaticOpenHandler()
+  nameWithType: StateController.UET_OpenToStaticOpenHandler()
+- uid: softtissue.Carton.StateMachine.StateController.UET_OpenToStaticOpenHandler*
+  name: UET_OpenToStaticOpenHandler
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_UET_OpenToStaticOpenHandler_
+  commentId: Overload:softtissue.Carton.StateMachine.StateController.UET_OpenToStaticOpenHandler
+  isSpec: "True"
+  fullName: softtissue.Carton.StateMachine.StateController.UET_OpenToStaticOpenHandler
+  nameWithType: StateController.UET_OpenToStaticOpenHandler
+- uid: softtissue.Carton.StateMachine.StateController.UET_SO_IBeatResponse
+  name: UET_SO_IBeatResponse()
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_UET_SO_IBeatResponse
+  commentId: M:softtissue.Carton.StateMachine.StateController.UET_SO_IBeatResponse
+  fullName: softtissue.Carton.StateMachine.StateController.UET_SO_IBeatResponse()
+  nameWithType: StateController.UET_SO_IBeatResponse()
+- uid: softtissue.Carton.StateMachine.StateController.UET_SO_IBeatResponse*
+  name: UET_SO_IBeatResponse
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_UET_SO_IBeatResponse_
+  commentId: Overload:softtissue.Carton.StateMachine.StateController.UET_SO_IBeatResponse
+  isSpec: "True"
+  fullName: softtissue.Carton.StateMachine.StateController.UET_SO_IBeatResponse
+  nameWithType: StateController.UET_SO_IBeatResponse
+- uid: softtissue.Carton.StateMachine.StateController.updateCartonCurrentState
+  name: updateCartonCurrentState
+  href: api/softtissue.Carton.StateMachine.StateController.html#softtissue_Carton_StateMachine_StateController_updateCartonCurrentState
+  commentId: F:softtissue.Carton.StateMachine.StateController.updateCartonCurrentState
+  fullName: softtissue.Carton.StateMachine.StateController.updateCartonCurrentState
+  nameWithType: StateController.updateCartonCurrentState
 - uid: softtissue.Carton.StateMachine.StateFlat
   name: StateFlat
   href: api/softtissue.Carton.StateMachine.StateFlat.html
   commentId: T:softtissue.Carton.StateMachine.StateFlat
   fullName: softtissue.Carton.StateMachine.StateFlat
   nameWithType: StateFlat
-- uid: softtissue.Carton.StateMachine.StateFlat.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
-  name: EnterState(CartonStateController, Animator)
-  href: api/softtissue.Carton.StateMachine.StateFlat.html#softtissue_Carton_StateMachine_StateFlat_EnterState_softtissue_Carton_StateMachine_CartonStateController_Animator_
-  commentId: M:softtissue.Carton.StateMachine.StateFlat.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
-  fullName: softtissue.Carton.StateMachine.StateFlat.EnterState(softtissue.Carton.StateMachine.CartonStateController, Animator)
-  nameWithType: StateFlat.EnterState(CartonStateController, Animator)
+- uid: softtissue.Carton.StateMachine.StateFlat.EnterState(softtissue.Carton.StateMachine.StateController,Animator)
+  name: EnterState(StateController, Animator)
+  href: api/softtissue.Carton.StateMachine.StateFlat.html#softtissue_Carton_StateMachine_StateFlat_EnterState_softtissue_Carton_StateMachine_StateController_Animator_
+  commentId: M:softtissue.Carton.StateMachine.StateFlat.EnterState(softtissue.Carton.StateMachine.StateController,Animator)
+  fullName: softtissue.Carton.StateMachine.StateFlat.EnterState(softtissue.Carton.StateMachine.StateController, Animator)
+  nameWithType: StateFlat.EnterState(StateController, Animator)
 - uid: softtissue.Carton.StateMachine.StateFlat.EnterState*
   name: EnterState
   href: api/softtissue.Carton.StateMachine.StateFlat.html#softtissue_Carton_StateMachine_StateFlat_EnterState_
@@ -536,12 +505,12 @@ references:
   commentId: T:softtissue.Carton.StateMachine.StateOpenDynamic
   fullName: softtissue.Carton.StateMachine.StateOpenDynamic
   nameWithType: StateOpenDynamic
-- uid: softtissue.Carton.StateMachine.StateOpenDynamic.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
-  name: EnterState(CartonStateController, Animator)
-  href: api/softtissue.Carton.StateMachine.StateOpenDynamic.html#softtissue_Carton_StateMachine_StateOpenDynamic_EnterState_softtissue_Carton_StateMachine_CartonStateController_Animator_
-  commentId: M:softtissue.Carton.StateMachine.StateOpenDynamic.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
-  fullName: softtissue.Carton.StateMachine.StateOpenDynamic.EnterState(softtissue.Carton.StateMachine.CartonStateController, Animator)
-  nameWithType: StateOpenDynamic.EnterState(CartonStateController, Animator)
+- uid: softtissue.Carton.StateMachine.StateOpenDynamic.EnterState(softtissue.Carton.StateMachine.StateController,Animator)
+  name: EnterState(StateController, Animator)
+  href: api/softtissue.Carton.StateMachine.StateOpenDynamic.html#softtissue_Carton_StateMachine_StateOpenDynamic_EnterState_softtissue_Carton_StateMachine_StateController_Animator_
+  commentId: M:softtissue.Carton.StateMachine.StateOpenDynamic.EnterState(softtissue.Carton.StateMachine.StateController,Animator)
+  fullName: softtissue.Carton.StateMachine.StateOpenDynamic.EnterState(softtissue.Carton.StateMachine.StateController, Animator)
+  nameWithType: StateOpenDynamic.EnterState(StateController, Animator)
 - uid: softtissue.Carton.StateMachine.StateOpenDynamic.EnterState*
   name: EnterState
   href: api/softtissue.Carton.StateMachine.StateOpenDynamic.html#softtissue_Carton_StateMachine_StateOpenDynamic_EnterState_
@@ -555,12 +524,12 @@ references:
   commentId: T:softtissue.Carton.StateMachine.StateOpenStatic
   fullName: softtissue.Carton.StateMachine.StateOpenStatic
   nameWithType: StateOpenStatic
-- uid: softtissue.Carton.StateMachine.StateOpenStatic.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
-  name: EnterState(CartonStateController, Animator)
-  href: api/softtissue.Carton.StateMachine.StateOpenStatic.html#softtissue_Carton_StateMachine_StateOpenStatic_EnterState_softtissue_Carton_StateMachine_CartonStateController_Animator_
-  commentId: M:softtissue.Carton.StateMachine.StateOpenStatic.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
-  fullName: softtissue.Carton.StateMachine.StateOpenStatic.EnterState(softtissue.Carton.StateMachine.CartonStateController, Animator)
-  nameWithType: StateOpenStatic.EnterState(CartonStateController, Animator)
+- uid: softtissue.Carton.StateMachine.StateOpenStatic.EnterState(softtissue.Carton.StateMachine.StateController,Animator)
+  name: EnterState(StateController, Animator)
+  href: api/softtissue.Carton.StateMachine.StateOpenStatic.html#softtissue_Carton_StateMachine_StateOpenStatic_EnterState_softtissue_Carton_StateMachine_StateController_Animator_
+  commentId: M:softtissue.Carton.StateMachine.StateOpenStatic.EnterState(softtissue.Carton.StateMachine.StateController,Animator)
+  fullName: softtissue.Carton.StateMachine.StateOpenStatic.EnterState(softtissue.Carton.StateMachine.StateController, Animator)
+  nameWithType: StateOpenStatic.EnterState(StateController, Animator)
 - uid: softtissue.Carton.StateMachine.StateOpenStatic.EnterState*
   name: EnterState
   href: api/softtissue.Carton.StateMachine.StateOpenStatic.html#softtissue_Carton_StateMachine_StateOpenStatic_EnterState_
@@ -568,3 +537,225 @@ references:
   isSpec: "True"
   fullName: softtissue.Carton.StateMachine.StateOpenStatic.EnterState
   nameWithType: StateOpenStatic.EnterState
+- uid: softtissue.Carton.StateMachine.TriggerController
+  name: TriggerController
+  href: api/softtissue.Carton.StateMachine.TriggerController.html
+  commentId: T:softtissue.Carton.StateMachine.TriggerController
+  fullName: softtissue.Carton.StateMachine.TriggerController
+  nameWithType: TriggerController
+- uid: softtissue.Carton.StateMachine.TriggerController.triggerCollect
+  name: triggerCollect
+  href: api/softtissue.Carton.StateMachine.TriggerController.html#softtissue_Carton_StateMachine_TriggerController_triggerCollect
+  commentId: F:softtissue.Carton.StateMachine.TriggerController.triggerCollect
+  fullName: softtissue.Carton.StateMachine.TriggerController.triggerCollect
+  nameWithType: TriggerController.triggerCollect
+- uid: softtissue.Carton.StateMachine.TriggerController.triggerFlatten
+  name: triggerFlatten
+  href: api/softtissue.Carton.StateMachine.TriggerController.html#softtissue_Carton_StateMachine_TriggerController_triggerFlatten
+  commentId: F:softtissue.Carton.StateMachine.TriggerController.triggerFlatten
+  fullName: softtissue.Carton.StateMachine.TriggerController.triggerFlatten
+  nameWithType: TriggerController.triggerFlatten
+- uid: softtissue.Carton.StateMachine.TriggerController.UET_UpdateCartonCurrentState
+  name: UET_UpdateCartonCurrentState()
+  href: api/softtissue.Carton.StateMachine.TriggerController.html#softtissue_Carton_StateMachine_TriggerController_UET_UpdateCartonCurrentState
+  commentId: M:softtissue.Carton.StateMachine.TriggerController.UET_UpdateCartonCurrentState
+  fullName: softtissue.Carton.StateMachine.TriggerController.UET_UpdateCartonCurrentState()
+  nameWithType: TriggerController.UET_UpdateCartonCurrentState()
+- uid: softtissue.Carton.StateMachine.TriggerController.UET_UpdateCartonCurrentState*
+  name: UET_UpdateCartonCurrentState
+  href: api/softtissue.Carton.StateMachine.TriggerController.html#softtissue_Carton_StateMachine_TriggerController_UET_UpdateCartonCurrentState_
+  commentId: Overload:softtissue.Carton.StateMachine.TriggerController.UET_UpdateCartonCurrentState
+  isSpec: "True"
+  fullName: softtissue.Carton.StateMachine.TriggerController.UET_UpdateCartonCurrentState
+  nameWithType: TriggerController.UET_UpdateCartonCurrentState
+- uid: softtissue.Character
+  name: softtissue.Character
+  href: api/softtissue.Character.html
+  commentId: N:softtissue.Character
+  fullName: softtissue.Character
+  nameWithType: softtissue.Character
+- uid: softtissue.Character.AnimatorController
+  name: AnimatorController
+  href: api/softtissue.Character.AnimatorController.html
+  commentId: T:softtissue.Character.AnimatorController
+  fullName: softtissue.Character.AnimatorController
+  nameWithType: AnimatorController
+- uid: softtissue.Character.AnimatorController.AnimHandler(System.String)
+  name: AnimHandler(String)
+  href: api/softtissue.Character.AnimatorController.html#softtissue_Character_AnimatorController_AnimHandler_System_String_
+  commentId: M:softtissue.Character.AnimatorController.AnimHandler(System.String)
+  fullName: softtissue.Character.AnimatorController.AnimHandler(System.String)
+  nameWithType: AnimatorController.AnimHandler(String)
+- uid: softtissue.Character.AnimatorController.AnimHandler*
+  name: AnimHandler
+  href: api/softtissue.Character.AnimatorController.html#softtissue_Character_AnimatorController_AnimHandler_
+  commentId: Overload:softtissue.Character.AnimatorController.AnimHandler
+  isSpec: "True"
+  fullName: softtissue.Character.AnimatorController.AnimHandler
+  nameWithType: AnimatorController.AnimHandler
+- uid: softtissue.Character.CharacterAssemble
+  name: CharacterAssemble
+  href: api/softtissue.Character.CharacterAssemble.html
+  commentId: T:softtissue.Character.CharacterAssemble
+  fullName: softtissue.Character.CharacterAssemble
+  nameWithType: CharacterAssemble
+- uid: softtissue.Character.Control
+  name: softtissue.Character.Control
+  href: api/softtissue.Character.Control.html
+  commentId: N:softtissue.Character.Control
+  fullName: softtissue.Character.Control
+  nameWithType: softtissue.Character.Control
+- uid: softtissue.Character.Control.JumpController
+  name: JumpController
+  href: api/softtissue.Character.Control.JumpController.html
+  commentId: T:softtissue.Character.Control.JumpController
+  fullName: softtissue.Character.Control.JumpController
+  nameWithType: JumpController
+- uid: softtissue.Character.Control.JumpController.jumpTargetPanel
+  name: jumpTargetPanel
+  href: api/softtissue.Character.Control.JumpController.html#softtissue_Character_Control_JumpController_jumpTargetPanel
+  commentId: F:softtissue.Character.Control.JumpController.jumpTargetPanel
+  fullName: softtissue.Character.Control.JumpController.jumpTargetPanel
+  nameWithType: JumpController.jumpTargetPanel
+- uid: softtissue.Character.Control.JumpController.Move(System.Boolean)
+  name: Move(Boolean)
+  href: api/softtissue.Character.Control.JumpController.html#softtissue_Character_Control_JumpController_Move_System_Boolean_
+  commentId: M:softtissue.Character.Control.JumpController.Move(System.Boolean)
+  fullName: softtissue.Character.Control.JumpController.Move(System.Boolean)
+  nameWithType: JumpController.Move(Boolean)
+- uid: softtissue.Character.Control.JumpController.Move*
+  name: Move
+  href: api/softtissue.Character.Control.JumpController.html#softtissue_Character_Control_JumpController_Move_
+  commentId: Overload:softtissue.Character.Control.JumpController.Move
+  isSpec: "True"
+  fullName: softtissue.Character.Control.JumpController.Move
+  nameWithType: JumpController.Move
+- uid: softtissue.Character.Control.JumpController.rb
+  name: rb
+  href: api/softtissue.Character.Control.JumpController.html#softtissue_Character_Control_JumpController_rb
+  commentId: F:softtissue.Character.Control.JumpController.rb
+  fullName: softtissue.Character.Control.JumpController.rb
+  nameWithType: JumpController.rb
+- uid: softtissue.Character.Control.JumpController.RotateTarget(System.String)
+  name: RotateTarget(String)
+  href: api/softtissue.Character.Control.JumpController.html#softtissue_Character_Control_JumpController_RotateTarget_System_String_
+  commentId: M:softtissue.Character.Control.JumpController.RotateTarget(System.String)
+  fullName: softtissue.Character.Control.JumpController.RotateTarget(System.String)
+  nameWithType: JumpController.RotateTarget(String)
+- uid: softtissue.Character.Control.JumpController.RotateTarget*
+  name: RotateTarget
+  href: api/softtissue.Character.Control.JumpController.html#softtissue_Character_Control_JumpController_RotateTarget_
+  commentId: Overload:softtissue.Character.Control.JumpController.RotateTarget
+  isSpec: "True"
+  fullName: softtissue.Character.Control.JumpController.RotateTarget
+  nameWithType: JumpController.RotateTarget
+- uid: softtissue.Character.Control.JumpTargetData
+  name: JumpTargetData
+  href: api/softtissue.Character.Control.JumpTargetData.html
+  commentId: T:softtissue.Character.Control.JumpTargetData
+  fullName: softtissue.Character.Control.JumpTargetData
+  nameWithType: JumpTargetData
+- uid: softtissue.Character.Control.JumpTargetData.JumpTarget
+  name: JumpTarget
+  href: api/softtissue.Character.Control.JumpTargetData.html#softtissue_Character_Control_JumpTargetData_JumpTarget
+  commentId: F:softtissue.Character.Control.JumpTargetData.JumpTarget
+  fullName: softtissue.Character.Control.JumpTargetData.JumpTarget
+  nameWithType: JumpTargetData.JumpTarget
+- uid: softtissue.Character.Control.JumpTargetData.soRotation
+  name: soRotation
+  href: api/softtissue.Character.Control.JumpTargetData.html#softtissue_Character_Control_JumpTargetData_soRotation
+  commentId: F:softtissue.Character.Control.JumpTargetData.soRotation
+  fullName: softtissue.Character.Control.JumpTargetData.soRotation
+  nameWithType: JumpTargetData.soRotation
+- uid: softtissue.Character.Control.RotateController
+  name: RotateController
+  href: api/softtissue.Character.Control.RotateController.html
+  commentId: T:softtissue.Character.Control.RotateController
+  fullName: softtissue.Character.Control.RotateController
+  nameWithType: RotateController
+- uid: softtissue.Character.Control.RotateController.RotateTarget(System.String)
+  name: RotateTarget(String)
+  href: api/softtissue.Character.Control.RotateController.html#softtissue_Character_Control_RotateController_RotateTarget_System_String_
+  commentId: M:softtissue.Character.Control.RotateController.RotateTarget(System.String)
+  fullName: softtissue.Character.Control.RotateController.RotateTarget(System.String)
+  nameWithType: RotateController.RotateTarget(String)
+- uid: softtissue.Character.Control.RotateController.RotateTarget*
+  name: RotateTarget
+  href: api/softtissue.Character.Control.RotateController.html#softtissue_Character_Control_RotateController_RotateTarget_
+  commentId: Overload:softtissue.Character.Control.RotateController.RotateTarget
+  isSpec: "True"
+  fullName: softtissue.Character.Control.RotateController.RotateTarget
+  nameWithType: RotateController.RotateTarget
+- uid: softtissue.Character.Follow
+  name: softtissue.Character.Follow
+  href: api/softtissue.Character.Follow.html
+  commentId: N:softtissue.Character.Follow
+  fullName: softtissue.Character.Follow
+  nameWithType: softtissue.Character.Follow
+- uid: softtissue.Character.Follow.SlidePathController
+  name: SlidePathController
+  href: api/softtissue.Character.Follow.SlidePathController.html
+  commentId: T:softtissue.Character.Follow.SlidePathController
+  fullName: softtissue.Character.Follow.SlidePathController
+  nameWithType: SlidePathController
+- uid: softtissue.Character.Follow.SlidePathController.rb
+  name: rb
+  href: api/softtissue.Character.Follow.SlidePathController.html#softtissue_Character_Follow_SlidePathController_rb
+  commentId: F:softtissue.Character.Follow.SlidePathController.rb
+  fullName: softtissue.Character.Follow.SlidePathController.rb
+  nameWithType: SlidePathController.rb
+- uid: softtissue.Character.Follow.SnapPositionController
+  name: SnapPositionController
+  href: api/softtissue.Character.Follow.SnapPositionController.html
+  commentId: T:softtissue.Character.Follow.SnapPositionController
+  fullName: softtissue.Character.Follow.SnapPositionController
+  nameWithType: SnapPositionController
+- uid: softtissue.Character.Follow.SO_JumpBoostData
+  name: SO_JumpBoostData
+  href: api/softtissue.Character.Follow.SO_JumpBoostData.html
+  commentId: T:softtissue.Character.Follow.SO_JumpBoostData
+  fullName: softtissue.Character.Follow.SO_JumpBoostData
+  nameWithType: SO_JumpBoostData
+- uid: softtissue.Character.Follow.SO_JumpBoostData.isBoost
+  name: isBoost
+  href: api/softtissue.Character.Follow.SO_JumpBoostData.html#softtissue_Character_Follow_SO_JumpBoostData_isBoost
+  commentId: F:softtissue.Character.Follow.SO_JumpBoostData.isBoost
+  fullName: softtissue.Character.Follow.SO_JumpBoostData.isBoost
+  nameWithType: SO_JumpBoostData.isBoost
+- uid: softtissue.Character.Follow.SO_JumpBoostData.JumpBoost
+  name: JumpBoost
+  href: api/softtissue.Character.Follow.SO_JumpBoostData.html#softtissue_Character_Follow_SO_JumpBoostData_JumpBoost
+  commentId: F:softtissue.Character.Follow.SO_JumpBoostData.JumpBoost
+  fullName: softtissue.Character.Follow.SO_JumpBoostData.JumpBoost
+  nameWithType: SO_JumpBoostData.JumpBoost
+- uid: softtissue.Character.OriginResetController
+  name: OriginResetController
+  href: api/softtissue.Character.OriginResetController.html
+  commentId: T:softtissue.Character.OriginResetController
+  fullName: softtissue.Character.OriginResetController
+  nameWithType: OriginResetController
+- uid: softtissue.Character.OriginResetController.character
+  name: character
+  href: api/softtissue.Character.OriginResetController.html#softtissue_Character_OriginResetController_character
+  commentId: F:softtissue.Character.OriginResetController.character
+  fullName: softtissue.Character.OriginResetController.character
+  nameWithType: OriginResetController.character
+- uid: softtissue.Character.OriginResetController.resetThreshold
+  name: resetThreshold
+  href: api/softtissue.Character.OriginResetController.html#softtissue_Character_OriginResetController_resetThreshold
+  commentId: F:softtissue.Character.OriginResetController.resetThreshold
+  fullName: softtissue.Character.OriginResetController.resetThreshold
+  nameWithType: OriginResetController.resetThreshold
+- uid: softtissue.Character.OriginResetController.UpdateMagnitude
+  name: UpdateMagnitude()
+  href: api/softtissue.Character.OriginResetController.html#softtissue_Character_OriginResetController_UpdateMagnitude
+  commentId: M:softtissue.Character.OriginResetController.UpdateMagnitude
+  fullName: softtissue.Character.OriginResetController.UpdateMagnitude()
+  nameWithType: OriginResetController.UpdateMagnitude()
+- uid: softtissue.Character.OriginResetController.UpdateMagnitude*
+  name: UpdateMagnitude
+  href: api/softtissue.Character.OriginResetController.html#softtissue_Character_OriginResetController_UpdateMagnitude_
+  commentId: Overload:softtissue.Character.OriginResetController.UpdateMagnitude
+  isSpec: "True"
+  fullName: softtissue.Character.OriginResetController.UpdateMagnitude
+  nameWithType: OriginResetController.UpdateMagnitude

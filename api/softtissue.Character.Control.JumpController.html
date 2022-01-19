@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SO_InnerItemData
+    <title>Class JumpController
    | Kitten Rhythm Specification </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SO_InnerItemData
+    <meta name="title" content="Class JumpController
    | Kitten Rhythm Specification ">
     <meta name="generator" content="docfx 2.59.0.0">
     
@@ -78,34 +78,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="softtissue.Carton.InnerItem.SO_InnerItemData">
+            <article class="content wrap" id="_content" data-uid="softtissue.Character.Control.JumpController">
   
   
-  <h1 id="softtissue_Carton_InnerItem_SO_InnerItemData" data-uid="softtissue.Carton.InnerItem.SO_InnerItemData" class="text-break">Class SO_InnerItemData
+  <h1 id="softtissue_Character_Control_JumpController" data-uid="softtissue.Character.Control.JumpController" class="text-break">Class JumpController
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>跳躍控制器</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">SO_InnerItemData</span></div>
+    <div class="level1"><span class="xref">JumpController</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="softtissue.Carton.InnerItem.html">softtissue.Carton.InnerItem</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="softtissue.Character.Control.html">softtissue.Character.Control</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="softtissue_Carton_InnerItem_SO_InnerItemData_syntax">Syntax</h5>
+  <h5 id="softtissue_Character_Control_JumpController_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SO_InnerItemData : ScriptableObject</code></pre>
+    <pre><code class="lang-csharp hljs">public class JumpController : MonoBehaviour, IMovable&lt;bool&gt;, IRotatable&lt;string&gt;</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="softtissue_Carton_InnerItem_SO_InnerItemData_lightingCollectionEvent" data-uid="softtissue.Carton.InnerItem.SO_InnerItemData.lightingCollectionEvent">lightingCollectionEvent</h4>
+  <h4 id="softtissue_Character_Control_JumpController_jumpTargetPanel" data-uid="softtissue.Character.Control.JumpController.jumpTargetPanel">jumpTargetPanel</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ItemCollectEvent lightingCollectionEvent</code></pre>
+    <pre><code class="lang-csharp hljs">public GameObject jumpTargetPanel</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -117,7 +118,87 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ItemCollectEvent</span></td>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="softtissue_Character_Control_JumpController_rb" data-uid="softtissue.Character.Control.JumpController.rb">rb</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rigidbody rb</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rigidbody</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="softtissue_Character_Control_JumpController_Move_" data-uid="softtissue.Character.Control.JumpController.Move*"></a>
+  <h4 id="softtissue_Character_Control_JumpController_Move_System_Boolean_" data-uid="softtissue.Character.Control.JumpController.Move(System.Boolean)">Move(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Move(bool isJump)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isJump</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="softtissue_Character_Control_JumpController_RotateTarget_" data-uid="softtissue.Character.Control.JumpController.RotateTarget*"></a>
+  <h4 id="softtissue_Character_Control_JumpController_RotateTarget_System_String_" data-uid="softtissue.Character.Control.JumpController.RotateTarget(System.String)">RotateTarget(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RotateTarget(string newRotation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">newRotation</span></td>
         <td></td>
       </tr>
     </tbody>

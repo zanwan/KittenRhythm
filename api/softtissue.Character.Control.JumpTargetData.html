@@ -5,12 +5,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CartonTriggerController
+    <title>Class JumpTargetData
    | Kitten Rhythm Specification </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CartonTriggerController
+    <meta name="title" content="Class JumpTargetData
    | Kitten Rhythm Specification ">
-    <meta name="generator" content="docfx 2.58.9.0">
+    <meta name="generator" content="docfx 2.59.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -78,36 +78,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="softtissue.Carton.StateMachine.CartonTriggerController">
+            <article class="content wrap" id="_content" data-uid="softtissue.Character.Control.JumpTargetData">
   
   
-  <h1 id="softtissue_Carton_StateMachine_CartonTriggerController" data-uid="softtissue.Carton.StateMachine.CartonTriggerController" class="text-break">Class CartonTriggerController
+  <h1 id="softtissue_Character_Control_JumpTargetData" data-uid="softtissue.Character.Control.JumpTargetData" class="text-break">Class JumpTargetData
   </h1>
-  <div class="markdown level0 summary"><p>觸發紙箱狀態切換器</p>
+  <div class="markdown level0 summary"><p>跳躍目標 Y0 平面座標</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">CartonTriggerController</span></div>
+    <div class="level1"><span class="xref">JumpTargetData</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="softtissue.Carton.StateMachine.html">softtissue.Carton.StateMachine</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="softtissue.Character.Control.html">softtissue.Character.Control</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="softtissue_Carton_StateMachine_CartonTriggerController_syntax">Syntax</h5>
+  <h5 id="softtissue_Character_Control_JumpTargetData_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CartonTriggerController : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class JumpTargetData : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="softtissue_Carton_StateMachine_CartonTriggerController_triggerCollect" data-uid="softtissue.Carton.StateMachine.CartonTriggerController.triggerCollect">triggerCollect</h4>
-  <div class="markdown level1 summary"><p>當紙箱開啟時 InnerItem 的蒐集事件</p>
-</div>
+  <h4 id="softtissue_Character_Control_JumpTargetData_JumpTarget" data-uid="softtissue.Character.Control.JumpTargetData.JumpTarget">JumpTarget</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent triggerCollect</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, Transform&gt; JumpTarget</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,21 +118,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEvent</span></td>
-        <td><p>觸發 UET_OpenToStaticOpenHandler, 觸發 UET_InnerItemCollectHandler, (CartonMovementController) 觸發 UET_UnFollowPath </p>
-</td>
+        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <span class="xref">Transform</span>&gt;</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="softtissue_Carton_StateMachine_CartonTriggerController_triggerFlatten" data-uid="softtissue.Carton.StateMachine.CartonTriggerController.triggerFlatten">triggerFlatten</h4>
-  <div class="markdown level1 summary"><p>當紙箱關閉時被壓扁事件</p>
-</div>
+  <h4 id="softtissue_Character_Control_JumpTargetData_soRotation" data-uid="softtissue.Character.Control.JumpTargetData.soRotation">soRotation</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent triggerFlatten</code></pre>
+    <pre><code class="lang-csharp hljs">protected SO_Rotation soRotation</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -145,25 +142,11 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEvent</span></td>
-        <td><p>觸發 UET_CloseToFlatHandler, (CartonMovementController) 觸發 UET_UnFollowPath </p>
-</td>
+        <td><span class="xref">SO_Rotation</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="softtissue_Carton_StateMachine_CartonTriggerController_UET_UpdateCartonCurrentState_" data-uid="softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState*"></a>
-  <h4 id="softtissue_Carton_StateMachine_CartonTriggerController_UET_UpdateCartonCurrentState" data-uid="softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState">UET_UpdateCartonCurrentState()</h4>
-  <div class="markdown level1 summary"><p>取得 CartonStateController 最近狀態</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UET_UpdateCartonCurrentState()</code></pre>
-  </div>
 </article>
           </div>
           
