@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Character
+  commentId: N:softtissue.Character
+  id: softtissue.Character
+  children:
+  - softtissue.Character.AnimatorController
+  - softtissue.Character.CharacterAssemble
+  - softtissue.Character.OriginResetController
+  langs:
+  - csharp
+  - vb
+  name: softtissue.Character
+  nameWithType: softtissue.Character
+  fullName: softtissue.Character
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: softtissue.Character.CharacterAssemble
+  commentId: T:softtissue.Character.CharacterAssemble
+  name: CharacterAssemble
+  nameWithType: CharacterAssemble
+  fullName: softtissue.Character.CharacterAssemble
+- uid: softtissue.Character.AnimatorController
+  commentId: T:softtissue.Character.AnimatorController
+  name: AnimatorController
+  nameWithType: AnimatorController
+  fullName: softtissue.Character.AnimatorController
+- uid: softtissue.Character.OriginResetController
+  commentId: T:softtissue.Character.OriginResetController
+  name: OriginResetController
+  nameWithType: OriginResetController
+  fullName: softtissue.Character.OriginResetController

@@ -1,0 +1,226 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Character.Control.JumpTargetData
+  commentId: T:softtissue.Character.Control.JumpTargetData
+  id: JumpTargetData
+  parent: softtissue.Character.Control
+  children:
+  - softtissue.Character.Control.JumpTargetData.JumpTarget
+  - softtissue.Character.Control.JumpTargetData.soRotation
+  langs:
+  - csharp
+  - vb
+  name: JumpTargetData
+  nameWithType: JumpTargetData
+  fullName: softtissue.Character.Control.JumpTargetData
+  type: Class
+  source:
+    id: JumpTargetData
+    path: ''
+    startLine: 5929
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Character.Control
+  summary: "\n跳躍目標 Y0 平面座標\n"
+  example: []
+  syntax:
+    content: 'public class JumpTargetData : MonoBehaviour'
+    content.vb: >-
+      Public Class JumpTargetData
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Character.Control.JumpTargetData.soRotation
+  commentId: F:softtissue.Character.Control.JumpTargetData.soRotation
+  id: soRotation
+  parent: softtissue.Character.Control.JumpTargetData
+  langs:
+  - csharp
+  - vb
+  name: soRotation
+  nameWithType: JumpTargetData.soRotation
+  fullName: softtissue.Character.Control.JumpTargetData.soRotation
+  type: Field
+  source:
+    id: soRotation
+    path: ''
+    startLine: 5933
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Character.Control
+  syntax:
+    content: protected SO_Rotation soRotation
+    return:
+      type: Global.SO_Rotation
+    content.vb: Protected soRotation As SO_Rotation
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: softtissue.Character.Control.JumpTargetData.JumpTarget
+  commentId: F:softtissue.Character.Control.JumpTargetData.JumpTarget
+  id: JumpTarget
+  parent: softtissue.Character.Control.JumpTargetData
+  langs:
+  - csharp
+  - vb
+  name: JumpTarget
+  nameWithType: JumpTargetData.JumpTarget
+  fullName: softtissue.Character.Control.JumpTargetData.JumpTarget
+  type: Field
+  source:
+    id: JumpTarget
+    path: ''
+    startLine: 5935
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Character.Control
+  syntax:
+    content: public Dictionary<string, Transform> JumpTarget
+    return:
+      type: Global.Dictionary{System.String,Transform}
+    content.vb: Public JumpTarget As Dictionary(Of String, Transform)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Character.Control
+  commentId: N:softtissue.Character.Control
+  name: softtissue.Character.Control
+  nameWithType: softtissue.Character.Control
+  fullName: softtissue.Character.Control
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.SO_Rotation
+  commentId: T:Global.SO_Rotation
+  name: SO_Rotation
+  nameWithType: SO_Rotation
+  fullName: SO_Rotation
+- uid: Global.Dictionary{System.String,Transform}
+  commentId: '!:Global.Dictionary{System.String,Transform}'
+  definition: Global.Dictionary`2
+  name: Dictionary<String, Transform>
+  nameWithType: Dictionary<String, Transform>
+  fullName: Dictionary<System.String, Transform>
+  nameWithType.vb: Dictionary(Of String, Transform)
+  fullName.vb: Dictionary(Of System.String, Transform)
+  name.vb: Dictionary(Of String, Transform)
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Transform
+    name: Transform
+    nameWithType: Transform
+    fullName: Transform
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Transform
+    name: Transform
+    nameWithType: Transform
+    fullName: Transform
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Dictionary`2
+  commentId: '!:Global.Dictionary`2'
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

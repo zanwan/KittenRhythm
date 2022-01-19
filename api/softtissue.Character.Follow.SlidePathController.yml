@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Character.Follow.SlidePathController
+  commentId: T:softtissue.Character.Follow.SlidePathController
+  id: SlidePathController
+  parent: softtissue.Character.Follow
+  children:
+  - softtissue.Character.Follow.SlidePathController.rb
+  langs:
+  - csharp
+  - vb
+  name: SlidePathController
+  nameWithType: SlidePathController
+  fullName: softtissue.Character.Follow.SlidePathController
+  type: Class
+  source:
+    id: SlidePathController
+    path: ''
+    startLine: 5739
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Character.Follow
+  summary: "\n路徑跟隨控制器\n"
+  example: []
+  syntax:
+    content: 'public class SlidePathController : MonoBehaviour'
+    content.vb: >-
+      Public Class SlidePathController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Character.Follow.SlidePathController.rb
+  commentId: F:softtissue.Character.Follow.SlidePathController.rb
+  id: rb
+  parent: softtissue.Character.Follow.SlidePathController
+  langs:
+  - csharp
+  - vb
+  name: rb
+  nameWithType: SlidePathController.rb
+  fullName: softtissue.Character.Follow.SlidePathController.rb
+  type: Field
+  source:
+    id: rb
+    path: ''
+    startLine: 5742
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Character.Follow
+  syntax:
+    content: public Rigidbody rb
+    return:
+      type: Global.Rigidbody
+    content.vb: Public rb As Rigidbody
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Character.Follow
+  commentId: N:softtissue.Character.Follow
+  name: softtissue.Character.Follow
+  nameWithType: softtissue.Character.Follow
+  fullName: softtissue.Character.Follow
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Rigidbody
+  isExternal: true
+  name: Rigidbody
+  nameWithType: Rigidbody
+  fullName: Rigidbody

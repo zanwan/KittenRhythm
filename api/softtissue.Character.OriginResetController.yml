@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Character.OriginResetController
+  commentId: T:softtissue.Character.OriginResetController
+  id: OriginResetController
+  parent: softtissue.Character
+  children:
+  - softtissue.Character.OriginResetController.character
+  - softtissue.Character.OriginResetController.resetThreshold
+  - softtissue.Character.OriginResetController.UpdateMagnitude
+  langs:
+  - csharp
+  - vb
+  name: OriginResetController
+  nameWithType: OriginResetController
+  fullName: softtissue.Character.OriginResetController
+  type: Class
+  source:
+    id: OriginResetController
+    path: ''
+    startLine: 5677
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Character
+  summary: "\nFloating Origin 控制器\n"
+  example: []
+  syntax:
+    content: 'public class OriginResetController : MonoBehaviour'
+    content.vb: >-
+      Public Class OriginResetController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Character.OriginResetController.character
+  commentId: F:softtissue.Character.OriginResetController.character
+  id: character
+  parent: softtissue.Character.OriginResetController
+  langs:
+  - csharp
+  - vb
+  name: character
+  nameWithType: OriginResetController.character
+  fullName: softtissue.Character.OriginResetController.character
+  type: Field
+  source:
+    id: character
+    path: ''
+    startLine: 5680
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Character
+  syntax:
+    content: public Transform character
+    return:
+      type: Global.Transform
+    content.vb: Public character As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Character.OriginResetController.resetThreshold
+  commentId: F:softtissue.Character.OriginResetController.resetThreshold
+  id: resetThreshold
+  parent: softtissue.Character.OriginResetController
+  langs:
+  - csharp
+  - vb
+  name: resetThreshold
+  nameWithType: OriginResetController.resetThreshold
+  fullName: softtissue.Character.OriginResetController.resetThreshold
+  type: Field
+  source:
+    id: resetThreshold
+    path: ''
+    startLine: 5681
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Character
+  syntax:
+    content: public float resetThreshold
+    return:
+      type: System.Single
+    content.vb: Public resetThreshold As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Character.OriginResetController.UpdateMagnitude
+  commentId: M:softtissue.Character.OriginResetController.UpdateMagnitude
+  id: UpdateMagnitude
+  parent: softtissue.Character.OriginResetController
+  langs:
+  - csharp
+  - vb
+  name: UpdateMagnitude()
+  nameWithType: OriginResetController.UpdateMagnitude()
+  fullName: softtissue.Character.OriginResetController.UpdateMagnitude()
+  type: Method
+  source:
+    id: UpdateMagnitude
+    path: ''
+    startLine: 5699
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Character
+  syntax:
+    content: public void UpdateMagnitude()
+    content.vb: Public Sub UpdateMagnitude
+  overload: softtissue.Character.OriginResetController.UpdateMagnitude*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Character
+  commentId: N:softtissue.Character
+  name: softtissue.Character
+  nameWithType: softtissue.Character
+  fullName: softtissue.Character
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Transform
+  commentId: '!:Global.Transform'
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: softtissue.Character.OriginResetController.UpdateMagnitude*
+  commentId: Overload:softtissue.Character.OriginResetController.UpdateMagnitude
+  name: UpdateMagnitude
+  nameWithType: OriginResetController.UpdateMagnitude
+  fullName: softtissue.Character.OriginResetController.UpdateMagnitude

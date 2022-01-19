@@ -5,6 +5,9 @@ apiRules:
   - include:
       uidRegex: ^softtissue\.Carton
       type: Namespace
+  - include:
+      uidRegex: ^softtissue\.Character
+      type: Namespace
   - exclude:
       uidRegex: ^softtissue\._KittenRhythm
       type: Namespace

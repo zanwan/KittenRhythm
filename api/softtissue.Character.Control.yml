@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Character.Control
+  commentId: N:softtissue.Character.Control
+  id: softtissue.Character.Control
+  children:
+  - softtissue.Character.Control.JumpController
+  - softtissue.Character.Control.JumpTargetData
+  - softtissue.Character.Control.RotateController
+  langs:
+  - csharp
+  - vb
+  name: softtissue.Character.Control
+  nameWithType: softtissue.Character.Control
+  fullName: softtissue.Character.Control
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: softtissue.Character.Control.JumpController
+  commentId: T:softtissue.Character.Control.JumpController
+  name: JumpController
+  nameWithType: JumpController
+  fullName: softtissue.Character.Control.JumpController
+- uid: softtissue.Character.Control.JumpTargetData
+  commentId: T:softtissue.Character.Control.JumpTargetData
+  name: JumpTargetData
+  nameWithType: JumpTargetData
+  fullName: softtissue.Character.Control.JumpTargetData
+- uid: softtissue.Character.Control.RotateController
+  commentId: T:softtissue.Character.Control.RotateController
+  name: RotateController
+  nameWithType: RotateController
+  fullName: softtissue.Character.Control.RotateController

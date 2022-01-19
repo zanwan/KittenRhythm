@@ -1,33 +1,33 @@
 ### YamlMime:ManagedReference
 items:
-- uid: softtissue.Carton.StateMachine.CartonTriggerController
-  commentId: T:softtissue.Carton.StateMachine.CartonTriggerController
-  id: CartonTriggerController
+- uid: softtissue.Carton.StateMachine.TriggerController
+  commentId: T:softtissue.Carton.StateMachine.TriggerController
+  id: TriggerController
   parent: softtissue.Carton.StateMachine
   children:
-  - softtissue.Carton.StateMachine.CartonTriggerController.triggerCollect
-  - softtissue.Carton.StateMachine.CartonTriggerController.triggerFlatten
-  - softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState
+  - softtissue.Carton.StateMachine.TriggerController.triggerCollect
+  - softtissue.Carton.StateMachine.TriggerController.triggerFlatten
+  - softtissue.Carton.StateMachine.TriggerController.UET_UpdateCartonCurrentState
   langs:
   - csharp
   - vb
-  name: CartonTriggerController
-  nameWithType: CartonTriggerController
-  fullName: softtissue.Carton.StateMachine.CartonTriggerController
+  name: TriggerController
+  nameWithType: TriggerController
+  fullName: softtissue.Carton.StateMachine.TriggerController
   type: Class
   source:
-    id: CartonTriggerController
+    id: TriggerController
     path: ''
-    startLine: 6756
+    startLine: 5343
   assemblies:
   - cs.temp.dll
   namespace: softtissue.Carton.StateMachine
   summary: "\n觸發紙箱狀態切換器\n"
   example: []
   syntax:
-    content: 'public class CartonTriggerController : MonoBehaviour'
+    content: 'public class TriggerController : MonoBehaviour'
     content.vb: >-
-      Public Class CartonTriggerController
+      Public Class TriggerController
           Inherits MonoBehaviour
   inheritance:
   - System.Object
@@ -37,21 +37,21 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: softtissue.Carton.StateMachine.CartonTriggerController.triggerCollect
-  commentId: F:softtissue.Carton.StateMachine.CartonTriggerController.triggerCollect
+- uid: softtissue.Carton.StateMachine.TriggerController.triggerCollect
+  commentId: F:softtissue.Carton.StateMachine.TriggerController.triggerCollect
   id: triggerCollect
-  parent: softtissue.Carton.StateMachine.CartonTriggerController
+  parent: softtissue.Carton.StateMachine.TriggerController
   langs:
   - csharp
   - vb
   name: triggerCollect
-  nameWithType: CartonTriggerController.triggerCollect
-  fullName: softtissue.Carton.StateMachine.CartonTriggerController.triggerCollect
+  nameWithType: TriggerController.triggerCollect
+  fullName: softtissue.Carton.StateMachine.TriggerController.triggerCollect
   type: Field
   source:
     id: triggerCollect
     path: ''
-    startLine: 6767
+    startLine: 5353
   assemblies:
   - cs.temp.dll
   namespace: softtissue.Carton.StateMachine
@@ -67,21 +67,21 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: softtissue.Carton.StateMachine.CartonTriggerController.triggerFlatten
-  commentId: F:softtissue.Carton.StateMachine.CartonTriggerController.triggerFlatten
+- uid: softtissue.Carton.StateMachine.TriggerController.triggerFlatten
+  commentId: F:softtissue.Carton.StateMachine.TriggerController.triggerFlatten
   id: triggerFlatten
-  parent: softtissue.Carton.StateMachine.CartonTriggerController
+  parent: softtissue.Carton.StateMachine.TriggerController
   langs:
   - csharp
   - vb
   name: triggerFlatten
-  nameWithType: CartonTriggerController.triggerFlatten
-  fullName: softtissue.Carton.StateMachine.CartonTriggerController.triggerFlatten
+  nameWithType: TriggerController.triggerFlatten
+  fullName: softtissue.Carton.StateMachine.TriggerController.triggerFlatten
   type: Field
   source:
     id: triggerFlatten
     path: ''
-    startLine: 6774
+    startLine: 5360
   assemblies:
   - cs.temp.dll
   namespace: softtissue.Carton.StateMachine
@@ -97,21 +97,21 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState
-  commentId: M:softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState
+- uid: softtissue.Carton.StateMachine.TriggerController.UET_UpdateCartonCurrentState
+  commentId: M:softtissue.Carton.StateMachine.TriggerController.UET_UpdateCartonCurrentState
   id: UET_UpdateCartonCurrentState
-  parent: softtissue.Carton.StateMachine.CartonTriggerController
+  parent: softtissue.Carton.StateMachine.TriggerController
   langs:
   - csharp
   - vb
   name: UET_UpdateCartonCurrentState()
-  nameWithType: CartonTriggerController.UET_UpdateCartonCurrentState()
-  fullName: softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState()
+  nameWithType: TriggerController.UET_UpdateCartonCurrentState()
+  fullName: softtissue.Carton.StateMachine.TriggerController.UET_UpdateCartonCurrentState()
   type: Method
   source:
     id: UET_UpdateCartonCurrentState
     path: ''
-    startLine: 6786
+    startLine: 5372
   assemblies:
   - cs.temp.dll
   namespace: softtissue.Carton.StateMachine
@@ -120,7 +120,7 @@ items:
   syntax:
     content: public void UET_UpdateCartonCurrentState()
     content.vb: Public Sub UET_UpdateCartonCurrentState
-  overload: softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState*
+  overload: softtissue.Carton.StateMachine.TriggerController.UET_UpdateCartonCurrentState*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -149,8 +149,8 @@ references:
   name: UnityEvent
   nameWithType: UnityEvent
   fullName: UnityEvent
-- uid: softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState*
-  commentId: Overload:softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState
+- uid: softtissue.Carton.StateMachine.TriggerController.UET_UpdateCartonCurrentState*
+  commentId: Overload:softtissue.Carton.StateMachine.TriggerController.UET_UpdateCartonCurrentState
   name: UET_UpdateCartonCurrentState
-  nameWithType: CartonTriggerController.UET_UpdateCartonCurrentState
-  fullName: softtissue.Carton.StateMachine.CartonTriggerController.UET_UpdateCartonCurrentState
+  nameWithType: TriggerController.UET_UpdateCartonCurrentState
+  fullName: softtissue.Carton.StateMachine.TriggerController.UET_UpdateCartonCurrentState

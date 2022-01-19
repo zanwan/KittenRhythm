@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Character.Control.JumpController
+  commentId: T:softtissue.Character.Control.JumpController
+  id: JumpController
+  parent: softtissue.Character.Control
+  children:
+  - softtissue.Character.Control.JumpController.jumpTargetPanel
+  - softtissue.Character.Control.JumpController.Move(System.Boolean)
+  - softtissue.Character.Control.JumpController.rb
+  - softtissue.Character.Control.JumpController.RotateTarget(System.String)
+  langs:
+  - csharp
+  - vb
+  name: JumpController
+  nameWithType: JumpController
+  fullName: softtissue.Character.Control.JumpController
+  type: Class
+  source:
+    id: JumpController
+    path: ''
+    startLine: 5850
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Character.Control
+  summary: "\n跳躍控制器\n"
+  example: []
+  syntax:
+    content: 'public class JumpController : MonoBehaviour, IMovable<bool>, IRotatable<string>'
+    content.vb: >-
+      Public Class JumpController
+          Inherits MonoBehaviour
+          Implements IMovable(Of Boolean), IRotatable(Of String)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Character.Control.JumpController.rb
+  commentId: F:softtissue.Character.Control.JumpController.rb
+  id: rb
+  parent: softtissue.Character.Control.JumpController
+  langs:
+  - csharp
+  - vb
+  name: rb
+  nameWithType: JumpController.rb
+  fullName: softtissue.Character.Control.JumpController.rb
+  type: Field
+  source:
+    id: rb
+    path: ''
+    startLine: 5853
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Character.Control
+  syntax:
+    content: public Rigidbody rb
+    return:
+      type: Global.Rigidbody
+    content.vb: Public rb As Rigidbody
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Character.Control.JumpController.jumpTargetPanel
+  commentId: F:softtissue.Character.Control.JumpController.jumpTargetPanel
+  id: jumpTargetPanel
+  parent: softtissue.Character.Control.JumpController
+  langs:
+  - csharp
+  - vb
+  name: jumpTargetPanel
+  nameWithType: JumpController.jumpTargetPanel
+  fullName: softtissue.Character.Control.JumpController.jumpTargetPanel
+  type: Field
+  source:
+    id: jumpTargetPanel
+    path: ''
+    startLine: 5855
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Character.Control
+  syntax:
+    content: public GameObject jumpTargetPanel
+    return:
+      type: Global.GameObject
+    content.vb: Public jumpTargetPanel As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Character.Control.JumpController.RotateTarget(System.String)
+  commentId: M:softtissue.Character.Control.JumpController.RotateTarget(System.String)
+  id: RotateTarget(System.String)
+  parent: softtissue.Character.Control.JumpController
+  langs:
+  - csharp
+  - vb
+  name: RotateTarget(String)
+  nameWithType: JumpController.RotateTarget(String)
+  fullName: softtissue.Character.Control.JumpController.RotateTarget(System.String)
+  type: Method
+  source:
+    id: RotateTarget
+    path: ''
+    startLine: 5883
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Character.Control
+  syntax:
+    content: public void RotateTarget(string newRotation)
+    parameters:
+    - id: newRotation
+      type: System.String
+    content.vb: Public Sub RotateTarget(newRotation As String)
+  overload: softtissue.Character.Control.JumpController.RotateTarget*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Character.Control.JumpController.Move(System.Boolean)
+  commentId: M:softtissue.Character.Control.JumpController.Move(System.Boolean)
+  id: Move(System.Boolean)
+  parent: softtissue.Character.Control.JumpController
+  langs:
+  - csharp
+  - vb
+  name: Move(Boolean)
+  nameWithType: JumpController.Move(Boolean)
+  fullName: softtissue.Character.Control.JumpController.Move(System.Boolean)
+  type: Method
+  source:
+    id: Move
+    path: ''
+    startLine: 5888
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Character.Control
+  syntax:
+    content: public void Move(bool isJump)
+    parameters:
+    - id: isJump
+      type: System.Boolean
+    content.vb: Public Sub Move(isJump As Boolean)
+  overload: softtissue.Character.Control.JumpController.Move*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Character.Control
+  commentId: N:softtissue.Character.Control
+  name: softtissue.Character.Control
+  nameWithType: softtissue.Character.Control
+  fullName: softtissue.Character.Control
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Rigidbody
+  isExternal: true
+  name: Rigidbody
+  nameWithType: Rigidbody
+  fullName: Rigidbody
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: softtissue.Character.Control.JumpController.RotateTarget*
+  commentId: Overload:softtissue.Character.Control.JumpController.RotateTarget
+  name: RotateTarget
+  nameWithType: JumpController.RotateTarget
+  fullName: softtissue.Character.Control.JumpController.RotateTarget
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: softtissue.Character.Control.JumpController.Move*
+  commentId: Overload:softtissue.Character.Control.JumpController.Move
+  name: Move
+  nameWithType: JumpController.Move
+  fullName: softtissue.Character.Control.JumpController.Move
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

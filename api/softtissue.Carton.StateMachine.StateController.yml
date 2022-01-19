@@ -1,0 +1,690 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Carton.StateMachine.StateController
+  commentId: T:softtissue.Carton.StateMachine.StateController
+  id: StateController
+  parent: softtissue.Carton.StateMachine
+  children:
+  - softtissue.Carton.StateMachine.StateController.animatorController
+  - softtissue.Carton.StateMachine.StateController.carton
+  - softtissue.Carton.StateMachine.StateController.cartonCurrentState
+  - softtissue.Carton.StateMachine.StateController.closePathRouteLogic
+  - softtissue.Carton.StateMachine.StateController.flat
+  - softtissue.Carton.StateMachine.StateController.flatDust
+  - softtissue.Carton.StateMachine.StateController.innerItemContainer
+  - softtissue.Carton.StateMachine.StateController.isDynamic
+  - softtissue.Carton.StateMachine.StateController.isLinked
+  - softtissue.Carton.StateMachine.StateController.isReverse
+  - softtissue.Carton.StateMachine.StateController.mmCameraShakeEvent
+  - softtissue.Carton.StateMachine.StateController.openPathRouteLogic
+  - softtissue.Carton.StateMachine.StateController.stateEnum
+  - softtissue.Carton.StateMachine.StateController.UET_CartonLikedHandler
+  - softtissue.Carton.StateMachine.StateController.UET_CartonUnLinkedHandler
+  - softtissue.Carton.StateMachine.StateController.UET_CloseToFlatHandler
+  - softtissue.Carton.StateMachine.StateController.UET_DynamicCloseToStaticClose
+  - softtissue.Carton.StateMachine.StateController.UET_OpenToStaticOpenHandler
+  - softtissue.Carton.StateMachine.StateController.UET_SO_IBeatResponse
+  - softtissue.Carton.StateMachine.StateController.updateCartonCurrentState
+  langs:
+  - csharp
+  - vb
+  name: StateController
+  nameWithType: StateController
+  fullName: softtissue.Carton.StateMachine.StateController
+  type: Class
+  source:
+    id: StateController
+    path: ''
+    startLine: 5057
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  summary: "\n紙箱狀態機管理\n"
+  example: []
+  syntax:
+    content: 'public class StateController : MonoBehaviour, IBeatable'
+    content.vb: >-
+      Public Class StateController
+          Inherits MonoBehaviour
+          Implements IBeatable
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Carton.StateMachine.StateController.stateEnum
+  commentId: F:softtissue.Carton.StateMachine.StateController.stateEnum
+  id: stateEnum
+  parent: softtissue.Carton.StateMachine.StateController
+  langs:
+  - csharp
+  - vb
+  name: stateEnum
+  nameWithType: StateController.stateEnum
+  fullName: softtissue.Carton.StateMachine.StateController.stateEnum
+  type: Field
+  source:
+    id: stateEnum
+    path: ''
+    startLine: 5062
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  syntax:
+    content: public SO_CartonStateData.StateEnum stateEnum
+    return:
+      type: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
+    content.vb: Public stateEnum As SO_CartonStateData.StateEnum
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.StateMachine.StateController.isDynamic
+  commentId: F:softtissue.Carton.StateMachine.StateController.isDynamic
+  id: isDynamic
+  parent: softtissue.Carton.StateMachine.StateController
+  langs:
+  - csharp
+  - vb
+  name: isDynamic
+  nameWithType: StateController.isDynamic
+  fullName: softtissue.Carton.StateMachine.StateController.isDynamic
+  type: Field
+  source:
+    id: isDynamic
+    path: ''
+    startLine: 5064
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  syntax:
+    content: public bool isDynamic
+    return:
+      type: System.Boolean
+    content.vb: Public isDynamic As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.StateMachine.StateController.isReverse
+  commentId: F:softtissue.Carton.StateMachine.StateController.isReverse
+  id: isReverse
+  parent: softtissue.Carton.StateMachine.StateController
+  langs:
+  - csharp
+  - vb
+  name: isReverse
+  nameWithType: StateController.isReverse
+  fullName: softtissue.Carton.StateMachine.StateController.isReverse
+  type: Field
+  source:
+    id: isReverse
+    path: ''
+    startLine: 5065
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  syntax:
+    content: public bool isReverse
+    return:
+      type: System.Boolean
+    content.vb: Public isReverse As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.StateMachine.StateController.cartonCurrentState
+  commentId: F:softtissue.Carton.StateMachine.StateController.cartonCurrentState
+  id: cartonCurrentState
+  parent: softtissue.Carton.StateMachine.StateController
+  langs:
+  - csharp
+  - vb
+  name: cartonCurrentState
+  nameWithType: StateController.cartonCurrentState
+  fullName: softtissue.Carton.StateMachine.StateController.cartonCurrentState
+  type: Field
+  source:
+    id: cartonCurrentState
+    path: ''
+    startLine: 5068
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  syntax:
+    content: public string cartonCurrentState
+    return:
+      type: System.String
+    content.vb: Public cartonCurrentState As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.StateMachine.StateController.isLinked
+  commentId: F:softtissue.Carton.StateMachine.StateController.isLinked
+  id: isLinked
+  parent: softtissue.Carton.StateMachine.StateController
+  langs:
+  - csharp
+  - vb
+  name: isLinked
+  nameWithType: StateController.isLinked
+  fullName: softtissue.Carton.StateMachine.StateController.isLinked
+  type: Field
+  source:
+    id: isLinked
+    path: ''
+    startLine: 5069
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  syntax:
+    content: public bool isLinked
+    return:
+      type: System.Boolean
+    content.vb: Public isLinked As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.StateMachine.StateController.carton
+  commentId: F:softtissue.Carton.StateMachine.StateController.carton
+  id: carton
+  parent: softtissue.Carton.StateMachine.StateController
+  langs:
+  - csharp
+  - vb
+  name: carton
+  nameWithType: StateController.carton
+  fullName: softtissue.Carton.StateMachine.StateController.carton
+  type: Field
+  source:
+    id: carton
+    path: ''
+    startLine: 5073
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  syntax:
+    content: public GameObject carton
+    return:
+      type: Global.GameObject
+    content.vb: Public carton As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.StateMachine.StateController.flat
+  commentId: F:softtissue.Carton.StateMachine.StateController.flat
+  id: flat
+  parent: softtissue.Carton.StateMachine.StateController
+  langs:
+  - csharp
+  - vb
+  name: flat
+  nameWithType: StateController.flat
+  fullName: softtissue.Carton.StateMachine.StateController.flat
+  type: Field
+  source:
+    id: flat
+    path: ''
+    startLine: 5074
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  syntax:
+    content: public GameObject flat
+    return:
+      type: Global.GameObject
+    content.vb: Public flat As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.StateMachine.StateController.animatorController
+  commentId: F:softtissue.Carton.StateMachine.StateController.animatorController
+  id: animatorController
+  parent: softtissue.Carton.StateMachine.StateController
+  langs:
+  - csharp
+  - vb
+  name: animatorController
+  nameWithType: StateController.animatorController
+  fullName: softtissue.Carton.StateMachine.StateController.animatorController
+  type: Field
+  source:
+    id: animatorController
+    path: ''
+    startLine: 5077
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  syntax:
+    content: public Animator animatorController
+    return:
+      type: Global.Animator
+    content.vb: Public animatorController As Animator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.StateMachine.StateController.flatDust
+  commentId: F:softtissue.Carton.StateMachine.StateController.flatDust
+  id: flatDust
+  parent: softtissue.Carton.StateMachine.StateController
+  langs:
+  - csharp
+  - vb
+  name: flatDust
+  nameWithType: StateController.flatDust
+  fullName: softtissue.Carton.StateMachine.StateController.flatDust
+  type: Field
+  source:
+    id: flatDust
+    path: ''
+    startLine: 5078
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  syntax:
+    content: public GameObject flatDust
+    return:
+      type: Global.GameObject
+    content.vb: Public flatDust As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.StateMachine.StateController.innerItemContainer
+  commentId: F:softtissue.Carton.StateMachine.StateController.innerItemContainer
+  id: innerItemContainer
+  parent: softtissue.Carton.StateMachine.StateController
+  langs:
+  - csharp
+  - vb
+  name: innerItemContainer
+  nameWithType: StateController.innerItemContainer
+  fullName: softtissue.Carton.StateMachine.StateController.innerItemContainer
+  type: Field
+  source:
+    id: innerItemContainer
+    path: ''
+    startLine: 5080
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  syntax:
+    content: public GameObject innerItemContainer
+    return:
+      type: Global.GameObject
+    content.vb: Public innerItemContainer As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.StateMachine.StateController.mmCameraShakeEvent
+  commentId: F:softtissue.Carton.StateMachine.StateController.mmCameraShakeEvent
+  id: mmCameraShakeEvent
+  parent: softtissue.Carton.StateMachine.StateController
+  langs:
+  - csharp
+  - vb
+  name: mmCameraShakeEvent
+  nameWithType: StateController.mmCameraShakeEvent
+  fullName: softtissue.Carton.StateMachine.StateController.mmCameraShakeEvent
+  type: Field
+  source:
+    id: mmCameraShakeEvent
+    path: ''
+    startLine: 5081
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  syntax:
+    content: public MM_CameraShakeEvent mmCameraShakeEvent
+    return:
+      type: Global.MM_CameraShakeEvent
+    content.vb: Public mmCameraShakeEvent As MM_CameraShakeEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.StateMachine.StateController.updateCartonCurrentState
+  commentId: F:softtissue.Carton.StateMachine.StateController.updateCartonCurrentState
+  id: updateCartonCurrentState
+  parent: softtissue.Carton.StateMachine.StateController
+  langs:
+  - csharp
+  - vb
+  name: updateCartonCurrentState
+  nameWithType: StateController.updateCartonCurrentState
+  fullName: softtissue.Carton.StateMachine.StateController.updateCartonCurrentState
+  type: Field
+  source:
+    id: updateCartonCurrentState
+    path: ''
+    startLine: 5091
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  summary: "\n紙箱狀態更新事件發送\n"
+  example: []
+  syntax:
+    content: public UnityEvent updateCartonCurrentState
+    return:
+      type: Global.UnityEvent
+      description: 用於觸發 CartonTriggerStateController UET_UpdateCartonCurrentState()
+    content.vb: Public updateCartonCurrentState As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.StateMachine.StateController.openPathRouteLogic
+  commentId: F:softtissue.Carton.StateMachine.StateController.openPathRouteLogic
+  id: openPathRouteLogic
+  parent: softtissue.Carton.StateMachine.StateController
+  langs:
+  - csharp
+  - vb
+  name: openPathRouteLogic
+  nameWithType: StateController.openPathRouteLogic
+  fullName: softtissue.Carton.StateMachine.StateController.openPathRouteLogic
+  type: Field
+  source:
+    id: openPathRouteLogic
+    path: ''
+    startLine: 5100
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  summary: "\n紙箱關閉事件發送\n"
+  example: []
+  syntax:
+    content: public UnityEvent openPathRouteLogic
+    return:
+      type: Global.UnityEvent
+      description: 用於觸發 SlidePathController UET_OpenPathRoute()
+    content.vb: Public openPathRouteLogic As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.StateMachine.StateController.closePathRouteLogic
+  commentId: F:softtissue.Carton.StateMachine.StateController.closePathRouteLogic
+  id: closePathRouteLogic
+  parent: softtissue.Carton.StateMachine.StateController
+  langs:
+  - csharp
+  - vb
+  name: closePathRouteLogic
+  nameWithType: StateController.closePathRouteLogic
+  fullName: softtissue.Carton.StateMachine.StateController.closePathRouteLogic
+  type: Field
+  source:
+    id: closePathRouteLogic
+    path: ''
+    startLine: 5109
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  summary: "\n紙箱開啟事件發送\n"
+  example: []
+  syntax:
+    content: public UnityEvent closePathRouteLogic
+    return:
+      type: Global.UnityEvent
+      description: 用於觸發 SlidePathController UET_ClosePathRoute()
+    content.vb: Public closePathRouteLogic As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.StateMachine.StateController.UET_OpenToStaticOpenHandler
+  commentId: M:softtissue.Carton.StateMachine.StateController.UET_OpenToStaticOpenHandler
+  id: UET_OpenToStaticOpenHandler
+  parent: softtissue.Carton.StateMachine.StateController
+  langs:
+  - csharp
+  - vb
+  name: UET_OpenToStaticOpenHandler()
+  nameWithType: StateController.UET_OpenToStaticOpenHandler()
+  fullName: softtissue.Carton.StateMachine.StateController.UET_OpenToStaticOpenHandler()
+  type: Method
+  source:
+    id: UET_OpenToStaticOpenHandler
+    path: ''
+    startLine: 5185
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  syntax:
+    content: public void UET_OpenToStaticOpenHandler()
+    content.vb: Public Sub UET_OpenToStaticOpenHandler
+  overload: softtissue.Carton.StateMachine.StateController.UET_OpenToStaticOpenHandler*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.StateMachine.StateController.UET_CloseToFlatHandler
+  commentId: M:softtissue.Carton.StateMachine.StateController.UET_CloseToFlatHandler
+  id: UET_CloseToFlatHandler
+  parent: softtissue.Carton.StateMachine.StateController
+  langs:
+  - csharp
+  - vb
+  name: UET_CloseToFlatHandler()
+  nameWithType: StateController.UET_CloseToFlatHandler()
+  fullName: softtissue.Carton.StateMachine.StateController.UET_CloseToFlatHandler()
+  type: Method
+  source:
+    id: UET_CloseToFlatHandler
+    path: ''
+    startLine: 5190
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  syntax:
+    content: public void UET_CloseToFlatHandler()
+    content.vb: Public Sub UET_CloseToFlatHandler
+  overload: softtissue.Carton.StateMachine.StateController.UET_CloseToFlatHandler*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.StateMachine.StateController.UET_DynamicCloseToStaticClose
+  commentId: M:softtissue.Carton.StateMachine.StateController.UET_DynamicCloseToStaticClose
+  id: UET_DynamicCloseToStaticClose
+  parent: softtissue.Carton.StateMachine.StateController
+  langs:
+  - csharp
+  - vb
+  name: UET_DynamicCloseToStaticClose()
+  nameWithType: StateController.UET_DynamicCloseToStaticClose()
+  fullName: softtissue.Carton.StateMachine.StateController.UET_DynamicCloseToStaticClose()
+  type: Method
+  source:
+    id: UET_DynamicCloseToStaticClose
+    path: ''
+    startLine: 5195
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  syntax:
+    content: public void UET_DynamicCloseToStaticClose()
+    content.vb: Public Sub UET_DynamicCloseToStaticClose
+  overload: softtissue.Carton.StateMachine.StateController.UET_DynamicCloseToStaticClose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.StateMachine.StateController.UET_CartonLikedHandler
+  commentId: M:softtissue.Carton.StateMachine.StateController.UET_CartonLikedHandler
+  id: UET_CartonLikedHandler
+  parent: softtissue.Carton.StateMachine.StateController
+  langs:
+  - csharp
+  - vb
+  name: UET_CartonLikedHandler()
+  nameWithType: StateController.UET_CartonLikedHandler()
+  fullName: softtissue.Carton.StateMachine.StateController.UET_CartonLikedHandler()
+  type: Method
+  source:
+    id: UET_CartonLikedHandler
+    path: ''
+    startLine: 5201
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  syntax:
+    content: public void UET_CartonLikedHandler()
+    content.vb: Public Sub UET_CartonLikedHandler
+  overload: softtissue.Carton.StateMachine.StateController.UET_CartonLikedHandler*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.StateMachine.StateController.UET_CartonUnLinkedHandler
+  commentId: M:softtissue.Carton.StateMachine.StateController.UET_CartonUnLinkedHandler
+  id: UET_CartonUnLinkedHandler
+  parent: softtissue.Carton.StateMachine.StateController
+  langs:
+  - csharp
+  - vb
+  name: UET_CartonUnLinkedHandler()
+  nameWithType: StateController.UET_CartonUnLinkedHandler()
+  fullName: softtissue.Carton.StateMachine.StateController.UET_CartonUnLinkedHandler()
+  type: Method
+  source:
+    id: UET_CartonUnLinkedHandler
+    path: ''
+    startLine: 5206
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  syntax:
+    content: public void UET_CartonUnLinkedHandler()
+    content.vb: Public Sub UET_CartonUnLinkedHandler
+  overload: softtissue.Carton.StateMachine.StateController.UET_CartonUnLinkedHandler*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: softtissue.Carton.StateMachine.StateController.UET_SO_IBeatResponse
+  commentId: M:softtissue.Carton.StateMachine.StateController.UET_SO_IBeatResponse
+  id: UET_SO_IBeatResponse
+  parent: softtissue.Carton.StateMachine.StateController
+  langs:
+  - csharp
+  - vb
+  name: UET_SO_IBeatResponse()
+  nameWithType: StateController.UET_SO_IBeatResponse()
+  fullName: softtissue.Carton.StateMachine.StateController.UET_SO_IBeatResponse()
+  type: Method
+  source:
+    id: UET_SO_IBeatResponse
+    path: ''
+    startLine: 5213
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Carton.StateMachine
+  syntax:
+    content: public void UET_SO_IBeatResponse()
+    content.vb: Public Sub UET_SO_IBeatResponse
+  overload: softtissue.Carton.StateMachine.StateController.UET_SO_IBeatResponse*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Carton.StateMachine
+  commentId: N:softtissue.Carton.StateMachine
+  name: softtissue.Carton.StateMachine
+  nameWithType: softtissue.Carton.StateMachine
+  fullName: softtissue.Carton.StateMachine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
+  commentId: T:softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
+  parent: softtissue.Carton.StateMachine
+  name: SO_CartonStateData.StateEnum
+  nameWithType: SO_CartonStateData.StateEnum
+  fullName: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Animator
+  isExternal: true
+  name: Animator
+  nameWithType: Animator
+  fullName: Animator
+- uid: Global.MM_CameraShakeEvent
+  commentId: '!:Global.MM_CameraShakeEvent'
+  isExternal: true
+  name: MM_CameraShakeEvent
+  nameWithType: MM_CameraShakeEvent
+  fullName: MM_CameraShakeEvent
+- uid: Global.UnityEvent
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEvent
+- uid: softtissue.Carton.StateMachine.StateController.UET_OpenToStaticOpenHandler*
+  commentId: Overload:softtissue.Carton.StateMachine.StateController.UET_OpenToStaticOpenHandler
+  name: UET_OpenToStaticOpenHandler
+  nameWithType: StateController.UET_OpenToStaticOpenHandler
+  fullName: softtissue.Carton.StateMachine.StateController.UET_OpenToStaticOpenHandler
+- uid: softtissue.Carton.StateMachine.StateController.UET_CloseToFlatHandler*
+  commentId: Overload:softtissue.Carton.StateMachine.StateController.UET_CloseToFlatHandler
+  name: UET_CloseToFlatHandler
+  nameWithType: StateController.UET_CloseToFlatHandler
+  fullName: softtissue.Carton.StateMachine.StateController.UET_CloseToFlatHandler
+- uid: softtissue.Carton.StateMachine.StateController.UET_DynamicCloseToStaticClose*
+  commentId: Overload:softtissue.Carton.StateMachine.StateController.UET_DynamicCloseToStaticClose
+  name: UET_DynamicCloseToStaticClose
+  nameWithType: StateController.UET_DynamicCloseToStaticClose
+  fullName: softtissue.Carton.StateMachine.StateController.UET_DynamicCloseToStaticClose
+- uid: softtissue.Carton.StateMachine.StateController.UET_CartonLikedHandler*
+  commentId: Overload:softtissue.Carton.StateMachine.StateController.UET_CartonLikedHandler
+  name: UET_CartonLikedHandler
+  nameWithType: StateController.UET_CartonLikedHandler
+  fullName: softtissue.Carton.StateMachine.StateController.UET_CartonLikedHandler
+- uid: softtissue.Carton.StateMachine.StateController.UET_CartonUnLinkedHandler*
+  commentId: Overload:softtissue.Carton.StateMachine.StateController.UET_CartonUnLinkedHandler
+  name: UET_CartonUnLinkedHandler
+  nameWithType: StateController.UET_CartonUnLinkedHandler
+  fullName: softtissue.Carton.StateMachine.StateController.UET_CartonUnLinkedHandler
+- uid: softtissue.Carton.StateMachine.StateController.UET_SO_IBeatResponse*
+  commentId: Overload:softtissue.Carton.StateMachine.StateController.UET_SO_IBeatResponse
+  name: UET_SO_IBeatResponse
+  nameWithType: StateController.UET_SO_IBeatResponse
+  fullName: softtissue.Carton.StateMachine.StateController.UET_SO_IBeatResponse

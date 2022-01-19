@@ -23,10 +23,6 @@
   items:
   - uid: softtissue.Carton.StateMachine.AbstractCartonState
     name: AbstractCartonState
-  - uid: softtissue.Carton.StateMachine.CartonStateController
-    name: CartonStateController
-  - uid: softtissue.Carton.StateMachine.CartonTriggerController
-    name: CartonTriggerController
   - uid: softtissue.Carton.StateMachine.SO_CartonStateData
     name: SO_CartonStateData
   - uid: softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
@@ -35,9 +31,40 @@
     name: StateCloseDynamic
   - uid: softtissue.Carton.StateMachine.StateCloseStatic
     name: StateCloseStatic
+  - uid: softtissue.Carton.StateMachine.StateController
+    name: StateController
   - uid: softtissue.Carton.StateMachine.StateFlat
     name: StateFlat
   - uid: softtissue.Carton.StateMachine.StateOpenDynamic
     name: StateOpenDynamic
   - uid: softtissue.Carton.StateMachine.StateOpenStatic
     name: StateOpenStatic
+  - uid: softtissue.Carton.StateMachine.TriggerController
+    name: TriggerController
+- uid: softtissue.Character
+  name: softtissue.Character
+  items:
+  - uid: softtissue.Character.AnimatorController
+    name: AnimatorController
+  - uid: softtissue.Character.CharacterAssemble
+    name: CharacterAssemble
+  - uid: softtissue.Character.OriginResetController
+    name: OriginResetController
+- uid: softtissue.Character.Control
+  name: softtissue.Character.Control
+  items:
+  - uid: softtissue.Character.Control.JumpController
+    name: JumpController
+  - uid: softtissue.Character.Control.JumpTargetData
+    name: JumpTargetData
+  - uid: softtissue.Character.Control.RotateController
+    name: RotateController
+- uid: softtissue.Character.Follow
+  name: softtissue.Character.Follow
+  items:
+  - uid: softtissue.Character.Follow.SlidePathController
+    name: SlidePathController
+  - uid: softtissue.Character.Follow.SnapPositionController
+    name: SnapPositionController
+  - uid: softtissue.Character.Follow.SO_JumpBoostData
+    name: SO_JumpBoostData

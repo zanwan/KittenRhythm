@@ -1,0 +1,98 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Character.Control.RotateController
+  commentId: T:softtissue.Character.Control.RotateController
+  id: RotateController
+  parent: softtissue.Character.Control
+  children:
+  - softtissue.Character.Control.RotateController.RotateTarget(System.String)
+  langs:
+  - csharp
+  - vb
+  name: RotateController
+  nameWithType: RotateController
+  fullName: softtissue.Character.Control.RotateController
+  type: Class
+  source:
+    id: RotateController
+    path: ''
+    startLine: 5987
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Character.Control
+  summary: "\n旋轉控制器\n"
+  example: []
+  syntax:
+    content: 'public class RotateController : MonoBehaviour, IRotatable<string>'
+    content.vb: >-
+      Public Class RotateController
+          Inherits MonoBehaviour
+          Implements IRotatable(Of String)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Character.Control.RotateController.RotateTarget(System.String)
+  commentId: M:softtissue.Character.Control.RotateController.RotateTarget(System.String)
+  id: RotateTarget(System.String)
+  parent: softtissue.Character.Control.RotateController
+  langs:
+  - csharp
+  - vb
+  name: RotateTarget(String)
+  nameWithType: RotateController.RotateTarget(String)
+  fullName: softtissue.Character.Control.RotateController.RotateTarget(System.String)
+  type: Method
+  source:
+    id: RotateTarget
+    path: ''
+    startLine: 6004
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Character.Control
+  syntax:
+    content: public void RotateTarget(string direction)
+    parameters:
+    - id: direction
+      type: System.String
+    content.vb: Public Sub RotateTarget(direction As String)
+  overload: softtissue.Character.Control.RotateController.RotateTarget*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Character.Control
+  commentId: N:softtissue.Character.Control
+  name: softtissue.Character.Control
+  nameWithType: softtissue.Character.Control
+  fullName: softtissue.Character.Control
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: softtissue.Character.Control.RotateController.RotateTarget*
+  commentId: Overload:softtissue.Character.Control.RotateController.RotateTarget
+  name: RotateTarget
+  nameWithType: RotateController.RotateTarget
+  fullName: softtissue.Character.Control.RotateController.RotateTarget
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

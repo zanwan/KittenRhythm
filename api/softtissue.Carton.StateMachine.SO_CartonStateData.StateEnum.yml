@@ -20,7 +20,7 @@ items:
   source:
     id: StateEnum
     path: ''
-    startLine: 6822
+    startLine: 5408
   assemblies:
   - cs.temp.dll
   namespace: softtissue.Carton.StateMachine
@@ -49,7 +49,7 @@ items:
   source:
     id: StateCloseStatic
     path: ''
-    startLine: 6825
+    startLine: 5411
   assemblies:
   - cs.temp.dll
   namespace: softtissue.Carton.StateMachine
@@ -79,7 +79,7 @@ items:
   source:
     id: StateOpenStatic
     path: ''
-    startLine: 6827
+    startLine: 5413
   assemblies:
   - cs.temp.dll
   namespace: softtissue.Carton.StateMachine
@@ -109,7 +109,7 @@ items:
   source:
     id: StateFlat
     path: ''
-    startLine: 6829
+    startLine: 5415
   assemblies:
   - cs.temp.dll
   namespace: softtissue.Carton.StateMachine
@@ -139,7 +139,7 @@ items:
   source:
     id: StateCloseDynamic
     path: ''
-    startLine: 6831
+    startLine: 5417
   assemblies:
   - cs.temp.dll
   namespace: softtissue.Carton.StateMachine
@@ -169,7 +169,7 @@ items:
   source:
     id: StateOpenDynamic
     path: ''
-    startLine: 6833
+    startLine: 5419
   assemblies:
   - cs.temp.dll
   namespace: softtissue.Carton.StateMachine

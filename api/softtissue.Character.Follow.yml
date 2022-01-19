@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Character.Follow
+  commentId: N:softtissue.Character.Follow
+  id: softtissue.Character.Follow
+  children:
+  - softtissue.Character.Follow.SlidePathController
+  - softtissue.Character.Follow.SnapPositionController
+  - softtissue.Character.Follow.SO_JumpBoostData
+  langs:
+  - csharp
+  - vb
+  name: softtissue.Character.Follow
+  nameWithType: softtissue.Character.Follow
+  fullName: softtissue.Character.Follow
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: softtissue.Character.Follow.SlidePathController
+  commentId: T:softtissue.Character.Follow.SlidePathController
+  name: SlidePathController
+  nameWithType: SlidePathController
+  fullName: softtissue.Character.Follow.SlidePathController
+- uid: softtissue.Character.Follow.SnapPositionController
+  commentId: T:softtissue.Character.Follow.SnapPositionController
+  name: SnapPositionController
+  nameWithType: SnapPositionController
+  fullName: softtissue.Character.Follow.SnapPositionController
+- uid: softtissue.Character.Follow.SO_JumpBoostData
+  commentId: T:softtissue.Character.Follow.SO_JumpBoostData
+  name: SO_JumpBoostData
+  nameWithType: SO_JumpBoostData
+  fullName: softtissue.Character.Follow.SO_JumpBoostData

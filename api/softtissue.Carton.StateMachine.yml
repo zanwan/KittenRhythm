@@ -5,15 +5,15 @@ items:
   id: softtissue.Carton.StateMachine
   children:
   - softtissue.Carton.StateMachine.AbstractCartonState
-  - softtissue.Carton.StateMachine.CartonStateController
-  - softtissue.Carton.StateMachine.CartonTriggerController
   - softtissue.Carton.StateMachine.SO_CartonStateData
   - softtissue.Carton.StateMachine.SO_CartonStateData.StateEnum
   - softtissue.Carton.StateMachine.StateCloseDynamic
   - softtissue.Carton.StateMachine.StateCloseStatic
+  - softtissue.Carton.StateMachine.StateController
   - softtissue.Carton.StateMachine.StateFlat
   - softtissue.Carton.StateMachine.StateOpenDynamic
   - softtissue.Carton.StateMachine.StateOpenStatic
+  - softtissue.Carton.StateMachine.TriggerController
   langs:
   - csharp
   - vb
@@ -30,12 +30,12 @@ references:
   name: AbstractCartonState
   nameWithType: AbstractCartonState
   fullName: softtissue.Carton.StateMachine.AbstractCartonState
-- uid: softtissue.Carton.StateMachine.CartonStateController
-  commentId: T:softtissue.Carton.StateMachine.CartonStateController
+- uid: softtissue.Carton.StateMachine.StateController
+  commentId: T:softtissue.Carton.StateMachine.StateController
   parent: softtissue.Carton.StateMachine
-  name: CartonStateController
-  nameWithType: CartonStateController
-  fullName: softtissue.Carton.StateMachine.CartonStateController
+  name: StateController
+  nameWithType: StateController
+  fullName: softtissue.Carton.StateMachine.StateController
 - uid: softtissue.Carton.StateMachine.StateOpenStatic
   commentId: T:softtissue.Carton.StateMachine.StateOpenStatic
   name: StateOpenStatic
@@ -61,11 +61,11 @@ references:
   name: StateCloseDynamic
   nameWithType: StateCloseDynamic
   fullName: softtissue.Carton.StateMachine.StateCloseDynamic
-- uid: softtissue.Carton.StateMachine.CartonTriggerController
-  commentId: T:softtissue.Carton.StateMachine.CartonTriggerController
-  name: CartonTriggerController
-  nameWithType: CartonTriggerController
-  fullName: softtissue.Carton.StateMachine.CartonTriggerController
+- uid: softtissue.Carton.StateMachine.TriggerController
+  commentId: T:softtissue.Carton.StateMachine.TriggerController
+  name: TriggerController
+  nameWithType: TriggerController
+  fullName: softtissue.Carton.StateMachine.TriggerController
 - uid: softtissue.Carton.StateMachine.SO_CartonStateData
   commentId: T:softtissue.Carton.StateMachine.SO_CartonStateData
   name: SO_CartonStateData

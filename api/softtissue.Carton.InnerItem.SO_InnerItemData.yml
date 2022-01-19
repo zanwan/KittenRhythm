@@ -16,7 +16,7 @@ items:
   source:
     id: SO_InnerItemData
     path: ''
-    startLine: 6899
+    startLine: 5485
   assemblies:
   - cs.temp.dll
   namespace: softtissue.Carton.InnerItem
@@ -47,7 +47,7 @@ items:
   source:
     id: lightingCollectionEvent
     path: ''
-    startLine: 6910
+    startLine: 5496
   assemblies:
   - cs.temp.dll
   namespace: softtissue.Carton.InnerItem

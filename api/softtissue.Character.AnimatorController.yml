@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Character.AnimatorController
+  commentId: T:softtissue.Character.AnimatorController
+  id: AnimatorController
+  parent: softtissue.Character
+  children:
+  - softtissue.Character.AnimatorController.AnimHandler(System.String)
+  langs:
+  - csharp
+  - vb
+  name: AnimatorController
+  nameWithType: AnimatorController
+  fullName: softtissue.Character.AnimatorController
+  type: Class
+  source:
+    id: AnimatorController
+    path: ''
+    startLine: 5635
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Character
+  summary: "\n角色動畫控制器\n"
+  example: []
+  syntax:
+    content: 'public class AnimatorController : MonoBehaviour'
+    content.vb: >-
+      Public Class AnimatorController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: softtissue.Character.AnimatorController.AnimHandler(System.String)
+  commentId: M:softtissue.Character.AnimatorController.AnimHandler(System.String)
+  id: AnimHandler(System.String)
+  parent: softtissue.Character.AnimatorController
+  langs:
+  - csharp
+  - vb
+  name: AnimHandler(String)
+  nameWithType: AnimatorController.AnimHandler(String)
+  fullName: softtissue.Character.AnimatorController.AnimHandler(System.String)
+  type: Method
+  source:
+    id: AnimHandler
+    path: ''
+    startLine: 5645
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Character
+  syntax:
+    content: public void AnimHandler(string anim)
+    parameters:
+    - id: anim
+      type: System.String
+    content.vb: Public Sub AnimHandler(anim As String)
+  overload: softtissue.Character.AnimatorController.AnimHandler*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: softtissue.Character
+  commentId: N:softtissue.Character
+  name: softtissue.Character
+  nameWithType: softtissue.Character
+  fullName: softtissue.Character
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: softtissue.Character.AnimatorController.AnimHandler*
+  commentId: Overload:softtissue.Character.AnimatorController.AnimHandler
+  name: AnimHandler
+  nameWithType: AnimatorController.AnimHandler
+  fullName: softtissue.Character.AnimatorController.AnimHandler
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

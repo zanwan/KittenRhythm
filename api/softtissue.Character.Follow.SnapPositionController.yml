@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: softtissue.Character.Follow.SnapPositionController
+  commentId: T:softtissue.Character.Follow.SnapPositionController
+  id: SnapPositionController
+  parent: softtissue.Character.Follow
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SnapPositionController
+  nameWithType: SnapPositionController
+  fullName: softtissue.Character.Follow.SnapPositionController
+  type: Class
+  source:
+    id: SnapPositionController
+    path: ''
+    startLine: 5803
+  assemblies:
+  - cs.temp.dll
+  namespace: softtissue.Character.Follow
+  syntax:
+    content: 'public class SnapPositionController : MonoBehaviour'
+    content.vb: >-
+      Public Class SnapPositionController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: softtissue.Character.Follow
+  commentId: N:softtissue.Character.Follow
+  name: softtissue.Character.Follow
+  nameWithType: softtissue.Character.Follow
+  fullName: softtissue.Character.Follow
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

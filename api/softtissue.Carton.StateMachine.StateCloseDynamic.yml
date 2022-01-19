@@ -5,7 +5,7 @@ items:
   id: StateCloseDynamic
   parent: softtissue.Carton.StateMachine
   children:
-  - softtissue.Carton.StateMachine.StateCloseDynamic.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
+  - softtissue.Carton.StateMachine.StateCloseDynamic.EnterState(softtissue.Carton.StateMachine.StateController,Animator)
   langs:
   - csharp
   - vb
@@ -16,7 +16,7 @@ items:
   source:
     id: StateCloseDynamic
     path: ''
-    startLine: 6735
+    startLine: 5322
   assemblies:
   - cs.temp.dll
   namespace: softtissue.Carton.StateMachine
@@ -36,33 +36,33 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: softtissue.Carton.StateMachine.StateCloseDynamic.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
-  commentId: M:softtissue.Carton.StateMachine.StateCloseDynamic.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
-  id: EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
+- uid: softtissue.Carton.StateMachine.StateCloseDynamic.EnterState(softtissue.Carton.StateMachine.StateController,Animator)
+  commentId: M:softtissue.Carton.StateMachine.StateCloseDynamic.EnterState(softtissue.Carton.StateMachine.StateController,Animator)
+  id: EnterState(softtissue.Carton.StateMachine.StateController,Animator)
   parent: softtissue.Carton.StateMachine.StateCloseDynamic
   langs:
   - csharp
   - vb
-  name: EnterState(CartonStateController, Animator)
-  nameWithType: StateCloseDynamic.EnterState(CartonStateController, Animator)
-  fullName: softtissue.Carton.StateMachine.StateCloseDynamic.EnterState(softtissue.Carton.StateMachine.CartonStateController, Animator)
+  name: EnterState(StateController, Animator)
+  nameWithType: StateCloseDynamic.EnterState(StateController, Animator)
+  fullName: softtissue.Carton.StateMachine.StateCloseDynamic.EnterState(softtissue.Carton.StateMachine.StateController, Animator)
   type: Method
   source:
     id: EnterState
     path: ''
-    startLine: 6738
+    startLine: 5325
   assemblies:
   - cs.temp.dll
   namespace: softtissue.Carton.StateMachine
   syntax:
-    content: public override void EnterState(CartonStateController stateController, Animator animatorController)
+    content: public override void EnterState(StateController stateController, Animator animatorController)
     parameters:
     - id: stateController
-      type: softtissue.Carton.StateMachine.CartonStateController
+      type: softtissue.Carton.StateMachine.StateController
     - id: animatorController
       type: Global.Animator
-    content.vb: Public Overrides Sub EnterState(stateController As CartonStateController, animatorController As Animator)
-  overridden: softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
+    content.vb: Public Overrides Sub EnterState(stateController As StateController, animatorController As Animator)
+  overridden: softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.StateController,Animator)
   overload: softtissue.Carton.StateMachine.StateCloseDynamic.EnterState*
   modifiers.csharp:
   - public
@@ -95,25 +95,25 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
-  commentId: M:softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
+- uid: softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.StateController,Animator)
+  commentId: M:softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.StateController,Animator)
   parent: softtissue.Carton.StateMachine.AbstractCartonState
   isExternal: true
-  name: EnterState(CartonStateController, Animator)
-  nameWithType: AbstractCartonState.EnterState(CartonStateController, Animator)
-  fullName: softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.CartonStateController, Animator)
+  name: EnterState(StateController, Animator)
+  nameWithType: AbstractCartonState.EnterState(StateController, Animator)
+  fullName: softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.StateController, Animator)
   spec.csharp:
-  - uid: softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
+  - uid: softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.StateController,Animator)
     name: EnterState
     nameWithType: AbstractCartonState.EnterState
     fullName: softtissue.Carton.StateMachine.AbstractCartonState.EnterState
   - name: (
     nameWithType: (
     fullName: (
-  - uid: softtissue.Carton.StateMachine.CartonStateController
-    name: CartonStateController
-    nameWithType: CartonStateController
-    fullName: softtissue.Carton.StateMachine.CartonStateController
+  - uid: softtissue.Carton.StateMachine.StateController
+    name: StateController
+    nameWithType: StateController
+    fullName: softtissue.Carton.StateMachine.StateController
   - name: ', '
     nameWithType: ', '
     fullName: ', '
@@ -126,17 +126,17 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.CartonStateController,Animator)
+  - uid: softtissue.Carton.StateMachine.AbstractCartonState.EnterState(softtissue.Carton.StateMachine.StateController,Animator)
     name: EnterState
     nameWithType: AbstractCartonState.EnterState
     fullName: softtissue.Carton.StateMachine.AbstractCartonState.EnterState
   - name: (
     nameWithType: (
     fullName: (
-  - uid: softtissue.Carton.StateMachine.CartonStateController
-    name: CartonStateController
-    nameWithType: CartonStateController
-    fullName: softtissue.Carton.StateMachine.CartonStateController
+  - uid: softtissue.Carton.StateMachine.StateController
+    name: StateController
+    nameWithType: StateController
+    fullName: softtissue.Carton.StateMachine.StateController
   - name: ', '
     nameWithType: ', '
     fullName: ', '
@@ -153,12 +153,12 @@ references:
   name: EnterState
   nameWithType: StateCloseDynamic.EnterState
   fullName: softtissue.Carton.StateMachine.StateCloseDynamic.EnterState
-- uid: softtissue.Carton.StateMachine.CartonStateController
-  commentId: T:softtissue.Carton.StateMachine.CartonStateController
+- uid: softtissue.Carton.StateMachine.StateController
+  commentId: T:softtissue.Carton.StateMachine.StateController
   parent: softtissue.Carton.StateMachine
-  name: CartonStateController
-  nameWithType: CartonStateController
-  fullName: softtissue.Carton.StateMachine.CartonStateController
+  name: StateController
+  nameWithType: StateController
+  fullName: softtissue.Carton.StateMachine.StateController
 - uid: Global.Animator
   isExternal: true
   name: Animator
